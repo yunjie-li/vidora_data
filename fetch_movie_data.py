@@ -32,7 +32,7 @@ class MovieDataFetcher:
       params = {
           'api_key': self.api_key,
           'language': 'zh,en',
-          'append_to_response': 'images,credits,videos,similar,recommendations'
+          'append_to_response': 'images,credits,videos'
       }
       
       try:
@@ -59,37 +59,6 @@ class MovieDataFetcher:
       except requests.RequestException as e:
           print(f"获取电视剧 {tv_id} 详细信息失败: {e}")
           return {}
-  
-  def process_similar_items(self, items: List[Dict[str, Any]], media_type: str) -> List[Dict[str, Any]]:
-      processed_items = []
-      
-      for item in items:
-          # 为相似内容添加media_type字段（如果没有的话）
-          if 'media_type' not in item:
-              item['media_type'] = media_type
-          
-          processed_item = {
-              'id': item.get('id'),
-              'media_type': item.get('media_type'),
-              'title': item.get('title') or item.get('name'),
-              'original_title': item.get('original_title') or item.get('original_name'),
-              'overview': item.get('overview'),
-              'poster_path': item.get('poster_path'),
-              'backdrop_path': item.get('backdrop_path'),
-              'vote_average': item.get('vote_average'),
-              'vote_count': item.get('vote_count'),
-              'popularity': item.get('popularity'),
-              'release_date': item.get('release_date') or item.get('first_air_date'),
-              'genre_ids': item.get('genre_ids', []),
-              'adult': item.get('adult', False),
-              'original_language': item.get('original_language'),
-          }
-          
-          # 移除值为 None 的字段
-          processed_item = {k: v for k, v in processed_item.items() if v is not None}
-          processed_items.append(processed_item)
-      
-      return processed_items
   
   def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
       """
@@ -131,7 +100,7 @@ class MovieDataFetcher:
       if en_images:
           sorted_en = sort_by_width_desc(en_images)
           result_images.extend(sorted_en)
-          print(f"  找到 {len(en_images)} 张无语言{image_type}图片，选择了前 {len(sorted_en)} 张")
+          print(f"  找到 {len(en_images)} 张英文{image_type}图片，选择了前 {len(sorted_en)} 张")
       
       return result_images
   
@@ -206,32 +175,6 @@ class MovieDataFetcher:
           # 视频信息
           if 'videos' in details and details['videos'].get('results'):
               merged_item['videos'] = details['videos']['results'][:5]  # 只保留前5个视频
-          
-          # 相似内容和推荐内容
-          media_type = basic_item.get('media_type')
-          media_id = basic_item.get('id')
-          
-          print(f"  获取相似和推荐内容...")
-          
-          # 处理API返回的相似内容
-          if 'similar' in details and details['similar'].get('results'):
-              similar_items = self.process_similar_items(
-                  details['similar']['results'][:10], 
-                  media_type
-              )
-              if similar_items:
-                  merged_item['similar'] = similar_items
-                  print(f"  从API获取到 {len(similar_items)} 个相似内容")
-         
-          # 处理API返回的推荐内容
-          if 'recommendations' in details and details['recommendations'].get('results'):
-              recommendation_items = self.process_similar_items(
-                  details['recommendations']['results'][:10], 
-                  media_type
-              )
-              if recommendation_items:
-                  merged_item['recommendations'] = recommendation_items
-                  print(f"  从API获取到 {len(recommendation_items)} 个推荐内容")
           
           # 图片信息 - 使用新的过滤和排序逻辑
           if 'images' in details:

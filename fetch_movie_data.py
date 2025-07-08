@@ -94,7 +94,7 @@ class MovieDataFetcher:
   def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
       """
       过滤和排序图片
-      - 只保留 iso_639_1='zh' 或 iso_639_1=null 的图片
+      - 只保留 iso_639_1='zh' 或 iso_639_1='en' 的图片
       - 按 width 倒序排序
       - 每个 iso_639_1 类型取前2张
       """
@@ -105,7 +105,7 @@ class MovieDataFetcher:
       filtered_images = []
       for img in images:
           iso_639_1 = img.get('iso_639_1')
-          if iso_639_1 == 'zh' or iso_639_1 is None:
+          if iso_639_1 == 'zh' or iso_639_1 == 'en':
               filtered_images.append(img)
       
       if not filtered_images:
@@ -113,7 +113,7 @@ class MovieDataFetcher:
       
       # 按 iso_639_1 分组
       zh_images = [img for img in filtered_images if img.get('iso_639_1') == 'zh']
-      null_images = [img for img in filtered_images if img.get('iso_639_1') is None]
+      en_images = [img for img in filtered_images if img.get('iso_639_1') == 'en']
       
       # 按 width 倒序排序并取前2张
       def sort_by_width_desc(img_list):
@@ -128,10 +128,10 @@ class MovieDataFetcher:
           print(f"  找到 {len(zh_images)} 张中文{image_type}图片，选择了前 {len(sorted_zh)} 张")
       
       # 处理无语言标识图片
-      if null_images:
-          sorted_null = sort_by_width_desc(null_images)
-          result_images.extend(sorted_null)
-          print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_null)} 张")
+      if en_images:
+          sorted_en = sort_by_width_desc(en_images)
+          result_images.extend(sorted_en)
+          print(f"  找到 {len(en_images)} 张无语言{image_type}图片，选择了前 {len(sorted_en)} 张")
       
       return result_images
   

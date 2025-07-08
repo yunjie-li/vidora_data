@@ -7,8 +7,8 @@
     "overview": "　　功夫少年李峰（王班 饰）初入纽约，因帮朋友解围反遭当地空手道冠军“美式霸凌”，便决心参加空手道大赛赢回尊重。昔日恩师韩师傅（成龙 饰）远渡重洋携空手道大师丹尼尔（拉尔夫·马基奥 饰）出手相助，将纽约化成训练场对李峰开启宗师特训。在师傅们的教导下，李峰能否将两个武术流派融会贯通，用胜利赢得尊重并开辟属于自己的武学之道？",
     "poster_path": "/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
     "backdrop_path": "/nKyBbFSooRPTJVqjrDteD1lF733.jpg",
-    "vote_average": 6.8,
-    "vote_count": 173,
+    "vote_average": 6.865,
+    "vote_count": 174,
     "popularity": 48.7173,
     "release_date": "2025-05-08",
     "genre_ids": [
@@ -21,8 +21,8 @@
     "revenue": 102939414,
     "runtime": 94,
     "status": "Released",
-    "tagline": "When masters unite a new legacy begins.",
-    "homepage": "https://karatekid.movie",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt1674782",
     "original_language": "en",
     "spoken_languages": [
@@ -61,20 +61,20 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       }
     ],
     "belongs_to_collection": {
       "id": 8580,
-      "name": "The Karate Kid Collection",
+      "name": "龙威小子（系列）",
       "poster_path": "/7tuwH4tZZy4BHe7mivXmmSYg3kx.jpg",
       "backdrop_path": "/vG9eCvIfSoucQZ9EFEOrSXhesws.jpg"
     },
@@ -84,7 +84,7 @@
         "gender": 2,
         "id": 18897,
         "known_for_department": "Acting",
-        "name": "Jackie Chan",
+        "name": "成龙",
         "original_name": "成龍",
         "popularity": 10.5828,
         "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
@@ -98,7 +98,7 @@
         "gender": 2,
         "id": 3033265,
         "known_for_department": "Acting",
-        "name": "Ben Wang",
+        "name": "王班",
         "original_name": "Ben Wang",
         "popularity": 1.1352,
         "profile_path": "/5A6JgNR9nlFVjuzJ1oOXyj2hfJo.jpg",
@@ -112,7 +112,7 @@
         "gender": 2,
         "id": 2877,
         "known_for_department": "Acting",
-        "name": "Ralph Macchio",
+        "name": "拉尔夫·马奇奥",
         "original_name": "Ralph Macchio",
         "popularity": 2.0726,
         "profile_path": "/8zw5vcKlg05Is12Fww4QxRjO1f3.jpg",
@@ -126,7 +126,7 @@
         "gender": 2,
         "id": 11866,
         "known_for_department": "Acting",
-        "name": "Joshua Jackson",
+        "name": "乔舒亚·杰克逊",
         "original_name": "Joshua Jackson",
         "popularity": 3.1992,
         "profile_path": "/mH2a5YFd8J7upjjWwEzM75vitA2.jpg",
@@ -140,7 +140,7 @@
         "gender": 1,
         "id": 2030076,
         "known_for_department": "Acting",
-        "name": "Sadie Stanley",
+        "name": "赛迪·斯坦利",
         "original_name": "Sadie Stanley",
         "popularity": 1.1607,
         "profile_path": "/zfjr9nkUTWJ2EekyiWmYdxscrSJ.jpg",
@@ -148,68 +148,6 @@
         "character": "Mia Lipani",
         "credit_id": "65e8d201713ea6017c52ff49",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Go Behind The Scenes with Ben Wang & Sadie Stanley",
-        "key": "1EaHqD8dA00",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-06-12T21:10:10.000Z",
-        "id": "684c4f07d1d0dbe543b0d910"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "The Legend Continues",
-        "key": "c72rxlFDLRk",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-05-26T13:01:13.000Z",
-        "id": "68347bd121a485fb6b037621"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Sizzle",
-        "key": "8zggkLGCpI8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-05-21T14:00:27.000Z",
-        "id": "682f314e26ce4a249aa8d364"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "In Cinemas May 28",
-        "key": "wjk89a-2bZI",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-14T04:30:39.000Z",
-        "id": "68244459d316e950135a3578"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "In Cinemas May 28",
-        "key": "MtvtbVTvkLg",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-14T03:30:13.000Z",
-        "id": "682444507d5a6bf67d7e8469"
       }
     ],
     "backdrops": [
@@ -322,8 +260,8 @@
     "revenue": 381996016,
     "runtime": 127,
     "status": "Released",
-    "tagline": "Everyone deserves a second shot.",
-    "homepage": "https://www.marvel.com/movies/thunderbolts",
+    "tagline": "没身份 没能力 不躺平 三流英雄 乱成一「团」",
+    "homepage": "",
     "imdb_id": "tt20969586",
     "original_language": "en",
     "spoken_languages": [
@@ -366,15 +304,15 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 878,
-        "name": "Science Fiction"
+        "name": "科幻"
       },
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       }
     ],
     "cast": [
@@ -383,7 +321,7 @@
         "gender": 1,
         "id": 1373737,
         "known_for_department": "Acting",
-        "name": "Florence Pugh",
+        "name": "弗洛伦丝·皮尤",
         "original_name": "Florence Pugh",
         "popularity": 12.5743,
         "profile_path": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
@@ -397,7 +335,7 @@
         "gender": 2,
         "id": 60898,
         "known_for_department": "Acting",
-        "name": "Sebastian Stan",
+        "name": "塞巴斯蒂安·斯坦",
         "original_name": "Sebastian Stan",
         "popularity": 5.054,
         "profile_path": "/nKZgixTbHFXpkzzIpMFdLX98GYh.jpg",
@@ -411,7 +349,7 @@
         "gender": 1,
         "id": 15886,
         "known_for_department": "Acting",
-        "name": "Julia Louis-Dreyfus",
+        "name": "朱莉娅·路易斯·德雷福斯",
         "original_name": "Julia Louis-Dreyfus",
         "popularity": 3.4785,
         "profile_path": "/sXpjQoFoYqNehfWhlkScF8lo9vc.jpg",
@@ -425,7 +363,7 @@
         "gender": 2,
         "id": 1700685,
         "known_for_department": "Acting",
-        "name": "Lewis Pullman",
+        "name": "刘易斯·普尔曼",
         "original_name": "Lewis Pullman",
         "popularity": 5.7243,
         "profile_path": "/jAo0Rxl9EYVxLnhUlBww5Uxl89v.jpg",
@@ -439,7 +377,7 @@
         "gender": 2,
         "id": 35029,
         "known_for_department": "Acting",
-        "name": "David Harbour",
+        "name": "大卫·哈伯",
         "original_name": "David Harbour",
         "popularity": 3.2058,
         "profile_path": "/tCbxqq6NUWVNoybztPsMwmJqwdI.jpg",
@@ -447,68 +385,6 @@
         "character": "Alexei Shostakov",
         "credit_id": "631ce40439549a008019b71c",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Buy It Now on Digital",
-        "key": "mbCDMwmiGng",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-01T21:01:00.000Z",
-        "id": "686484beb746ffb2a88c265a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Desert Extended Look",
-        "key": "DvI_dRMQmW4",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-06-26T19:30:05.000Z",
-        "id": "685de5dcca134764cadd085e"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Exclusive Gag Reel",
-        "key": "R0CkS3-rRp0",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Bloopers",
-        "official": false,
-        "published_at": "2025-06-25T16:00:46.000Z",
-        "id": "68638870728f7deb9f4d0bae"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Buy It on Digital July 1 and Own It On Blu-Ray July 29",
-        "key": "7rs_HhSA7XY",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-06-18T14:01:39.000Z",
-        "id": "6853461ef4dce7a24960b419"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Behind-the-Scenes",
-        "key": "VEYBRoaeltg",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-05-24T16:00:44.000Z",
-        "id": "683486dd27de3ffb8e055522"
       }
     ],
     "backdrops": [
@@ -647,8 +523,8 @@
     "revenue": 0,
     "runtime": 107,
     "status": "Released",
-    "tagline": "Eternity has a price.",
-    "homepage": "https://www.netflix.com/title/81328881",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt14961624",
     "original_language": "en",
     "spoken_languages": [
@@ -687,17 +563,17 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 14,
-        "name": "Fantasy"
+        "name": "奇幻"
       }
     ],
     "belongs_to_collection": {
       "id": 847029,
-      "name": "The Old Guard Collection",
-      "poster_path": "/nxPsCTVDH4HITAlSBIxxlpDsHNN.jpg",
+      "name": "永生守卫（系列）",
+      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
       "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
     },
     "cast": [
@@ -706,7 +582,7 @@
         "gender": 1,
         "id": 6885,
         "known_for_department": "Acting",
-        "name": "Charlize Theron",
+        "name": "查理兹·塞隆",
         "original_name": "Charlize Theron",
         "popularity": 18.3513,
         "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
@@ -720,7 +596,7 @@
         "gender": 1,
         "id": 1884703,
         "known_for_department": "Acting",
-        "name": "KiKi Layne",
+        "name": "琪琪·莱恩",
         "original_name": "KiKi Layne",
         "popularity": 3.8056,
         "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
@@ -734,7 +610,7 @@
         "gender": 2,
         "id": 73381,
         "known_for_department": "Acting",
-        "name": "Matthias Schoenaerts",
+        "name": "马提亚斯·修奈尔",
         "original_name": "Matthias Schoenaerts",
         "popularity": 3.1163,
         "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
@@ -748,7 +624,7 @@
         "gender": 2,
         "id": 935235,
         "known_for_department": "Acting",
-        "name": "Marwan Kenzari",
+        "name": "马尔万·肯扎里",
         "original_name": "Marwan Kenzari",
         "popularity": 2.0897,
         "profile_path": "/nvt7uXbqWEc9qkTp38ARBzSiQgQ.jpg",
@@ -762,7 +638,7 @@
         "gender": 2,
         "id": 509344,
         "known_for_department": "Acting",
-        "name": "Luca Marinelli",
+        "name": "卢卡·马里内利",
         "original_name": "Luca Marinelli",
         "popularity": 1.9234,
         "profile_path": "/9Tmzfhp9hY6Zouo8KtHcyzuKfdf.jpg",
@@ -770,32 +646,6 @@
         "character": "Nicolò di Genova / Nicky",
         "credit_id": "60df276b071650007e3ff4ac",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer",
-        "key": "lyivgZ074PY",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-05-08T15:00:02.000Z",
-        "id": "681d0ce1eee63ef7580b2bbc"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Behind the Scenes Sneak Peek",
-        "key": "CCuKoGcYsl8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-01-30T17:30:00.000Z",
-        "id": "679c3f5d2de2202ed5bddbbe"
       }
     ],
     "backdrops": [
@@ -917,8 +767,8 @@
     "revenue": 110653000,
     "runtime": 125,
     "status": "Released",
-    "tagline": "Vengeance has a new face.",
-    "homepage": "https://johnwick.movie/film/ballerina",
+    "tagline": "枪火与芭蕾共舞",
+    "homepage": "",
     "imdb_id": "tt7181546",
     "original_language": "en",
     "spoken_languages": [
@@ -957,20 +807,20 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 53,
-        "name": "Thriller"
+        "name": "惊悚"
       },
       {
         "id": 80,
-        "name": "Crime"
+        "name": "犯罪"
       }
     ],
     "belongs_to_collection": {
       "id": 1494663,
-      "name": "Ballerina Collection",
+      "name": "芭蕾杀姬（系列）",
       "poster_path": "/xzAyYTHqWtLmqtscUr8cZqaP7lu.jpg",
       "backdrop_path": null
     },
@@ -980,7 +830,7 @@
         "gender": 1,
         "id": 224513,
         "known_for_department": "Acting",
-        "name": "Ana de Armas",
+        "name": "安娜·德·阿玛斯",
         "original_name": "Ana de Armas",
         "popularity": 22.3287,
         "profile_path": "/5Qne374OM0ewMM7uSN9eq9jNrWq.jpg",
@@ -994,7 +844,7 @@
         "gender": 2,
         "id": 6384,
         "known_for_department": "Acting",
-        "name": "Keanu Reeves",
+        "name": "基努·里维斯",
         "original_name": "Keanu Reeves",
         "popularity": 14.1954,
         "profile_path": "/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
@@ -1008,7 +858,7 @@
         "gender": 2,
         "id": 6972,
         "known_for_department": "Acting",
-        "name": "Ian McShane",
+        "name": "伊恩·麦柯肖恩",
         "original_name": "Ian McShane",
         "popularity": 5.8816,
         "profile_path": "/qh9RTLbnr128TZLdGuXwUH9mdBM.jpg",
@@ -1022,7 +872,7 @@
         "gender": 1,
         "id": 5657,
         "known_for_department": "Acting",
-        "name": "Anjelica Huston",
+        "name": "安杰丽卡·休斯顿",
         "original_name": "Anjelica Huston",
         "popularity": 2.788,
         "profile_path": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
@@ -1036,7 +886,7 @@
         "gender": 2,
         "id": 5168,
         "known_for_department": "Acting",
-        "name": "Gabriel Byrne",
+        "name": "加布里埃尔·伯恩",
         "original_name": "Gabriel Byrne",
         "popularity": 2.646,
         "profile_path": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg",
@@ -1044,68 +894,6 @@
         "character": "The Chancellor",
         "credit_id": "63a2041a373ac2007bfc99ad",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "breaking rules? i'd rather call it \"doing things for the plot\"",
-        "key": "Oqo_Vqt8vBE",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-13T13:03:31.000Z",
-        "id": "684cb1984db2ecadbd1beae4"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "She makes it look easy.",
-        "key": "5Yu0_nAahLU",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-10T19:00:04.000Z",
-        "id": "684897445e5a0fcecdde794a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "The hits keep coming.",
-        "key": "MHTE68Z5_aU",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-10T17:49:08.000Z",
-        "id": "6848973bcf10606e5b1eaf6f"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Stay in the fight.",
-        "key": "P_urL6YPSvs",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-10T17:47:14.000Z",
-        "id": "68489731fc6300d7b33fcfdf"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "A few choice words about Ballerina.",
-        "key": "dE1QP3rnR0Y",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-06-08T20:00:32.000Z",
-        "id": "684742ea5ca95ae716301b44"
       }
     ],
     "backdrops": [
@@ -1236,8 +1024,8 @@
     "revenue": 0,
     "runtime": 113,
     "status": "Released",
-    "tagline": "Two heads are better than one.",
-    "homepage": "https://www.amazon.com/gp/video/detail/B0DRTHSHS1",
+    "tagline": "",
+    "homepage": "https://www.primevideo.com/detail/0Q0ZD7AIZGM4ISJE4J5T9AF9FA",
     "imdb_id": "tt13357520",
     "original_language": "en",
     "spoken_languages": [
@@ -1276,15 +1064,15 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 53,
-        "name": "Thriller"
+        "name": "惊悚"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       }
     ],
     "cast": [
@@ -1293,7 +1081,7 @@
         "gender": 2,
         "id": 17605,
         "known_for_department": "Acting",
-        "name": "Idris Elba",
+        "name": "伊德瑞斯·艾尔巴",
         "original_name": "Idris Elba",
         "popularity": 6.4811,
         "profile_path": "/be1bVF7qGX91a6c5WeRPs5pKXln.jpg",
@@ -1307,7 +1095,7 @@
         "gender": 2,
         "id": 56446,
         "known_for_department": "Acting",
-        "name": "John Cena",
+        "name": "约翰·塞纳",
         "original_name": "John Cena",
         "popularity": 6.4699,
         "profile_path": "/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
@@ -1321,7 +1109,7 @@
         "gender": 1,
         "id": 77234,
         "known_for_department": "Acting",
-        "name": "Priyanka Chopra Jonas",
+        "name": "朴雅卡·乔普拉",
         "original_name": "Priyanka Chopra Jonas",
         "popularity": 5.7939,
         "profile_path": "/stEZxIVAWFlrifbWkeULsD4LHnf.jpg",
@@ -1335,7 +1123,7 @@
         "gender": 2,
         "id": 14887,
         "known_for_department": "Acting",
-        "name": "Paddy Considine",
+        "name": "派迪·康斯丁",
         "original_name": "Paddy Considine",
         "popularity": 5.1621,
         "profile_path": "/96bZA8JRDjBgCE7ZHHgOMPmykc4.jpg",
@@ -1349,7 +1137,7 @@
         "gender": 1,
         "id": 17832,
         "known_for_department": "Acting",
-        "name": "Carla Gugino",
+        "name": "卡拉·古奇诺",
         "original_name": "Carla Gugino",
         "popularity": 5.1929,
         "profile_path": "/156yJgmPBhEd8p4kDPL7INKHnPd.jpg",
@@ -1357,68 +1145,6 @@
         "character": "VP Elizabeth Kirk",
         "credit_id": "645e7991aafebd012320a5dd",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Jack Quaid Teams Up with John Cena and Idris Elba",
-        "key": "Xy-fVQQU1n8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-07-06T17:00:43.000Z",
-        "id": "686b42ce62e78c9e6c9a43a0"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "John Cena and Idris Elba Steal a Car",
-        "key": "KXpMNSH7y_M",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-07-04T17:00:35.000Z",
-        "id": "686841bf8f328cfe3351d34c"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Water Cobra Teaser",
-        "key": "0JFDS0OnbNk",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-07-03T19:00:00.000Z",
-        "id": "6866f84f36ed9bbc4b1f983a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "John Cena and Idris Elba Press Conference Goes Awry",
-        "key": "uiiHTxeu3gY",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-07-03T17:01:25.000Z",
-        "id": "6866f858b124af9761f7c2ac"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Attack on Air Force One",
-        "key": "1zX1qT9Wi1I",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-07-02T17:00:04.000Z",
-        "id": "6866f8618ecffb0a3ff7c2e5"
       }
     ],
     "backdrops": [
@@ -1546,7 +1272,7 @@
     ],
     "adult": false,
     "status": "Ended",
-    "tagline": "The final games begin.",
+    "tagline": "",
     "homepage": "https://www.netflix.com/title/81040344",
     "original_language": "ko",
     "spoken_languages": [
@@ -1589,15 +1315,15 @@
     "genres": [
       {
         "id": 10759,
-        "name": "Action & Adventure"
+        "name": "动作冒险"
       },
       {
         "id": 9648,
-        "name": "Mystery"
+        "name": "悬疑"
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       }
     ],
     "first_air_date": "2021-09-17",
@@ -1613,9 +1339,9 @@
     ],
     "last_episode_to_air": {
       "id": 5884557,
-      "name": "Humans Are...",
-      "overview": "As Jun-ho races to reach the island, tensions peak in the final round. The last players face an impossible situation in the closing minutes of the game.",
-      "vote_average": 7.8,
+      "name": "人性",
+      "overview": "俊昊奋力冲向岛屿，最后一轮的紧张气氛达到顶峰。游戏还剩最后几分钟，最后几名玩家身陷绝境。",
+      "vote_average": 7.827,
       "vote_count": 52,
       "air_date": "2025-06-27",
       "episode_number": 6,
@@ -1642,9 +1368,9 @@
         "air_date": "2021-09-17",
         "episode_count": 9,
         "id": 131977,
-        "name": "Season 1",
-        "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
-        "poster_path": "/jlbrV1Kl4Y8pWXu12SppebRs7On.jpg",
+        "name": "第 1 季",
+        "overview": "数百名经济拮据的人接受了一个奇怪的邀请，参加儿童游戏比赛。在这场游戏中，有诱人的奖金，也有致命的高风险。",
+        "poster_path": "/ksxMpIiEx6VszjYdppZSTQYxrw6.jpg",
         "season_number": 1,
         "vote_average": 8.3
       },
@@ -1652,9 +1378,9 @@
         "air_date": "2024-12-26",
         "episode_count": 7,
         "id": 287516,
-        "name": "Season 2",
-        "overview": "Ready to run for your lives? Player 456 returns for more heart-pounding children's games, facing deadly new challenges — but armed with a hidden agenda.",
-        "poster_path": "/agxlRm9l50czjWPNW5Q1esUMdOb.jpg",
+        "name": "第 2 季",
+        "overview": "准备好夺命狂奔了吗？玩家 456 回归，参加更多令人胆战心惊的儿童游戏，面对致命的新挑战 — 但这次他暗藏着一个计划。",
+        "poster_path": "/xJO2w2ntIExTmxsju1tBqETCYQ0.jpg",
         "season_number": 2,
         "vote_average": 8.4
       },
@@ -1662,9 +1388,9 @@
         "air_date": "2025-06-27",
         "episode_count": 6,
         "id": 435948,
-        "name": "Season 3",
-        "overview": "Gi-hun is devastated by the loss of his best friend and sinks into deep despair after discovering that the Game Master had hidden his true identity to secretly infiltrate the game.",
-        "poster_path": "/6VZsJ37aJDvf45PLJk7Z0UVhzxt.jpg",
+        "name": "第 3 季",
+        "overview": "《鱿鱼游戏》第三季（最终季）围绕奇勋（李政宰饰）在游戏中失去挚友并被隐藏真实身份混入游戏的负责人（李炳宪饰）逼入绝境展开故事。奇勋坚持自己终结这场游戏的目标，但负责人继续他的下一步行动，而幸存的玩家们在每一轮做出的选择都将带来更严重的后果。全世界都在翘首以盼导演黄东赫编导的大结局，他誓要为这个史诗般的故事画上圆满的句号。在最残酷的现实中，我们能对人性抱有希望吗？全世界的粉丝们都在倒计时，等待最终答案的揭晓。",
+        "poster_path": "/pbXEfPMVUcbe3su7VbJDlbFDajo.jpg",
         "season_number": 3,
         "vote_average": 8.0
       }
@@ -1676,7 +1402,7 @@
         "gender": 2,
         "id": 73249,
         "known_for_department": "Acting",
-        "name": "Lee Jung-jae",
+        "name": "李政宰",
         "original_name": "이정재",
         "popularity": 6.4863,
         "profile_path": "/3h5Cfm0X8ohWn7psZkqdNWqXAHH.jpg",
@@ -1689,7 +1415,7 @@
         "gender": 2,
         "id": 1557181,
         "known_for_department": "Acting",
-        "name": "Wi Ha-jun",
+        "name": "魏嘏隽",
         "original_name": "위하준",
         "popularity": 4.5338,
         "profile_path": "/tEZuIaMESdBw4LfNq3vshGR4VlP.jpg",
@@ -1702,7 +1428,7 @@
         "gender": 2,
         "id": 1296713,
         "known_for_department": "Acting",
-        "name": "Yim Si-wan",
+        "name": "任时完",
         "original_name": "임시완",
         "popularity": 7.0164,
         "profile_path": "/8XbMzvYE3KUNDW1jEHSCjM9t89n.jpg",
@@ -1715,7 +1441,7 @@
         "gender": 1,
         "id": 2359937,
         "known_for_department": "Acting",
-        "name": "Jo Yu-ri",
+        "name": "曺柔理",
         "original_name": "조유리",
         "popularity": 7.4499,
         "profile_path": "/k6DFid2FOzXHAX5gg0UMuHjk6Dq.jpg",
@@ -1728,39 +1454,13 @@
         "gender": 2,
         "id": 25002,
         "known_for_department": "Acting",
-        "name": "Lee Byung-hun",
+        "name": "李炳宪",
         "original_name": "이병헌",
         "popularity": 9.2185,
         "profile_path": "/pY4pwYO8qwtzvuzpzRczDACDiVA.jpg",
         "character": "Front Man / Hwang In-ho",
         "credit_id": "648e484726346200ae1bc82a",
         "order": 5
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer [Subtitled]",
-        "key": "oqxAJKy0ii4",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2021-09-02T00:00:02.000Z",
-        "id": "61310236f0647c00426c1680"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Teaser #1 [ENG SUB]",
-        "key": "5oFn2eodVD0",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2021-08-11T06:36:46.000Z",
-        "id": "6113e3355c5634007d4dbfec"
       }
     ],
     "backdrops": [
@@ -1891,8 +1591,8 @@
     "revenue": 322614695,
     "runtime": 134,
     "status": "Released",
-    "tagline": "A new era is born.",
-    "homepage": "https://www.jurassicworld.com",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt31036941",
     "original_language": "en",
     "spoken_languages": [
@@ -1925,21 +1625,21 @@
     "genres": [
       {
         "id": 878,
-        "name": "Science Fiction"
+        "name": "科幻"
       },
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       },
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       }
     ],
     "belongs_to_collection": {
       "id": 328,
-      "name": "Jurassic Park Collection",
-      "poster_path": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
+      "name": "侏罗纪公园（系列）",
+      "poster_path": "/vtyUBPmI714WByxR9szzfgs0nXM.jpg",
       "backdrop_path": "/njFixYzIxX8jsn6KMSEtAzi4avi.jpg"
     },
     "cast": [
@@ -1948,7 +1648,7 @@
         "gender": 1,
         "id": 1245,
         "known_for_department": "Acting",
-        "name": "Scarlett Johansson",
+        "name": "斯嘉丽·约翰逊",
         "original_name": "Scarlett Johansson",
         "popularity": 23.529,
         "profile_path": "/8m21eocprLYuW0ywveIgThk6VM.jpg",
@@ -1962,7 +1662,7 @@
         "gender": 2,
         "id": 80860,
         "known_for_department": "Acting",
-        "name": "Jonathan Bailey",
+        "name": "乔纳森·贝利",
         "original_name": "Jonathan Bailey",
         "popularity": 6.7692,
         "profile_path": "/mZNzekZo8eaHMuXKgDTNLp0EvYM.jpg",
@@ -1976,7 +1676,7 @@
         "gender": 2,
         "id": 932967,
         "known_for_department": "Acting",
-        "name": "Mahershala Ali",
+        "name": "马赫沙拉·阿里",
         "original_name": "Mahershala Ali",
         "popularity": 5.5699,
         "profile_path": "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
@@ -1990,7 +1690,7 @@
         "gender": 2,
         "id": 36669,
         "known_for_department": "Acting",
-        "name": "Rupert Friend",
+        "name": "鲁珀特·弗兰德",
         "original_name": "Rupert Friend",
         "popularity": 4.6171,
         "profile_path": "/a3HeMHmlXnoRlHLX9h31ZdZgCXM.jpg",
@@ -2004,7 +1704,7 @@
         "gender": 2,
         "id": 1168097,
         "known_for_department": "Acting",
-        "name": "Manuel Garcia-Rulfo",
+        "name": "马奴·贾西亚·鲁尔福",
         "original_name": "Manuel Garcia-Rulfo",
         "popularity": 2.2756,
         "profile_path": "/54Rk1hKfNdNKGHQMnONDGmNtUv3.jpg",
@@ -2012,68 +1712,6 @@
         "character": "Reuben Delgado",
         "credit_id": "663e46fe1a3d02a1407996f5",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Your summer adventure starts with Jurassic World Rebirth. Get your tickets now!",
-        "key": "QwH6sO9k_Y8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-04T18:30:40.000Z",
-        "id": "6868436b998a7677b06e7720"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "POV: You're on vacation with the Delgados.",
-        "key": "EbCo45TZwF4",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-03T19:03:51.000Z",
-        "id": "686700beb013534dcffcbb9a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Seoul, you were incredible 🫰 Thank you!",
-        "key": "Dl31acaOMyA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-07-02T23:31:11.000Z",
-        "id": "6866ffcf3dc1cd4544fcbc17"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Beach Cleanups & Ghost Net Dives",
-        "key": "_zJ6zJXbu28",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-07-02T20:00:23.000Z",
-        "id": "6866cbc07e0de12ece1f975f"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Behind-the-Scenes Sustainability",
-        "key": "31cxglnwbWs",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-07-02T20:00:01.000Z",
-        "id": "6866cb9905ca42d03d241b71"
       }
     ],
     "backdrops": [
@@ -2181,8 +1819,8 @@
     "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
     "poster_path": "/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
     "backdrop_path": "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
-    "vote_average": 5.824,
-    "vote_count": 17,
+    "vote_average": 5.875,
+    "vote_count": 16,
     "popularity": 112.9104,
     "release_date": "2025-07-09",
     "genre_ids": [
@@ -2195,8 +1833,8 @@
     "revenue": 0,
     "runtime": 130,
     "status": "Released",
-    "tagline": "Look up.",
-    "homepage": "https://www.superman.com",
+    "tagline": "昂首向上　守护希望",
+    "homepage": "",
     "imdb_id": "tt5950044",
     "original_language": "en",
     "spoken_languages": [
@@ -2234,16 +1872,16 @@
     ],
     "genres": [
       {
-        "id": 28,
-        "name": "Action"
+        "id": 878,
+        "name": "科幻"
       },
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       },
       {
-        "id": 878,
-        "name": "Science Fiction"
+        "id": 28,
+        "name": "动作"
       }
     ],
     "cast": [
@@ -2252,7 +1890,7 @@
         "gender": 2,
         "id": 1785590,
         "known_for_department": "Acting",
-        "name": "David Corenswet",
+        "name": "大卫·科伦斯韦特",
         "original_name": "David Corenswet",
         "popularity": 4.9838,
         "profile_path": "/qB0hBMu4wU1nPrqtdUQP3sQeN5t.jpg",
@@ -2266,7 +1904,7 @@
         "gender": 1,
         "id": 993774,
         "known_for_department": "Acting",
-        "name": "Rachel Brosnahan",
+        "name": "蕾切尔·布鲁斯纳翰",
         "original_name": "Rachel Brosnahan",
         "popularity": 4.886,
         "profile_path": "/1f9NK43gWrXN2uMmYMlennB7jCC.jpg",
@@ -2280,7 +1918,7 @@
         "gender": 2,
         "id": 3292,
         "known_for_department": "Acting",
-        "name": "Nicholas Hoult",
+        "name": "尼古拉斯·霍尔特",
         "original_name": "Nicholas Hoult",
         "popularity": 6.3334,
         "profile_path": "/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg",
@@ -2294,7 +1932,7 @@
         "gender": 2,
         "id": 39391,
         "known_for_department": "Acting",
-        "name": "Edi Gathegi",
+        "name": "艾迪·盖瑟吉",
         "original_name": "Edi Gathegi",
         "popularity": 2.0012,
         "profile_path": "/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
@@ -2308,7 +1946,7 @@
         "gender": 2,
         "id": 1180346,
         "known_for_department": "Acting",
-        "name": "Anthony Carrigan",
+        "name": "安东尼·卡里根",
         "original_name": "Anthony Carrigan",
         "popularity": 1.6954,
         "profile_path": "/nHlu6rBHLardtTAHma3lvX27hkA.jpg",
@@ -2316,68 +1954,6 @@
         "character": "Rex Mason / Metamorpho",
         "credit_id": "64aef9996a344800c9fd7b77",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "London Fan Event",
-        "key": "jM5rIlULr7k",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-07-03T19:42:08.000Z",
-        "id": "6866f7fac2b5e735d8f7c29a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Toonami Sneak Peek",
-        "key": "zSwQyH95Cyo",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": false,
-        "published_at": "2025-06-30T02:30:47.000Z",
-        "id": "686205e81b17b27ae2304116"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Toonami Sneak Peek Announcement",
-        "key": "VrPJKDsi6fM",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": false,
-        "published_at": "2025-06-29T02:08:46.000Z",
-        "id": "6860f08c739bbdced3fdc929"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Strength",
-        "key": "edONI3oR8CM",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-20T18:16:08.000Z",
-        "id": "6855ad8978ec0324f54bc921"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Amazon Prime Early Screening",
-        "key": "2FE_qe149_w",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-14T01:12:17.000Z",
-        "id": "684e2ba62c399022f01ec3f7"
       }
     ],
     "backdrops": [
@@ -2498,8 +2074,8 @@
     "revenue": 293300000,
     "runtime": 156,
     "status": "Released",
-    "tagline": "This is just the start.",
-    "homepage": "https://www.f1themovie.com",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt16311594",
     "original_language": "en",
     "spoken_languages": [
@@ -2565,11 +2141,11 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       }
     ],
     "cast": [
@@ -2578,7 +2154,7 @@
         "gender": 2,
         "id": 287,
         "known_for_department": "Acting",
-        "name": "Brad Pitt",
+        "name": "布拉德·皮特",
         "original_name": "Brad Pitt",
         "popularity": 9.7495,
         "profile_path": "/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg",
@@ -2592,7 +2168,7 @@
         "gender": 2,
         "id": 1837297,
         "known_for_department": "Acting",
-        "name": "Damson Idris",
+        "name": "达姆森·伊卓瑞斯",
         "original_name": "Damson Idris",
         "popularity": 7.5261,
         "profile_path": "/4jKOg4jCqNwXyrYd3coqgmCqkMy.jpg",
@@ -2606,7 +2182,7 @@
         "gender": 2,
         "id": 3810,
         "known_for_department": "Acting",
-        "name": "Javier Bardem",
+        "name": "哈维尔·巴登",
         "original_name": "Javier Bardem",
         "popularity": 5.0057,
         "profile_path": "/eCBiiPvBfIY7exDQwH0vEM6Bf3c.jpg",
@@ -2620,7 +2196,7 @@
         "gender": 1,
         "id": 62105,
         "known_for_department": "Acting",
-        "name": "Kerry Condon",
+        "name": "凯瑞·康顿",
         "original_name": "Kerry Condon",
         "popularity": 12.5888,
         "profile_path": "/8l5zehb9sc9cgRCLD713rf5Xmz3.jpg",
@@ -2634,7 +2210,7 @@
         "gender": 2,
         "id": 10920,
         "known_for_department": "Acting",
-        "name": "Tobias Menzies",
+        "name": "托比亚斯·门基斯",
         "original_name": "Tobias Menzies",
         "popularity": 2.5948,
         "profile_path": "/phcroLRZCjLje2jeKNkNQz4Jdpn.jpg",
@@ -2642,68 +2218,6 @@
         "character": "Peter Banning",
         "credit_id": "647a0b70cf4b8b0122755788",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Built for the track. Built for ​⁠IMAX. Don’t miss the #1 Movie in the World.",
-        "key": "f7KR09_ZfKc",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-06T16:01:04.000Z",
-        "id": "686b43c897e7a847f2ed58f3"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Experience the world's first iPhone haptic trailer on the Apple TV+ app.",
-        "key": "5C-oQcDvpTc",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-07-03T21:59:55.000Z",
-        "id": "6867822fc5a160a9015e364e"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "An absolute blast! Don’t miss the #1 Movie in the World",
-        "key": "3Q5WEFPr0NM",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-03T16:19:23.000Z",
-        "id": "6866fc086ec20942e875c41b"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Weekend plans = going to see #F1TheMovie in cinmeas",
-        "key": "tHgftHW_194",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-07-03T06:00:45.000Z",
-        "id": "6866fc11fb273f0c7675c426"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "#F1TheMovie + @imaxmovies = full throttle adrenaline.",
-        "key": "sC5jqueBGqQ",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-02T18:01:02.000Z",
-        "id": "6866fc1f4ceabfd9f7f7c2c0"
       }
     ],
     "backdrops": [
@@ -2871,15 +2385,15 @@
     "genres": [
       {
         "id": 16,
-        "name": "Animation"
+        "name": "动画"
       },
       {
         "id": 10759,
-        "name": "Action & Adventure"
+        "name": "动作冒险"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       },
       {
         "id": 10765,
@@ -2899,8 +2413,8 @@
     ],
     "last_episode_to_air": {
       "id": 6358138,
-      "name": "Like, This Is the Legend of the Giant Snake",
-      "overview": "As Momo fends off an attack in the outdoor hot spring, Okarun and Jiji panic over how to handle the mysterious room. Just then, the doorbell rings.",
+      "name": "大蛇传说就是这个",
+      "overview": "奥卡伦和吉吉发现了一个隐藏的房间，天花板、墙壁、地板和所有的面上都贴满了密密麻麻的纸币。这时，突然对讲机响了，以为是桃子打开玄关的门，站在外面的是以娜基为首的鬼头家的人们。另一方面，桃子在露天浴池被鬼头家的男人们袭击，陷入了困境……",
       "vote_average": 7.333,
       "vote_count": 6,
       "air_date": "2025-07-04",
@@ -2914,7 +2428,7 @@
     },
     "next_episode_to_air": {
       "id": 6358139,
-      "name": "The Evil Eye",
+      "name": "第 14 集",
       "overview": "",
       "vote_average": 0.0,
       "vote_count": 0,
@@ -3105,9 +2619,9 @@
         "air_date": "2024-10-04",
         "episode_count": 24,
         "id": 367498,
-        "name": "Season 1",
-        "overview": "When high schooler Momo, from a family of spirit mediums, first meets her classmate Okarun, an occult geek, they argue—Momo believes in ghosts but denies aliens, and Okarun believes in aliens but denies ghosts. When it turns out both phenomena are real, Momo awakens a hidden power and Okarun gains the power of a curse. Together, they must challenge the paranormal forces threatening their world.",
-        "poster_path": "/6qfZAOEUFIrbUH3JvePclx1nXzz.jpg",
+        "name": "第 1 季",
+        "overview": "相信幽灵存在的女生绫濑桃和同年级喜欢超自然现象的超然仔。二人互相否定，为了让对方信服，桃前往传闻有UFO出没的医院废墟，超然仔则是去往灵异地点的隧道……命中注定的恋爱就此展开！《当哒当》是龙幸伸于2021年4月6日起在网络漫画平台“少年Jump+”上连载的漫画，近日官宣动画化！",
+        "poster_path": "/6Qj3uSFpUVc9Ji4kQDdx1U4y7nj.jpg",
         "season_number": 1,
         "vote_average": 8.5
       }
@@ -3119,7 +2633,7 @@
         "gender": 1,
         "id": 2363904,
         "known_for_department": "Acting",
-        "name": "Shion Wakayama",
+        "name": "若山诗音",
         "original_name": "若山詩音",
         "popularity": 1.9357,
         "profile_path": "/b697ggFreuliEfl4TjLgxhJCQXr.jpg",
@@ -3132,7 +2646,7 @@
         "gender": 2,
         "id": 1256603,
         "known_for_department": "Acting",
-        "name": "Natsuki Hanae",
+        "name": "花江夏树",
         "original_name": "花江夏樹",
         "popularity": 2.7981,
         "profile_path": "/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
@@ -3145,7 +2659,7 @@
         "gender": 1,
         "id": 65510,
         "known_for_department": "Acting",
-        "name": "Mayumi Tanaka",
+        "name": "田中真弓",
         "original_name": "田中真弓",
         "popularity": 1.9365,
         "profile_path": "/by4t1tYtEXsfbFj9TvOjozBmQla.jpg",
@@ -3158,75 +2672,13 @@
         "gender": 1,
         "id": 24651,
         "known_for_department": "Acting",
-        "name": "Nana Mizuki",
+        "name": "水树奈奈",
         "original_name": "水樹奈々",
         "popularity": 2.1959,
         "profile_path": "/rQBo7HyjTIqeB7hIofb7uJFhiVs.jpg",
         "character": "Seiko (voice)",
         "credit_id": "671a7b406d6b705dc8713514",
         "order": 3
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "DAN DA DAN Season 2 | Official English Trailer 2",
-        "key": "pHLEyqsxZV8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-06-02T18:01:44.000Z",
-        "id": "68488a9a70d4939ab03e0689"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "DAN DA DAN Season 2 | OFFICIAL TRAILER 2",
-        "key": "uXr9Ha9qRHE",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-05-19T18:45:25.000Z",
-        "id": "684889fb87de1c0fd8de79d1"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer(Season 2)",
-        "key": "0G7HX16YTLU",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2024-12-21T08:30:00.000Z",
-        "id": "676d1d9a355bec07b0927ba9"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Dub Trailer",
-        "key": "6Kj1hc54nu0",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2024-10-05T01:01:50.000Z",
-        "id": "670148d4e480149146856625"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer 3 [Subtitled]",
-        "key": "V3xNYDFsnN8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2024-09-11T15:00:01.000Z",
-        "id": "66e1d9811903124d11ecc95f"
       }
     ],
     "backdrops": [
@@ -3354,7 +2806,7 @@
     ],
     "adult": false,
     "status": "Returning Series",
-    "tagline": "Dream the world anew.",
+    "tagline": "",
     "homepage": "https://thesandman.com",
     "original_language": "en",
     "spoken_languages": [
@@ -3415,11 +2867,11 @@
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       },
       {
         "id": 10759,
-        "name": "Action & Adventure"
+        "name": "动作冒险"
       }
     ],
     "first_air_date": "2022-08-05",
@@ -3433,8 +2885,8 @@
     ],
     "last_episode_to_air": {
       "id": 6139762,
-      "name": "Family Blood",
-      "overview": "Morpheus enlists an expert in the occult to smuggle a deeply personal relic out of Paris — and help him and Delirium find the answers they seek.",
+      "name": "家族之血",
+      "overview": "墨菲斯请来一位神秘学专家，将一件与他息息相关的圣物偷运出巴黎，并助他与谵妄寻找答案。",
       "vote_average": 4.2,
       "vote_count": 5,
       "air_date": "2025-07-03",
@@ -3448,7 +2900,7 @@
     },
     "next_episode_to_air": {
       "id": 6139763,
-      "name": "Time and Night",
+      "name": "第 7 集",
       "overview": "",
       "vote_average": 0.0,
       "vote_count": 0,
@@ -3477,7 +2929,7 @@
         "air_date": "2022-08-10",
         "episode_count": 1,
         "id": 304236,
-        "name": "Specials",
+        "name": "特别篇",
         "overview": "",
         "poster_path": null,
         "season_number": 0,
@@ -3487,9 +2939,9 @@
         "air_date": "2022-08-05",
         "episode_count": 11,
         "id": 127007,
-        "name": "Season 1",
+        "name": "第 1 季",
         "overview": "",
-        "poster_path": "/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
+        "poster_path": "/9ajhC8Gua5BvwHL1xRIGTYekekz.jpg",
         "season_number": 1,
         "vote_average": 7.1
       },
@@ -3497,8 +2949,8 @@
         "air_date": "2025-07-03",
         "episode_count": 12,
         "id": 395169,
-        "name": "Season 2",
-        "overview": "After more than a century away from the Dreaming, Dream has been restoring and rebuilding his kingdom. As he transforms the palace, he vows to leave the past behind and look to the future. The past, of course, has other ideas.",
+        "name": "第 2 季",
+        "overview": "",
         "poster_path": "/lZgwGQ3Op0rVDdhCSihYMA3KUho.jpg",
         "season_number": 2,
         "vote_average": 4.8
@@ -3511,7 +2963,7 @@
         "gender": 2,
         "id": 90451,
         "known_for_department": "Acting",
-        "name": "Tom Sturridge",
+        "name": "汤姆·斯图里奇",
         "original_name": "Tom Sturridge",
         "popularity": 3.6977,
         "profile_path": "/dm5GA0xwJwvPsAU6YBPCfyvvWSb.jpg",
@@ -3537,75 +2989,13 @@
         "gender": 2,
         "id": 10872,
         "known_for_department": "Acting",
-        "name": "Patton Oswalt",
+        "name": "帕顿·奥斯瓦尔特",
         "original_name": "Patton Oswalt",
         "popularity": 2.4087,
         "profile_path": "/skGzommLR2zE6uk1YQRFK71dOJ8.jpg",
         "character": "Matthew the Raven (voice)",
         "credit_id": "63040770ac8e6b007d264e3f",
         "order": 6
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Exclusive Deleted Scene | Sleeping Sickness",
-        "key": "6faMT5hiSpY",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2022-08-23T14:00:00.000Z",
-        "id": "6305fbb2b042280082e9aac6"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Neil Gaiman, Tom Sturridge and cast at the world premiere of Netflix's The Sandman | BFI Q&A",
-        "key": "LpYuY5pKBU0",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2022-08-11T09:28:58.000Z",
-        "id": "6378b6d55b2f470091443c6c"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "The World of The Endless",
-        "key": "0Fyja48qK2g",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2022-07-26T14:30:00.000Z",
-        "id": "62e07f16e9da691496f3f0ea"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer",
-        "key": "ZJXamnPUm0I",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2022-07-23T22:35:04.000Z",
-        "id": "6500c1406a222700fd2060fe"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Date Announcement",
-        "key": "cWJTB6FPVaA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2022-06-06T17:33:02.000Z",
-        "id": "629e3d9de4c9eb0051f71fd3"
       }
     ],
     "backdrops": [
@@ -3707,8 +3097,8 @@
     "revenue": 22691436,
     "runtime": 104,
     "status": "Released",
-    "tagline": "Family requires sacrifices.",
-    "homepage": "https://a24films.com/films/bring-her-back",
+    "tagline": "家庭意味着牺牲",
+    "homepage": "",
     "imdb_id": "tt32246771",
     "original_language": "en",
     "spoken_languages": [
@@ -3762,7 +3152,7 @@
     "genres": [
       {
         "id": 27,
-        "name": "Horror"
+        "name": "恐怖"
       }
     ],
     "cast": [
@@ -3771,7 +3161,7 @@
         "gender": 1,
         "id": 39658,
         "known_for_department": "Acting",
-        "name": "Sally Hawkins",
+        "name": "莎莉·霍金斯",
         "original_name": "Sally Hawkins",
         "popularity": 3.0024,
         "profile_path": "/1dtDq82dM2YQ17lBL4ZKPJo5LKw.jpg",
@@ -3799,7 +3189,7 @@
         "gender": 2,
         "id": 1840063,
         "known_for_department": "Acting",
-        "name": "Billy Barratt",
+        "name": "比利·巴瑞特",
         "original_name": "Billy Barratt",
         "popularity": 2.5641,
         "profile_path": "/h8XlTs26su2Rg3oLtShERYEnVc6.jpg",
@@ -3835,68 +3225,6 @@
         "character": "Cathy",
         "credit_id": "66b0c4dcbaf4c94de83a2620",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Featurette",
-        "key": "2-h1ZOAiCKU",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-06-09T17:00:59.000Z",
-        "id": "684743e6e9889dc3332067fc"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Tick 6 - Spots",
-        "key": "zzk0bZXh-I8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-27T20:35:19.000Z",
-        "id": "6846199324c39ef4e51ea968"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Right 15 - Spots",
-        "key": "FXMh7Wgnl6w",
-        "site": "YouTube",
-        "size": 480,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-27T17:31:58.000Z",
-        "id": "68461913c4906be91f292e9f"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Laura 15 - Spots",
-        "key": "WIqHlUdmbyQ",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-27T17:29:47.000Z",
-        "id": "683a5c48053619a7adfda864"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Ritual 15 - Spots",
-        "key": "cgXLC5XRUeg",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-05-27T17:29:00.000Z",
-        "id": "68365493a642dbf53e2b7eb2"
       }
     ],
     "backdrops": [
@@ -4014,7 +3342,7 @@
     ],
     "adult": false,
     "status": "Ended",
-    "tagline": "Every dream has a cost.",
+    "tagline": "",
     "homepage": "https://www.disneyplus.com/browse/entity-b2b50b9a-a055-4b31-a609-8ec46f3add98",
     "original_language": "en",
     "spoken_languages": [
@@ -4057,7 +3385,7 @@
       },
       {
         "id": 80,
-        "name": "Crime"
+        "name": "犯罪"
       }
     ],
     "first_air_date": "2025-06-24",
@@ -4071,8 +3399,8 @@
     ],
     "last_episode_to_air": {
       "id": 3658802,
-      "name": "The Past Is the Past",
-      "overview": "Riri builds her most powerful suit yet, but she's unsure if it's enough to beat Parker and The Hood.",
+      "name": "过去已过去",
+      "overview": "莉莉启用了有史以来她发明过最强的装甲，但仍然不肯定是否能战胜帕克和红兜帽。",
       "vote_average": 5.1,
       "vote_count": 21,
       "air_date": "2025-07-01",
@@ -4100,9 +3428,9 @@
         "air_date": "2025-06-24",
         "episode_count": 6,
         "id": 171710,
-        "name": "Miniseries",
+        "name": "第 1 季",
         "overview": "",
-        "poster_path": "/AmzGVKlLvpraNAXxPYUROiN2Ulj.jpg",
+        "poster_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
         "season_number": 1,
         "vote_average": 5.0
       }
@@ -4114,7 +3442,7 @@
         "gender": 1,
         "id": 2133996,
         "known_for_department": "Acting",
-        "name": "Dominique Thorne",
+        "name": "多米妮克·索恩",
         "original_name": "Dominique Thorne",
         "popularity": 3.2205,
         "profile_path": "/tuLlp79SfYc4mLzzjdC2ekLI7qd.jpg",
@@ -4140,7 +3468,7 @@
         "gender": 2,
         "id": 1182725,
         "known_for_department": "Acting",
-        "name": "Manny Montana",
+        "name": "曼尼·蒙大拿",
         "original_name": "Manny Montana",
         "popularity": 2.0576,
         "profile_path": "/EUoD5EalyUDHZtRZCnosRqhMi.jpg",
@@ -4173,68 +3501,6 @@
         "character": "Ronnie Williams",
         "credit_id": "6737203b021223a874c60be3",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Anthony Ramos hits the carpert",
-        "key": "Mossc46lLTQ",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-06-24T22:00:22.000Z",
-        "id": "685b446100f624121706f12e"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Ryan Coogler and Dominique Thorne at the premiere!",
-        "key": "FW7Fr7BvwIw",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-06-24T21:30:02.000Z",
-        "id": "685b4475eb3688fe5b91b1fc"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Dominique Thorne makes her entrance at the premiere!",
-        "key": "s9Q_Polt1Fs",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2025-06-24T21:01:01.000Z",
-        "id": "685b44812c74209b7e04331a"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Hear the rise of Ironheart.",
-        "key": "CPyFJ3YnK4A",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-22T17:00:14.000Z",
-        "id": "6858811039bcec4c60d0f9f7"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "The crew's in. The clock's ticking.",
-        "key": "a8ChMvonAws",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-21T18:00:00.000Z",
-        "id": "6858415f429aa732e1d14eaf"
       }
     ],
     "backdrops": [
@@ -4373,8 +3639,8 @@
     "revenue": 0,
     "runtime": 125,
     "status": "Released",
-    "tagline": "Forever is harder than it looks.",
-    "homepage": "https://www.netflix.com/title/81038963",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt7556122",
     "original_language": "en",
     "spoken_languages": [
@@ -4433,17 +3699,17 @@
     "genres": [
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 14,
-        "name": "Fantasy"
+        "name": "奇幻"
       }
     ],
     "belongs_to_collection": {
       "id": 847029,
-      "name": "The Old Guard Collection",
-      "poster_path": "/sPr9Xb943vJ1HsxuGLDFltgCuhb.jpg",
+      "name": "永生守卫（系列）",
+      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
       "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
     },
     "cast": [
@@ -4452,7 +3718,7 @@
         "gender": 1,
         "id": 6885,
         "known_for_department": "Acting",
-        "name": "Charlize Theron",
+        "name": "查理兹·塞隆",
         "original_name": "Charlize Theron",
         "popularity": 18.3513,
         "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
@@ -4466,7 +3732,7 @@
         "gender": 1,
         "id": 1884703,
         "known_for_department": "Acting",
-        "name": "KiKi Layne",
+        "name": "琪琪·莱恩",
         "original_name": "KiKi Layne",
         "popularity": 3.8056,
         "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
@@ -4480,7 +3746,7 @@
         "gender": 1,
         "id": 91378,
         "known_for_department": "Acting",
-        "name": "Veronica Ngo",
+        "name": "吴青芸",
         "original_name": "Veronica Ngo",
         "popularity": 4.42,
         "profile_path": "/uvmZVmCbo7d9Zpc9cNEYvqhFKpU.jpg",
@@ -4494,7 +3760,7 @@
         "gender": 2,
         "id": 73381,
         "known_for_department": "Acting",
-        "name": "Matthias Schoenaerts",
+        "name": "马提亚斯·修奈尔",
         "original_name": "Matthias Schoenaerts",
         "popularity": 3.1163,
         "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
@@ -4508,7 +3774,7 @@
         "gender": 2,
         "id": 935235,
         "known_for_department": "Acting",
-        "name": "Marwan Kenzari",
+        "name": "马尔万·肯扎里",
         "original_name": "Marwan Kenzari",
         "popularity": 2.0897,
         "profile_path": "/nvt7uXbqWEc9qkTp38ARBzSiQgQ.jpg",
@@ -4516,32 +3782,6 @@
         "character": "Yusuf Al-Kaysani / Joe",
         "credit_id": "5eb42cf00cb3350020c8f947",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "The Old Guard Through History",
-        "key": "khCUVWqW9BU",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Featurette",
-        "official": true,
-        "published_at": "2020-07-15T19:00:01.000Z",
-        "id": "5f1022b11684f700359b87f8"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer",
-        "key": "aK-X2d0lJ_s",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2020-05-21T13:00:03.000Z",
-        "id": "5ec686d50fb17f001d7aa5e4"
       }
     ],
     "backdrops": [
@@ -4660,7 +3900,7 @@
     ],
     "adult": false,
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "恋（Cosplay）可换形，爱以塑心。",
     "homepage": "https://bisquedoll-anime.com",
     "original_language": "ja",
     "spoken_languages": [
@@ -4723,15 +3963,15 @@
     "genres": [
       {
         "id": 16,
-        "name": "Animation"
+        "name": "动画"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       }
     ],
     "first_air_date": "2022-01-09",
@@ -4747,8 +3987,8 @@
     ],
     "last_episode_to_air": {
       "id": 6358796,
-      "name": "Wakana Gojo, 15 Years Old, Teenager",
-      "overview": "Wakana helps Marin make a bunny girl outfit so she can cosplay as one of her favorite characters.",
+      "name": "五条新菜 15岁 青春期",
+      "overview": "这一次，五条和海梦将挑战的是海梦喜爱的动画《Kocha-Kan（こちカン）》中登场的杀手「十六夜有纱」的兔女郎装扮。虽然五条已经逐渐习惯制作服装，但这次却……",
       "vote_average": 8.0,
       "vote_count": 2,
       "air_date": "2025-07-06",
@@ -4762,7 +4002,7 @@
     },
     "next_episode_to_air": {
       "id": 6361001,
-      "name": "You Can Equip Boobs",
+      "name": "因为胸部是可以装上去的",
       "overview": "",
       "vote_average": 0.0,
       "vote_count": 0,
@@ -4809,9 +4049,9 @@
         "air_date": "2022-01-09",
         "episode_count": 24,
         "id": 190461,
-        "name": "Season 1",
-        "overview": "",
-        "poster_path": "/p5kOPUDLQkQM7J1m6cJfDvrZIwR.jpg",
+        "name": "第 1 季",
+        "overview": "男高中生五条新菜梦想着成为制作雏人形面部的「头师」。全身心地投入到制作雏人形后，他离同龄人的流行话题越来越远，以至于迟迟无法融入班级。对于这样的新菜来说，一直是班级中心人物的喜多川海梦简直像是生活在完全不同世界的人。然而有一天，一件意想不到的事情让他与海梦拥有了共同的秘密……！？两人原本毫无交集的世界因此产生了联系！",
+        "poster_path": "/s8xos0MzdrGpbC30idoTtuzKMMg.jpg",
         "season_number": 1,
         "vote_average": 7.8
       }
@@ -4823,7 +4063,7 @@
         "gender": 1,
         "id": 2283277,
         "known_for_department": "Acting",
-        "name": "Hina Suguta",
+        "name": "直田姬奈",
         "original_name": "直田姫奈",
         "popularity": 0.7635,
         "profile_path": "/yZPGi67sEBDjrYXiZdLwp8KCwwg.jpg",
@@ -4836,7 +4076,7 @@
         "gender": 2,
         "id": 2590390,
         "known_for_department": "Acting",
-        "name": "Shoya Ishige",
+        "name": "石毛翔弥",
         "original_name": "石毛翔弥",
         "popularity": 1.0669,
         "profile_path": "/ohW9TNSoiL9n5SgLBbAj85wJXAA.jpg",
@@ -4849,7 +4089,7 @@
         "gender": 1,
         "id": 1588597,
         "known_for_department": "Acting",
-        "name": "Atsumi Tanezaki",
+        "name": "种崎敦美",
         "original_name": "種﨑敦美",
         "popularity": 2.5022,
         "profile_path": "/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
@@ -4862,7 +4102,7 @@
         "gender": 1,
         "id": 2956795,
         "known_for_department": "Acting",
-        "name": "Hina Youmiya",
+        "name": "羊宫妃那",
         "original_name": "羊宮妃那",
         "popularity": 3.0123,
         "profile_path": "/mVi7zP1xGum2t3TbauxftTAjKuf.jpg",
@@ -4875,27 +4115,13 @@
         "gender": 2,
         "id": 1252647,
         "known_for_department": "Acting",
-        "name": "Atsushi Ono",
+        "name": "斧笃",
         "original_name": "斧アツシ",
         "popularity": 0.7928,
         "profile_path": "/z7aVt5gmkiQ8wV6GcOUU7dFpms4.jpg",
         "character": "Kaoru Gojo (voice)",
         "credit_id": "61aba541f28838001e22b772",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer",
-        "key": "8oveGY6h6T8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2022-01-04T20:00:05.000Z",
-        "id": "61d9e7fed2c0c10097743807"
       }
     ],
     "backdrops": [
@@ -4997,10 +4223,10 @@
     "adult": false,
     "budget": 90000000,
     "revenue": 364828885,
-    "runtime": 138,
+    "runtime": 131,
     "status": "Released",
-    "tagline": "Dance with the devil.",
-    "homepage": "https://www.sinnersmovie.com",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt31193180",
     "original_language": "en",
     "spoken_languages": [
@@ -5044,20 +4270,20 @@
     "genres": [
       {
         "id": 27,
-        "name": "Horror"
+        "name": "恐怖"
       },
       {
         "id": 28,
-        "name": "Action"
+        "name": "动作"
       },
       {
         "id": 53,
-        "name": "Thriller"
+        "name": "惊悚"
       }
     ],
     "belongs_to_collection": {
       "id": 1489663,
-      "name": "Sinners Collection",
+      "name": "罪人（系列）",
       "poster_path": "/48KYBYnHmt7ykX57zGuv6SXVZOO.jpg",
       "backdrop_path": "/e0kl32U3pHA2cdR1VGRk5TUmrFr.jpg"
     },
@@ -5067,7 +4293,7 @@
         "gender": 2,
         "id": 135651,
         "known_for_department": "Acting",
-        "name": "Michael B. Jordan",
+        "name": "迈克尔·B·乔丹",
         "original_name": "Michael B. Jordan",
         "popularity": 5.7259,
         "profile_path": "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
@@ -5081,7 +4307,7 @@
         "gender": 1,
         "id": 130640,
         "known_for_department": "Acting",
-        "name": "Hailee Steinfeld",
+        "name": "海莉·斯坦菲尔德",
         "original_name": "Hailee Steinfeld",
         "popularity": 6.6593,
         "profile_path": "/tb7zwVSmI2CDLU1Tc39c4ECO3jm.jpg",
@@ -5095,7 +4321,7 @@
         "gender": 2,
         "id": 4688032,
         "known_for_department": "Acting",
-        "name": "Miles Caton",
+        "name": "迈尔斯·卡顿",
         "original_name": "Miles Caton",
         "popularity": 0.6535,
         "profile_path": "/yff2DK1Sc2baRGHbSfcmwMwX8HW.jpg",
@@ -5109,7 +4335,7 @@
         "gender": 2,
         "id": 85065,
         "known_for_department": "Acting",
-        "name": "Jack O'Connell",
+        "name": "杰克·奥康奈尔",
         "original_name": "Jack O'Connell",
         "popularity": 5.4369,
         "profile_path": "/tCzR4clrIkbkijuJBYsNoEuwRDa.jpg",
@@ -5123,7 +4349,7 @@
         "gender": 1,
         "id": 134774,
         "known_for_department": "Acting",
-        "name": "Wunmi Mosaku",
+        "name": "乌米·马萨库",
         "original_name": "Wunmi Mosaku",
         "popularity": 3.3234,
         "profile_path": "/wy02B2JkNIgK1DCkie1A98jCY77.jpg",
@@ -5131,68 +4357,6 @@
         "character": "Annie",
         "credit_id": "6614583d9408ec01632ad54c",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Vampire Makeup FX - Behind The Scenes",
-        "key": "ELNkVGS1PJE",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-07-02T12:00:27.000Z",
-        "id": "6866faac02a8c4bf2e1f9865"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Casting, Music, Hoodoo Roots, & Makeup - Behind the Scenes",
-        "key": "5UZ0UAOxp58",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-07-01T16:04:16.000Z",
-        "id": "686475074e9420cda54d0e7c"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Black American Sign Language Official Trailer",
-        "key": "l2h2lC0vlX4",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-06-30T18:00:39.000Z",
-        "id": "686304079c6bb4f54ef18560"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "I Lied To You Song - Movie Clip",
-        "key": "S7jo5Cr6WUA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-06-24T12:00:45.000Z",
-        "id": "685b3d79c62b9b1b652ca569"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Spirits of the Deep South - Behind the Scenes",
-        "key": "z1x1YpJWIHM",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-06-19T12:01:50.000Z",
-        "id": "6855a517d3f3220feeec5549"
       }
     ],
     "backdrops": [
@@ -5371,15 +4535,15 @@
     "genres": [
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       },
       {
         "id": 10751,
-        "name": "Family"
+        "name": "家庭"
       }
     ],
     "cast": [
@@ -5388,7 +4552,7 @@
         "gender": 1,
         "id": 1257819,
         "known_for_department": "Acting",
-        "name": "Daniella Pineda",
+        "name": "丹妮艾拉·皮内达",
         "original_name": "Daniella Pineda",
         "popularity": 3.303,
         "profile_path": "/o8h5qbyy8A0zKTRN57YOlQOafyQ.jpg",
@@ -5416,7 +4580,7 @@
         "gender": 1,
         "id": 49818,
         "known_for_department": "Acting",
-        "name": "Jacqueline Obradors",
+        "name": "杰奎琳·奥拉德丝",
         "original_name": "Jacqueline Obradors",
         "popularity": 1.2907,
         "profile_path": "/weJqLT6j8AYiZ9hBvFYjr3WG8DV.jpg",
@@ -5452,20 +4616,6 @@
         "character": "Diego",
         "credit_id": "666c7ddb784cd405b7188605",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Full Length Trailer",
-        "key": "92nh9E3B0do",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-06-05T13:00:31.000Z",
-        "id": "68419cb9ed5954738df2c596"
       }
     ],
     "backdrops": [
@@ -5550,8 +4700,8 @@
     "revenue": 35523000,
     "runtime": 102,
     "status": "Released",
-    "tagline": "If something gets in your way: flatten it.",
-    "homepage": "https://focusfeatures.com/the-phoenician-scheme",
+    "tagline": "",
+    "homepage": "",
     "imdb_id": "tt30840798",
     "original_language": "en",
     "spoken_languages": [
@@ -5604,11 +4754,11 @@
     "genres": [
       {
         "id": 12,
-        "name": "Adventure"
+        "name": "冒险"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       }
     ],
     "cast": [
@@ -5617,7 +4767,7 @@
         "gender": 2,
         "id": 1121,
         "known_for_department": "Acting",
-        "name": "Benicio del Toro",
+        "name": "本尼西奥·德尔·托罗",
         "original_name": "Benicio del Toro",
         "popularity": 2.8851,
         "profile_path": "/cVh4UgCMu6aAkZ2BqymTLV86FzZ.jpg",
@@ -5645,7 +4795,7 @@
         "gender": 2,
         "id": 39995,
         "known_for_department": "Acting",
-        "name": "Michael Cera",
+        "name": "迈克尔·塞拉",
         "original_name": "Michael Cera",
         "popularity": 2.8731,
         "profile_path": "/lFKyW2C7xj7X4nWpOEbVIDGOKrH.jpg",
@@ -5659,7 +4809,7 @@
         "gender": 2,
         "id": 53240,
         "known_for_department": "Acting",
-        "name": "Riz Ahmed",
+        "name": "里兹·阿迈德",
         "original_name": "Riz Ahmed",
         "popularity": 2.911,
         "profile_path": "/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg",
@@ -5673,7 +4823,7 @@
         "gender": 2,
         "id": 31,
         "known_for_department": "Acting",
-        "name": "Tom Hanks",
+        "name": "汤姆·汉克斯",
         "original_name": "Tom Hanks",
         "popularity": 9.0574,
         "profile_path": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
@@ -5681,68 +4831,6 @@
         "character": "Leland",
         "credit_id": "6661f38fb5dc23bdef21fea6",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Watch at Home Now",
-        "key": "Sm3vDZEtMTA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-07-07T17:11:34.000Z",
-        "id": "686cb84b69fa3110009a45d4"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Priceless Arts - Official Featurette",
-        "key": "IOa7g2KSUuA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-06-17T21:08:51.000Z",
-        "id": "6851dcbf99399882fdbbd97b"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Globetrotting",
-        "key": "TsrbpwHnkR8",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Teaser",
-        "official": true,
-        "published_at": "2025-06-06T18:16:55.000Z",
-        "id": "6843359f46d574fbc47f5a81"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "\"Classic Backhand Layup\" Official Clip",
-        "key": "vrK8wgdV0KQ",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Clip",
-        "official": true,
-        "published_at": "2025-06-06T16:01:38.000Z",
-        "id": "684311ef7417edb485456761"
-      },
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Crafting the Scheme: Props Behind The Phoenician Scheme - Prop Shop",
-        "key": "0an6LAeq78w",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Behind the Scenes",
-        "official": true,
-        "published_at": "2025-06-03T21:24:45.000Z",
-        "id": "683f939cf1dc67277bfdbf61"
       }
     ],
     "backdrops": [
@@ -5860,7 +4948,7 @@
     ],
     "adult": false,
     "status": "Returning Series",
-    "tagline": "Is it rivalry or love?",
+    "tagline": "攻防之下，全是欲望；情敌过招，爱是命门。",
     "homepage": "https://www.viki.com/tv/41152c-revenged-love",
     "original_language": "zh",
     "spoken_languages": [
@@ -5880,15 +4968,15 @@
     "genres": [
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       },
       {
         "id": 10759,
-        "name": "Action & Adventure"
+        "name": "动作冒险"
       }
     ],
     "first_air_date": "2025-06-16",
-    "last_air_date": "2025-07-01",
+    "last_air_date": "2025-07-07",
     "number_of_episodes": 24,
     "number_of_seasons": 1,
     "episode_run_time": [
@@ -5900,7 +4988,7 @@
     ],
     "last_episode_to_air": {
       "id": 6255456,
-      "name": "Episode 9",
+      "name": "蛇哪有人重要",
       "overview": "",
       "vote_average": 10.0,
       "vote_count": 1,
@@ -5915,7 +5003,7 @@
     },
     "next_episode_to_air": {
       "id": 6255457,
-      "name": "Episode 10",
+      "name": "第 10 集",
       "overview": "",
       "vote_average": 0.0,
       "vote_count": 0,
@@ -5944,9 +5032,9 @@
         "air_date": "2025-06-16",
         "episode_count": 24,
         "id": 457476,
-        "name": "Season 1",
-        "overview": "After Suo-Wei's girlfriend dumps him, he decides to get revenge by seducing her new boyfriend, Chi Cheng! It started as a game, but falling in love was never part of the plan.",
-        "poster_path": "/7X0m38WTUr8UPREkWIQlTTJB8h6.jpg",
+        "name": "第 1 季",
+        "overview": "吴所畏被女友抛弃后，决定通过勾引她的新男友池骋来报复！这原本只是场游戏，但坠入爱河却从来不在计划之中。",
+        "poster_path": "/qlDaLfnULQN7kpwEkySW5z9TlN0.jpg",
         "season_number": 1,
         "vote_average": 9.1
       }
@@ -5958,7 +5046,7 @@
         "gender": 2,
         "id": 4770618,
         "known_for_department": "Acting",
-        "name": "Zi Yu",
+        "name": "梓渝",
         "original_name": "梓渝",
         "popularity": 3.63,
         "profile_path": "/rh3HC3dQn2EJ3H0uz4iwX3VNRPv.jpg",
@@ -5971,7 +5059,7 @@
         "gender": 2,
         "id": 3176248,
         "known_for_department": "Acting",
-        "name": "Tian Xuning",
+        "name": "田栩宁",
         "original_name": "田栩宁",
         "popularity": 6.2997,
         "profile_path": "/cja4cqfeaTtUvCxmDC4joZqFUDm.jpg",
@@ -5984,7 +5072,7 @@
         "gender": 2,
         "id": 5270820,
         "known_for_department": "Acting",
-        "name": "Liu Xuancheng",
+        "name": "刘轩丞",
         "original_name": "刘轩丞",
         "popularity": 1.298,
         "profile_path": "/7d9hNNw1qs1wCWQ8Eow5jw3W7NA.jpg",
@@ -5997,7 +5085,7 @@
         "gender": 2,
         "id": 4149728,
         "known_for_department": "Acting",
-        "name": "Zhan Xuan",
+        "name": "展轩",
         "original_name": "展轩",
         "popularity": 1.6724,
         "profile_path": "/nXU4TAGSk6wNBfqXA1eHmF0Fr19.jpg",
@@ -6010,27 +5098,13 @@
         "gender": 2,
         "id": 5507659,
         "known_for_department": "Acting",
-        "name": "Liu Jun",
+        "name": "刘骏",
         "original_name": "刘骏",
         "popularity": 0.4004,
         "profile_path": "/vFqk8f9FFUhefEe1X0YsXWKwVdO.jpg",
         "character": "Wang Shuo",
         "credit_id": "684fa00fec73293cd7bb5521",
         "order": 4
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Official Trailer [English Subtitles]",
-        "key": "4qmLHpHAyOA",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2025-06-02T06:00:07.000Z",
-        "id": "683d42d4e9b8d21fc2689c49"
       }
     ],
     "backdrops": [
@@ -6228,19 +5302,19 @@
     "genres": [
       {
         "id": 16,
-        "name": "Animation"
+        "name": "动画"
       },
       {
         "id": 35,
-        "name": "Comedy"
+        "name": "喜剧"
       },
       {
         "id": 9648,
-        "name": "Mystery"
+        "name": "悬疑"
       },
       {
         "id": 18,
-        "name": "Drama"
+        "name": "剧情"
       }
     ],
     "first_air_date": "2018-10-04",
@@ -6256,8 +5330,8 @@
     ],
     "last_episode_to_air": {
       "id": 6244314,
-      "name": "Puberty Continues",
-      "overview": "Sakuta has started attending university and meets a girl during a group outing.",
+      "name": "青春期永不结束",
+      "overview": "升入大学半年后，梓川咲太享受着平静的校园生活。10月的一天，咲太收到了麻衣的妹妹——丰滨和香的咨询。和香似乎很担心她所属的偶像团体“Sweet Bullet”的未来，因为队长广川卯月的个人工作邀约持续增加。第二天，咲太在课堂上察觉到了卯月身上的异样……",
       "vote_average": 9.0,
       "vote_count": 1,
       "air_date": "2025-07-05",
@@ -6271,8 +5345,8 @@
     },
     "next_episode_to_air": {
       "id": 6338626,
-      "name": "What Flavor Is the Atmosphere?",
-      "overview": "",
+      "name": "气氛是什么味道？",
+      "overview": "卯月察言观色，时尚也迎合女生们，融入组合。与平时不同的样子，咲太怀疑她的青春期综合症。热门话题CM的起用和在综艺节目的活跃，卯月的受欢迎高涨的另一方面，实况录音的彩排不出调子，对成员也关闭了心。在这种情况下，在离大学最近的车站，咲太看到了不让人看到从电车上下车的卯月。不由得跳上旁边的车厢，追赶着她。",
       "vote_average": 0.0,
       "vote_count": 0,
       "air_date": "2025-07-12",
@@ -6324,7 +5398,7 @@
         "air_date": "2018-12-19",
         "episode_count": 5,
         "id": 120526,
-        "name": "Specials",
+        "name": "特别篇",
         "overview": "",
         "poster_path": "/sAxtUBZEL1Eni978DxxEfXQoBTa.jpg",
         "season_number": 0,
@@ -6334,9 +5408,9 @@
         "air_date": "2018-10-04",
         "episode_count": 13,
         "id": 110163,
-        "name": "Rascal Does Not Dream of Bunny Girl Senpai",
-        "overview": "",
-        "poster_path": "/lVj60960aq8zAlEbSggKsY1jFBq.jpg",
+        "name": "青春猪头少年不会梦到兔女郎学姐",
+        "overview": "思春期症候群，这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周围的人眼里看不出来。咲太决定解开这一谜题。在于麻衣一起度过的时间里，咲太知道了她秘密的想法。女主人公们一个接一个地出现于咲太的周围，她们都有着“青春期症候群”。在天空和大海都很闪耀的小镇上，开始了令人激动的故事。",
+        "poster_path": "/2tKH9xWLh7LfKOBGMrMx8SFEs6H.jpg",
         "season_number": 1,
         "vote_average": 8.4
       },
@@ -6344,9 +5418,9 @@
         "air_date": "2025-07-05",
         "episode_count": 3,
         "id": 405026,
-        "name": "Rascal Does Not Dream of Santa Claus",
-        "overview": "",
-        "poster_path": "/reniCjtjQgmkfmQzNpcrxKrEo1s.jpg",
+        "name": "青春猪头少年不会梦到圣诞服女郎",
+        "overview": "青春期症候群——传说是由不安定的精神状态引起的不可思议现象。在高中时代遇到患有各种青春期症候群的少女们的“梓川咲太”也成了大学生。与国民人气女演员、恋人“樱岛麻衣”一起升入金泽八景的大学的他，在校内发现了不合季节的迷你裙圣诞老人。吓了一跳。你看见我了。好像在哪里听到的台词。穿着迷你裙的圣诞老人告诉咲太，她把青春期综合症作为礼物送给了咲太。……我呢，雾岛透子这个在SNS上流行的预知梦，正体不明的网络歌手，波尔塔盖斯特，与神秘的现象一起，与内心动摇的少女们的不可思议的故事再次开始。青春期不会结束——",
+        "poster_path": "/dqA6qtB5F2JZ9WDgvkp3QPap5Jy.jpg",
         "season_number": 2,
         "vote_average": 9.0
       }
@@ -6358,7 +5432,7 @@
         "gender": 2,
         "id": 1324666,
         "known_for_department": "Acting",
-        "name": "Kaito Ishikawa",
+        "name": "石川界人",
         "original_name": "石川界人",
         "popularity": 2.056,
         "profile_path": "/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
@@ -6371,7 +5445,7 @@
         "gender": 1,
         "id": 1254672,
         "known_for_department": "Acting",
-        "name": "Asami Seto",
+        "name": "濑户麻沙美",
         "original_name": "瀬戸麻沙美",
         "popularity": 2.2197,
         "profile_path": "/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg",
@@ -6384,7 +5458,7 @@
         "gender": 1,
         "id": 1325034,
         "known_for_department": "Acting",
-        "name": "Sora Amamiya",
+        "name": "雨宫天",
         "original_name": "雨宮天",
         "popularity": 2.389,
         "profile_path": "/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg",
@@ -6397,7 +5471,7 @@
         "gender": 1,
         "id": 1168909,
         "known_for_department": "Acting",
-        "name": "Nao Toyama",
+        "name": "东山奈央",
         "original_name": "東山奈央",
         "popularity": 2.6089,
         "profile_path": "/6WJDd1z946yFfZBgpC7dWi0FyQw.jpg",
@@ -6410,27 +5484,13 @@
         "gender": 1,
         "id": 1588597,
         "known_for_department": "Acting",
-        "name": "Atsumi Tanezaki",
+        "name": "种崎敦美",
         "original_name": "種﨑敦美",
         "popularity": 2.5022,
         "profile_path": "/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
         "character": "Rio Futaba (voice)",
         "credit_id": "5bf9900b92514104d2015e1f",
         "order": 3
-      }
-    ],
-    "videos": [
-      {
-        "iso_639_1": "en",
-        "iso_3166_1": "US",
-        "name": "Trailer 1 [Subtitled]",
-        "key": "o0TZj_d3Yfg",
-        "site": "YouTube",
-        "size": 1080,
-        "type": "Trailer",
-        "official": true,
-        "published_at": "2018-10-03T19:00:08.000Z",
-        "id": "5e8edf7237b3a90013879e8e"
       }
     ],
     "backdrops": [

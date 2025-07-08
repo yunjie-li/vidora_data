@@ -11,7 +11,7 @@ class MovieDataFetcher:
   
   def get_trending_data(self) -> Dict[str, Any]:
       """获取热门趋势数据"""
-      url = f"{self.base_url}/trending/all/day"
+      url = f"{self.base_url}/trending/all/week"
       params = {
           'api_key': self.api_key,
           'language': 'zh',

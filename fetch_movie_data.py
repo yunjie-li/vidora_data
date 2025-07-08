@@ -31,7 +31,7 @@ class MovieDataFetcher:
       url = f"{self.base_url}/movie/{movie_id}"
       params = {
           'api_key': self.api_key,
-          'language': 'zh',
+          'language': 'zh,en',
           'append_to_response': 'images,credits,videos,similar,recommendations'
       }
       
@@ -48,7 +48,7 @@ class MovieDataFetcher:
       url = f"{self.base_url}/tv/{tv_id}"
       params = {
           'api_key': self.api_key,
-          'language': 'zh',
+          'language': 'zh,en',
           'append_to_response': 'images,credits,videos,similar,recommendations'
       }
       

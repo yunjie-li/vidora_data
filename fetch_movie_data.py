@@ -168,8 +168,8 @@ class MovieDataFetcher:
           if 'credits' in details:
               credits = details['credits']
               merged_item.update({
-                  'cast': credits.get('cast', [])[:10],  # 只保留前10个演员
-                  'crew': credits.get('crew', [])[:10],  # 只保留前10个工作人员
+                  'cast': credits.get('cast', [])[:5],  # 只保留前5个演员
+                  'crew': credits.get('crew', [])[:5],  # 只保留前5个工作人员
               })
           
           # 视频信息
@@ -185,22 +185,21 @@ class MovieDataFetcher:
               
               # 处理背景图片
               if 'backdrops' in images:
-                  filtered_backdrops = self.filter_and_sort_images(images['backdrops'], 'backdrops')
+                  filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
                   if filtered_backdrops:
                       merged_item['backdrops'] = filtered_backdrops
               
               # 处理海报图片
               if 'posters' in images:
-                  filtered_posters = self.filter_and_sort_images(images['posters'], 'posters')
+                  filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
                   if filtered_posters:
                       merged_item['posters'] = filtered_posters
-
+              
               # 处理logos图片
               if 'logos' in images:
                   filtered_logos = self.filter_and_sort_images(images['logos'], 'logos')
                   if filtered_logos:
                       merged_item['logos'] = filtered_logos
-    
       
       # 移除值为 None 的字段
       return {k: v for k, v in merged_item.items() if v is not None}
@@ -237,14 +236,14 @@ class MovieDataFetcher:
       
       return processed_items
   
-  def generate_homepage_data(self) -> Dict[str, Any]:
-      """生成主页数据"""
+  def generate_homepage_data(self) -> List[Dict[str, Any]]:
+      """生成主页数据 - 只返回items数组"""
       print("开始获取趋势数据...")
       trending_data = self.get_trending_data()
       
       if not trending_data:
           print("未能获取到趋势数据")
-          return {}
+          return []
       
       print(f"获取到 {len(trending_data.get('results', []))} 个趋势项目")
       print("=" * 50)
@@ -252,38 +251,20 @@ class MovieDataFetcher:
       print("开始处理详细信息...")
       processed_items = self.process_trending_items(trending_data)
       
-      homepage_data = {
-          'last_updated': trending_data.get('dates', {}).get('maximum', ''),
-          'total_results': trending_data.get('total_results', 0),
-          'total_pages': trending_data.get('total_pages', 0),
-          'items': processed_items,
-          'metadata': {
-              'api_version': '3',
-              'language': 'zh-CN',
-              'generated_at': trending_data.get('dates', {}).get('maximum', ''),
-              'total_processed': len(processed_items),
-              'image_filter_rules': {
-                  'languages': ['zh', 'null'],
-                  'sort_by': 'width_desc',
-                  'limit_per_language': 2
-              }
-          }
-      }
-      
-      return homepage_data
+      return processed_items
   
-  def save_to_file(self, data: Dict[str, Any], filename: str = 'homepage.json'):
+  def save_to_file(self, data: List[Dict[str, Any]], filename: str = 'homepage.json'):
       """保存数据到文件"""
       try:
           with open(filename, 'w', encoding='utf-8') as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
           print("=" * 50)
           print(f"✅ 数据已保存到 {filename}")
-          print(f"📊 共保存了 {len(data.get('items', []))} 个项目")
+          print(f"📊 共保存了 {len(data)} 个项目")
           
           # 统计图片信息
-          total_backdrops = sum(len(item.get('backdrops', [])) for item in data.get('items', []))
-          total_posters = sum(len(item.get('posters', [])) for item in data.get('items', []))
+          total_backdrops = sum(len(item.get('backdrops', [])) for item in data)
+          total_posters = sum(len(item.get('posters', [])) for item in data)
           print(f"🖼️  共包含 {total_backdrops} 张背景图片，{total_posters} 张海报图片")
           
       except Exception as e:

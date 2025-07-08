@@ -14,7 +14,8 @@ class MovieDataFetcher:
       url = f"{self.base_url}/trending/all/day"
       params = {
           'api_key': self.api_key,
-          'language': 'zh'
+          'language': 'zh',
+          'append_to_response': 'images'
       }
       
       try:
@@ -31,7 +32,7 @@ class MovieDataFetcher:
       params = {
           'api_key': self.api_key,
           'language': 'zh',
-          'append_to_response': 'images,credits,videos'
+          'append_to_response': 'images,credits,videos,similar,recommendations'
       }
       
       try:
@@ -48,7 +49,7 @@ class MovieDataFetcher:
       params = {
           'api_key': self.api_key,
           'language': 'zh',
-          'append_to_response': 'images,credits,videos'
+          'append_to_response': 'images,credits,videos,similar,recommendations'
       }
       
       try:
@@ -58,6 +59,37 @@ class MovieDataFetcher:
       except requests.RequestException as e:
           print(f"获取电视剧 {tv_id} 详细信息失败: {e}")
           return {}
+  
+  def process_similar_items(self, items: List[Dict[str, Any]], media_type: str) -> List[Dict[str, Any]]:
+      processed_items = []
+      
+      for item in items:
+          # 为相似内容添加media_type字段（如果没有的话）
+          if 'media_type' not in item:
+              item['media_type'] = media_type
+          
+          processed_item = {
+              'id': item.get('id'),
+              'media_type': item.get('media_type'),
+              'title': item.get('title') or item.get('name'),
+              'original_title': item.get('original_title') or item.get('original_name'),
+              'overview': item.get('overview'),
+              'poster_path': item.get('poster_path'),
+              'backdrop_path': item.get('backdrop_path'),
+              'vote_average': item.get('vote_average'),
+              'vote_count': item.get('vote_count'),
+              'popularity': item.get('popularity'),
+              'release_date': item.get('release_date') or item.get('first_air_date'),
+              'genre_ids': item.get('genre_ids', []),
+              'adult': item.get('adult', False),
+              'original_language': item.get('original_language'),
+          }
+          
+          # 移除值为 None 的字段
+          processed_item = {k: v for k, v in processed_item.items() if v is not None}
+          processed_items.append(processed_item)
+      
+      return processed_items
   
   def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
       """
@@ -104,7 +136,6 @@ class MovieDataFetcher:
       return result_images
   
   def merge_item_data(self, basic_item: Dict[str, Any], details: Dict[str, Any]) -> Dict[str, Any]:
-      """合并基础数据和详细数据"""
       # 从基础数据开始
       merged_item = {
           'id': basic_item.get('id'),
@@ -169,13 +200,38 @@ class MovieDataFetcher:
           if 'credits' in details:
               credits = details['credits']
               merged_item.update({
-                  'cast': credits.get('cast', [])[:5],  # 只保留前5个演员
-                  'crew': credits.get('crew', [])[:5],  # 只保留前5个工作人员
+                  'cast': credits.get('cast', [])[:5]
               })
           
           # 视频信息
           if 'videos' in details and details['videos'].get('results'):
               merged_item['videos'] = details['videos']['results'][:5]  # 只保留前5个视频
+          
+          # 相似内容和推荐内容
+          media_type = basic_item.get('media_type')
+          media_id = basic_item.get('id')
+          
+          print(f"  获取相似和推荐内容...")
+          
+          # 处理API返回的相似内容
+          if 'similar' in details and details['similar'].get('results'):
+              similar_items = self.process_similar_items(
+                  details['similar']['results'][:10], 
+                  media_type
+              )
+              if similar_items:
+                  merged_item['similar'] = similar_items
+                  print(f"  从API获取到 {len(similar_items)} 个相似内容")
+         
+          # 处理API返回的推荐内容
+          if 'recommendations' in details and details['recommendations'].get('results'):
+              recommendation_items = self.process_similar_items(
+                  details['recommendations']['results'][:10], 
+                  media_type
+              )
+              if recommendation_items:
+                  merged_item['recommendations'] = recommendation_items
+                  print(f"  从API获取到 {len(recommendation_items)} 个推荐内容")
           
           # 图片信息 - 使用新的过滤和排序逻辑
           if 'images' in details:
@@ -195,8 +251,8 @@ class MovieDataFetcher:
                   filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
                   if filtered_posters:
                       merged_item['posters'] = filtered_posters
-              
-              # 处理logos图片
+
+              # 处理海报图片
               if 'logos' in images:
                   filtered_logos = self.filter_and_sort_images(images['logos'], 'logos')
                   if filtered_logos:
@@ -238,7 +294,6 @@ class MovieDataFetcher:
       return processed_items
   
   def generate_homepage_data(self) -> List[Dict[str, Any]]:
-      """生成主页数据 - 只返回items数组"""
       print("开始获取趋势数据...")
       trending_data = self.get_trending_data()
       
@@ -267,6 +322,11 @@ class MovieDataFetcher:
           total_backdrops = sum(len(item.get('backdrops', [])) for item in data)
           total_posters = sum(len(item.get('posters', [])) for item in data)
           print(f"🖼️  共包含 {total_backdrops} 张背景图片，{total_posters} 张海报图片")
+          
+          # 统计相似内容信息
+          total_similar = sum(len(item.get('similar', [])) for item in data)
+          total_recommendations = sum(len(item.get('recommendations', [])) for item in data)
+          print(f"🔗 共包含 {total_similar} 个相似内容，{total_recommendations} 个推荐内容")
           
       except Exception as e:
           print(f"❌ 保存文件失败: {e}")

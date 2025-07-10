@@ -1,5 +1,247 @@
 [
   {
+    "id": 1061474,
+    "media_type": "movie",
+    "title": "超人",
+    "original_title": "Superman",
+    "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+    "poster_path": "/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
+    "backdrop_path": "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+    "vote_average": 7.2,
+    "vote_count": 124,
+    "popularity": 226.9138,
+    "release_date": "2025-07-09",
+    "genre_ids": [
+      878,
+      12,
+      28
+    ],
+    "adult": false,
+    "budget": 225000000,
+    "revenue": 0,
+    "runtime": 130,
+    "status": "Released",
+    "tagline": "昂首向上　守护希望",
+    "homepage": "",
+    "imdb_id": "tt5950044",
+    "original_language": "en",
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 184898,
+        "logo_path": "/2Z2hiM1ERqFOWRxNxWoJZ8lTxhb.png",
+        "name": "DC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 94218,
+        "logo_path": "/zjIyeqPOPmKa8eubquKLiy2y2rR.png",
+        "name": "Troll Court Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 11565,
+        "logo_path": "/S74cHHbIrdmb5M51Pft72Uo9Gz.png",
+        "name": "The Safran Company",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "genres": [
+      {
+        "id": 878,
+        "name": "科幻"
+      },
+      {
+        "id": 12,
+        "name": "冒险"
+      },
+      {
+        "id": 28,
+        "name": "动作"
+      }
+    ],
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1785590,
+        "known_for_department": "Acting",
+        "name": "大卫·科伦斯韦特",
+        "original_name": "David Corenswet",
+        "popularity": 7.5945,
+        "profile_path": "/qB0hBMu4wU1nPrqtdUQP3sQeN5t.jpg",
+        "cast_id": 16,
+        "character": "Superman",
+        "credit_id": "649b4104b1f68d00af51ed3f",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 993774,
+        "known_for_department": "Acting",
+        "name": "蕾切尔·布鲁斯纳翰",
+        "original_name": "Rachel Brosnahan",
+        "popularity": 5.8503,
+        "profile_path": "/1f9NK43gWrXN2uMmYMlennB7jCC.jpg",
+        "cast_id": 17,
+        "character": "Lois Lane",
+        "credit_id": "649b412baf58cb00c5cf5329",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3292,
+        "known_for_department": "Acting",
+        "name": "尼古拉斯·霍尔特",
+        "original_name": "Nicholas Hoult",
+        "popularity": 6.6407,
+        "profile_path": "/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg",
+        "cast_id": 24,
+        "character": "Lex Luthor",
+        "credit_id": "655be91010923000ab494c5f",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 39391,
+        "known_for_department": "Acting",
+        "name": "艾迪·盖瑟吉",
+        "original_name": "Edi Gathegi",
+        "popularity": 1.8799,
+        "profile_path": "/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
+        "cast_id": 20,
+        "character": "Mr. Terrific",
+        "credit_id": "64adcf52e24b93011d7534f8",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1180346,
+        "known_for_department": "Acting",
+        "name": "安东尼·卡里根",
+        "original_name": "Anthony Carrigan",
+        "popularity": 2.3253,
+        "profile_path": "/nHlu6rBHLardtTAHma3lvX27hkA.jpg",
+        "cast_id": 22,
+        "character": "Metamorpho",
+        "credit_id": "64aef9996a344800c9fd7b77",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/8skY80gII0tqheTwWsM37KL6107.jpg",
+        "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/GBr1ozQf7WZqSMwNPdb5Xs2eyn.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "zh",
+        "file_path": "/nMINzENxx1VNCjhFWe61PSTt9HT.jpg",
+        "vote_average": 2.278,
+        "vote_count": 3,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.675,
+        "height": 2963,
+        "iso_639_1": "zh",
+        "file_path": "/omRDPZtSOc6BCkd4hKD6fNDuP0K.jpg",
+        "vote_average": 1.75,
+        "vote_count": 2,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+        "vote_average": 3.294,
+        "vote_count": 35,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/u3EboEJWgutRWl5jo1eWXHRxZ44.jpg",
+        "vote_average": 6.722,
+        "vote_count": 6,
+        "width": 2000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 2.344,
+        "height": 1745,
+        "iso_639_1": "zh",
+        "file_path": "/yQcdY80DrWOEJ7jaSaTXuaAhjMl.png",
+        "vote_average": 0.0,
+        "vote_count": 1,
+        "width": 4090
+      },
+      {
+        "aspect_ratio": 1.538,
+        "height": 1300,
+        "iso_639_1": "zh",
+        "file_path": "/ttSS0qo51SEa6nneZojrUwmRnEb.png",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 10.357,
+        "height": 417,
+        "iso_639_1": "en",
+        "file_path": "/7gQc9y2EORn9pZhGtAEdlEbpcpz.png",
+        "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 4319
+      },
+      {
+        "aspect_ratio": 10.063,
+        "height": 428,
+        "iso_639_1": "en",
+        "file_path": "/9yirI2YtEBsHuTEMiNZUUWWjcX5.png",
+        "vote_average": 1.75,
+        "vote_count": 2,
+        "width": 4307
+      }
+    ]
+  },
+  {
     "id": 986056,
     "media_type": "movie",
     "title": "雷霆特攻队*",
@@ -7,9 +249,9 @@
     "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
     "poster_path": "/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
     "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-    "vote_average": 7.443,
-    "vote_count": 1641,
-    "popularity": 489.5356,
+    "vote_average": 7.441,
+    "vote_count": 1663,
+    "popularity": 427.1211,
     "release_date": "2025-04-30",
     "genre_ids": [
       28,
@@ -84,7 +326,7 @@
         "known_for_department": "Acting",
         "name": "弗洛伦丝·皮尤",
         "original_name": "Florence Pugh",
-        "popularity": 12.5743,
+        "popularity": 11.9524,
         "profile_path": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
         "cast_id": 6,
         "character": "Yelena Belova",
@@ -98,7 +340,7 @@
         "known_for_department": "Acting",
         "name": "塞巴斯蒂安·斯坦",
         "original_name": "Sebastian Stan",
-        "popularity": 5.054,
+        "popularity": 5.1021,
         "profile_path": "/nKZgixTbHFXpkzzIpMFdLX98GYh.jpg",
         "cast_id": 7,
         "character": "Bucky Barnes",
@@ -112,7 +354,7 @@
         "known_for_department": "Acting",
         "name": "朱莉娅·路易斯·德雷福斯",
         "original_name": "Julia Louis-Dreyfus",
-        "popularity": 3.4785,
+        "popularity": 3.4784,
         "profile_path": "/sXpjQoFoYqNehfWhlkScF8lo9vc.jpg",
         "cast_id": 5,
         "character": "Valentina Allegra de Fontaine",
@@ -126,7 +368,7 @@
         "known_for_department": "Acting",
         "name": "刘易斯·普尔曼",
         "original_name": "Lewis Pullman",
-        "popularity": 5.7243,
+        "popularity": 5.7535,
         "profile_path": "/jAo0Rxl9EYVxLnhUlBww5Uxl89v.jpg",
         "cast_id": 45,
         "character": "Robert Reynolds",
@@ -140,7 +382,7 @@
         "known_for_department": "Acting",
         "name": "大卫·哈伯",
         "original_name": "David Harbour",
-        "popularity": 3.2058,
+        "popularity": 2.7041,
         "profile_path": "/tCbxqq6NUWVNoybztPsMwmJqwdI.jpg",
         "cast_id": 8,
         "character": "Alexei Shostakov",
@@ -264,249 +506,6 @@
     ]
   },
   {
-    "id": 846422,
-    "media_type": "movie",
-    "title": "永生守卫2",
-    "original_title": "The Old Guard 2",
-    "overview": "安蒂（查理兹·塞隆 饰）与不死军团再度集结，展现前所未有的使命感，誓死保护全世界。布克（马提亚斯·修奈尔 饰）背叛后流亡在外，而琼（吴青芸 饰）逃离水牢后怀恨在心。安蒂发现自己失去了不死之身，除了努力面对事实之外，还要想尽办法抵抗神秘的势力，不让自己数千年来的努力付诸流水。安蒂、奈尔、乔、尼基和詹姆斯·科普利联手寻求老友杜亚的协助，盼他解开不死之身的谜团。",
-    "poster_path": "/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg",
-    "backdrop_path": "/x58Gk2ZGU5AEBp25MQe2nhZhd5z.jpg",
-    "vote_average": 6.172,
-    "vote_count": 328,
-    "popularity": 695.0695,
-    "release_date": "2025-07-01",
-    "genre_ids": [
-      28,
-      14
-    ],
-    "adult": false,
-    "budget": 7000000,
-    "revenue": 0,
-    "runtime": 107,
-    "status": "Released",
-    "tagline": "",
-    "homepage": "",
-    "imdb_id": "tt14961624",
-    "original_language": "en",
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "production_companies": [
-      {
-        "id": 82819,
-        "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
-        "name": "Skydance Media",
-        "origin_country": "US"
-      },
-      {
-        "id": 3574,
-        "logo_path": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
-        "name": "Denver & Delilah Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 159794,
-        "logo_path": null,
-        "name": "Marc Evans Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "genres": [
-      {
-        "id": 28,
-        "name": "动作"
-      },
-      {
-        "id": 14,
-        "name": "奇幻"
-      }
-    ],
-    "belongs_to_collection": {
-      "id": 847029,
-      "name": "永生守卫（系列）",
-      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
-      "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
-    },
-    "cast": [
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 6885,
-        "known_for_department": "Acting",
-        "name": "查理兹·塞隆",
-        "original_name": "Charlize Theron",
-        "popularity": 18.3513,
-        "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
-        "cast_id": 1,
-        "character": "Andromache of Scythia / Andy",
-        "credit_id": "60dd27ce7e403d005d8fd648",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1884703,
-        "known_for_department": "Acting",
-        "name": "琪琪·莱恩",
-        "original_name": "KiKi Layne",
-        "popularity": 3.8056,
-        "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
-        "cast_id": 6,
-        "character": "Nile Freeman",
-        "credit_id": "6127cfd76c449c004293a687",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 73381,
-        "known_for_department": "Acting",
-        "name": "马提亚斯·修奈尔",
-        "original_name": "Matthias Schoenaerts",
-        "popularity": 3.1163,
-        "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
-        "cast_id": 9,
-        "character": "Sebastien Le Livre / Booker",
-        "credit_id": "6127d0c5dff66e0090f30ec2",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 935235,
-        "known_for_department": "Acting",
-        "name": "马尔万·肯扎里",
-        "original_name": "Marwan Kenzari",
-        "popularity": 2.0897,
-        "profile_path": "/nvt7uXbqWEc9qkTp38ARBzSiQgQ.jpg",
-        "cast_id": 2,
-        "character": "Yusuf Al-Kaysani / Joe",
-        "credit_id": "60df275e344a8e00479b5414",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 509344,
-        "known_for_department": "Acting",
-        "name": "卢卡·马里内利",
-        "original_name": "Luca Marinelli",
-        "popularity": 1.9234,
-        "profile_path": "/9Tmzfhp9hY6Zouo8KtHcyzuKfdf.jpg",
-        "cast_id": 3,
-        "character": "Nicolò di Genova / Nicky",
-        "credit_id": "60df276b071650007e3ff4ac",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/A5n2C0iEKGadJQkM7k1KrFxrwFl.jpg",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.777,
-        "height": 1121,
-        "iso_639_1": "en",
-        "file_path": "/h9T7PkbrfNrq7aLraD9cNxLFg9U.jpg",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 1992
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/2TDZNY8kWlxE0FBkLoIdVXREPYq.jpg",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/fYJ5cpBKHi1I41CRUanmTG9sj8G.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/scvo3YLwl6V8HOmCD3igqa6D2k5.jpg",
-        "vote_average": 0.166,
-        "vote_count": 3,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 5.074,
-        "height": 270,
-        "iso_639_1": "zh",
-        "file_path": "/lTomqzCJekfS815iICs5XoYGdEB.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1370
-      },
-      {
-        "aspect_ratio": 3.931,
-        "height": 87,
-        "iso_639_1": "zh",
-        "file_path": "/zOFKs3WIH4TRTdBOq0IHkDOX61c.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 342
-      },
-      {
-        "aspect_ratio": 4.185,
-        "height": 356,
-        "iso_639_1": "en",
-        "file_path": "/gv4hxswiZb7uTkmff9Qa7pB9Pqp.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1490
-      },
-      {
-        "aspect_ratio": 6.099,
-        "height": 212,
-        "iso_639_1": "en",
-        "file_path": "/dFb03Yl2FKTUQN501Ta74jTqF3N.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1293
-      }
-    ]
-  },
-  {
     "id": 541671,
     "media_type": "movie",
     "title": "疾速追杀：芭蕾杀姬",
@@ -514,9 +513,9 @@
     "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
     "poster_path": "/zDlUIGVsRtDQKyIAPNIXZhpobnP.jpg",
     "backdrop_path": "/sItIskd5xpiE64bBWYwZintkGf3.jpg",
-    "vote_average": 7.357,
-    "vote_count": 784,
-    "popularity": 666.6411,
+    "vote_average": 7.389,
+    "vote_count": 812,
+    "popularity": 594.0901,
     "release_date": "2025-06-04",
     "genre_ids": [
       28,
@@ -593,7 +592,7 @@
         "known_for_department": "Acting",
         "name": "安娜·德·阿玛斯",
         "original_name": "Ana de Armas",
-        "popularity": 22.3287,
+        "popularity": 21.4261,
         "profile_path": "/5Qne374OM0ewMM7uSN9eq9jNrWq.jpg",
         "cast_id": 8,
         "character": "Eve",
@@ -607,7 +606,7 @@
         "known_for_department": "Acting",
         "name": "基努·里维斯",
         "original_name": "Keanu Reeves",
-        "popularity": 14.1954,
+        "popularity": 14.0291,
         "profile_path": "/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
         "cast_id": 12,
         "character": "John Wick",
@@ -621,7 +620,7 @@
         "known_for_department": "Acting",
         "name": "伊恩·麦柯肖恩",
         "original_name": "Ian McShane",
-        "popularity": 5.8816,
+        "popularity": 6.256,
         "profile_path": "/qh9RTLbnr128TZLdGuXwUH9mdBM.jpg",
         "cast_id": 11,
         "character": "Winston",
@@ -635,7 +634,7 @@
         "known_for_department": "Acting",
         "name": "安杰丽卡·休斯顿",
         "original_name": "Anjelica Huston",
-        "popularity": 2.788,
+        "popularity": 4.0278,
         "profile_path": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
         "cast_id": 14,
         "character": "The Director",
@@ -649,7 +648,7 @@
         "known_for_department": "Acting",
         "name": "加布里埃尔·伯恩",
         "original_name": "Gabriel Byrne",
-        "popularity": 2.646,
+        "popularity": 2.6352,
         "profile_path": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg",
         "cast_id": 18,
         "character": "The Chancellor",
@@ -764,30 +763,29 @@
     ]
   },
   {
-    "id": 1061474,
+    "id": 846422,
     "media_type": "movie",
-    "title": "超人",
-    "original_title": "Superman",
-    "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
-    "poster_path": "/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
-    "backdrop_path": "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
-    "vote_average": 6.6,
-    "vote_count": 49,
-    "popularity": 163.9648,
-    "release_date": "2025-07-09",
+    "title": "永生守卫2",
+    "original_title": "The Old Guard 2",
+    "overview": "安蒂（查理兹·塞隆 饰）与不死军团再度集结，展现前所未有的使命感，誓死保护全世界。布克（马提亚斯·修奈尔 饰）背叛后流亡在外，而琼（吴青芸 饰）逃离水牢后怀恨在心。安蒂发现自己失去了不死之身，除了努力面对事实之外，还要想尽办法抵抗神秘的势力，不让自己数千年来的努力付诸流水。安蒂、奈尔、乔、尼基和詹姆斯·科普利联手寻求老友杜亚的协助，盼他解开不死之身的谜团。",
+    "poster_path": "/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg",
+    "backdrop_path": "/x58Gk2ZGU5AEBp25MQe2nhZhd5z.jpg",
+    "vote_average": 6.116,
+    "vote_count": 357,
+    "popularity": 617.5863,
+    "release_date": "2025-07-01",
     "genre_ids": [
-      878,
-      12,
-      28
+      28,
+      14
     ],
     "adult": false,
-    "budget": 225000000,
+    "budget": 7000000,
     "revenue": 0,
-    "runtime": 130,
+    "runtime": 107,
     "status": "Released",
-    "tagline": "昂首向上　守护希望",
+    "tagline": "",
     "homepage": "",
-    "imdb_id": "tt5950044",
+    "imdb_id": "tt14961624",
     "original_language": "en",
     "spoken_languages": [
       {
@@ -798,21 +796,21 @@
     ],
     "production_companies": [
       {
-        "id": 184898,
-        "logo_path": "/2Z2hiM1ERqFOWRxNxWoJZ8lTxhb.png",
-        "name": "DC Studios",
+        "id": 82819,
+        "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+        "name": "Skydance Media",
         "origin_country": "US"
       },
       {
-        "id": 94218,
-        "logo_path": "/zjIyeqPOPmKa8eubquKLiy2y2rR.png",
-        "name": "Troll Court Entertainment",
+        "id": 3574,
+        "logo_path": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
+        "name": "Denver & Delilah Productions",
         "origin_country": "US"
       },
       {
-        "id": 11565,
-        "logo_path": "/S74cHHbIrdmb5M51Pft72Uo9Gz.png",
-        "name": "The Safran Company",
+        "id": 159794,
+        "logo_path": null,
+        "name": "Marc Evans Productions",
         "origin_country": "US"
       }
     ],
@@ -824,87 +822,89 @@
     ],
     "genres": [
       {
-        "id": 878,
-        "name": "科幻"
-      },
-      {
-        "id": 12,
-        "name": "冒险"
-      },
-      {
         "id": 28,
         "name": "动作"
+      },
+      {
+        "id": 14,
+        "name": "奇幻"
       }
     ],
+    "belongs_to_collection": {
+      "id": 847029,
+      "name": "永生守卫（系列）",
+      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
+      "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
+    },
     "cast": [
       {
         "adult": false,
-        "gender": 2,
-        "id": 1785590,
+        "gender": 1,
+        "id": 6885,
         "known_for_department": "Acting",
-        "name": "大卫·科伦斯韦特",
-        "original_name": "David Corenswet",
-        "popularity": 4.9838,
-        "profile_path": "/qB0hBMu4wU1nPrqtdUQP3sQeN5t.jpg",
-        "cast_id": 16,
-        "character": "Superman",
-        "credit_id": "649b4104b1f68d00af51ed3f",
+        "name": "查理兹·塞隆",
+        "original_name": "Charlize Theron",
+        "popularity": 17.8854,
+        "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
+        "cast_id": 1,
+        "character": "Andromache of Scythia / Andy",
+        "credit_id": "60dd27ce7e403d005d8fd648",
         "order": 0
       },
       {
         "adult": false,
         "gender": 1,
-        "id": 993774,
+        "id": 1884703,
         "known_for_department": "Acting",
-        "name": "蕾切尔·布鲁斯纳翰",
-        "original_name": "Rachel Brosnahan",
-        "popularity": 4.886,
-        "profile_path": "/1f9NK43gWrXN2uMmYMlennB7jCC.jpg",
-        "cast_id": 17,
-        "character": "Lois Lane",
-        "credit_id": "649b412baf58cb00c5cf5329",
+        "name": "琪琪·莱恩",
+        "original_name": "KiKi Layne",
+        "popularity": 3.6687,
+        "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
+        "cast_id": 6,
+        "character": "Nile Freeman",
+        "credit_id": "6127cfd76c449c004293a687",
         "order": 1
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 3292,
+        "id": 73381,
         "known_for_department": "Acting",
-        "name": "尼古拉斯·霍尔特",
-        "original_name": "Nicholas Hoult",
-        "popularity": 6.3334,
-        "profile_path": "/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg",
-        "cast_id": 24,
-        "character": "Lex Luthor",
-        "credit_id": "655be91010923000ab494c5f",
+        "name": "马提亚斯·修奈尔",
+        "original_name": "Matthias Schoenaerts",
+        "popularity": 3.0192,
+        "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
+        "cast_id": 9,
+        "character": "Sebastien Le Livre / Booker",
+        "credit_id": "6127d0c5dff66e0090f30ec2",
         "order": 2
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 39391,
+        "id": 935235,
         "known_for_department": "Acting",
-        "name": "艾迪·盖瑟吉",
-        "original_name": "Edi Gathegi",
-        "popularity": 2.0012,
-        "profile_path": "/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
-        "cast_id": 20,
-        "character": "Mr. Terrific",
-        "credit_id": "64adcf52e24b93011d7534f8",
+        "name": "马尔万·肯扎里",
+        "original_name": "Marwan Kenzari",
+        "popularity": 2.1809,
+        "profile_path": "/66903sgNtyzHN0Mi3D88UYgbH86.jpg",
+        "cast_id": 2,
+        "character": "Yusuf Al-Kaysani / Joe",
+        "credit_id": "60df275e344a8e00479b5414",
         "order": 3
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 21088,
+        "id": 509344,
         "known_for_department": "Acting",
-        "name": "艾伦·图代克",
-        "original_name": "Alan Tudyk",
-        "popularity": 2.7937,
-        "profile_path": "/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg",
-        "cast_id": 81,
-        "character": "Gary",
-        "credit_id": "66f5dcf3773f0a7aa5d5e206",
+        "name": "卢卡·马里内利",
+        "original_name": "Luca Marinelli",
+        "popularity": 2.0605,
+        "profile_path": "/9Tmzfhp9hY6Zouo8KtHcyzuKfdf.jpg",
+        "cast_id": 3,
+        "character": "Nicolò di Genova / Nicky",
+        "credit_id": "60df276b071650007e3ff4ac",
         "order": 4
       }
     ],
@@ -913,19 +913,19 @@
         "aspect_ratio": 1.778,
         "height": 2160,
         "iso_639_1": "en",
-        "file_path": "/8skY80gII0tqheTwWsM37KL6107.jpg",
+        "file_path": "/A5n2C0iEKGadJQkM7k1KrFxrwFl.jpg",
         "vote_average": 3.334,
         "vote_count": 2,
         "width": 3840
       },
       {
-        "aspect_ratio": 1.778,
-        "height": 2160,
+        "aspect_ratio": 1.777,
+        "height": 1121,
         "iso_639_1": "en",
-        "file_path": "/GBr1ozQf7WZqSMwNPdb5Xs2eyn.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
+        "file_path": "/h9T7PkbrfNrq7aLraD9cNxLFg9U.jpg",
+        "vote_average": 0.166,
+        "vote_count": 1,
+        "width": 1992
       }
     ],
     "posters": [
@@ -933,75 +933,75 @@
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "zh",
-        "file_path": "/nMINzENxx1VNCjhFWe61PSTt9HT.jpg",
-        "vote_average": 2.278,
-        "vote_count": 3,
+        "file_path": "/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg",
+        "vote_average": 0.166,
+        "vote_count": 1,
         "width": 2000
       },
       {
-        "aspect_ratio": 0.675,
-        "height": 2963,
+        "aspect_ratio": 0.667,
+        "height": 3000,
         "iso_639_1": "zh",
-        "file_path": "/omRDPZtSOc6BCkd4hKD6fNDuP0K.jpg",
-        "vote_average": 1.75,
-        "vote_count": 2,
+        "file_path": "/2TDZNY8kWlxE0FBkLoIdVXREPYq.jpg",
+        "vote_average": 0.166,
+        "vote_count": 1,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
-        "vote_average": 3.294,
-        "vote_count": 35,
+        "file_path": "/fYJ5cpBKHi1I41CRUanmTG9sj8G.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/mkgQ7Q7naWTJY1XYkhhQYWLWz7.jpg",
-        "vote_average": 10.0,
-        "vote_count": 4,
+        "file_path": "/scvo3YLwl6V8HOmCD3igqa6D2k5.jpg",
+        "vote_average": 0.166,
+        "vote_count": 3,
         "width": 2000
       }
     ],
     "logos": [
       {
-        "aspect_ratio": 2.344,
-        "height": 1745,
+        "aspect_ratio": 5.074,
+        "height": 270,
         "iso_639_1": "zh",
-        "file_path": "/yQcdY80DrWOEJ7jaSaTXuaAhjMl.png",
+        "file_path": "/lTomqzCJekfS815iICs5XoYGdEB.png",
         "vote_average": 0.0,
-        "vote_count": 1,
-        "width": 4090
+        "vote_count": 0,
+        "width": 1370
       },
       {
-        "aspect_ratio": 1.538,
-        "height": 1300,
+        "aspect_ratio": 3.931,
+        "height": 87,
         "iso_639_1": "zh",
-        "file_path": "/ttSS0qo51SEa6nneZojrUwmRnEb.png",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
+        "file_path": "/zOFKs3WIH4TRTdBOq0IHkDOX61c.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 342
       },
       {
-        "aspect_ratio": 10.357,
-        "height": 417,
+        "aspect_ratio": 4.185,
+        "height": 356,
         "iso_639_1": "en",
-        "file_path": "/7gQc9y2EORn9pZhGtAEdlEbpcpz.png",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 4319
+        "file_path": "/gv4hxswiZb7uTkmff9Qa7pB9Pqp.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1490
       },
       {
-        "aspect_ratio": 10.063,
-        "height": 428,
+        "aspect_ratio": 6.099,
+        "height": 212,
         "iso_639_1": "en",
-        "file_path": "/9yirI2YtEBsHuTEMiNZUUWWjcX5.png",
-        "vote_average": 1.75,
-        "vote_count": 2,
-        "width": 4307
+        "file_path": "/dFb03Yl2FKTUQN501Ta74jTqF3N.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1293
       }
     ]
   },
@@ -1013,9 +1013,9 @@
     "overview": "英国首相 和美国总统 的公开争执让两国联盟岌岌可危。然而，当他们成为某个强大势力的袭击目标后，这对冤家不得不放下分歧，展开一场横跨多国的疯狂行动。在军情六处精英特工诺埃尔 的协助下，他们必须想方设法挫败那个威胁整个自由世界的惊天阴谋。",
     "poster_path": "/gsp6imDEkBtJV0BZ1HMdEcG9UH7.jpg",
     "backdrop_path": "/xABhldZaMb6wfCH5oigV333OYnb.jpg",
-    "vote_average": 6.998,
-    "vote_count": 283,
-    "popularity": 560.0831,
+    "vote_average": 6.974,
+    "vote_count": 313,
+    "popularity": 514.58,
     "release_date": "2025-07-02",
     "genre_ids": [
       28,
@@ -1124,7 +1124,7 @@
         "known_for_department": "Acting",
         "name": "伊德瑞斯·艾尔巴",
         "original_name": "Idris Elba",
-        "popularity": 6.4811,
+        "popularity": 6.6003,
         "profile_path": "/be1bVF7qGX91a6c5WeRPs5pKXln.jpg",
         "cast_id": 1,
         "character": "Sam Clarke",
@@ -1138,7 +1138,7 @@
         "known_for_department": "Acting",
         "name": "约翰·塞纳",
         "original_name": "John Cena",
-        "popularity": 6.4699,
+        "popularity": 6.8566,
         "profile_path": "/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
         "cast_id": 2,
         "character": "Will Derringer",
@@ -1152,7 +1152,7 @@
         "known_for_department": "Acting",
         "name": "朴雅卡·乔普拉",
         "original_name": "Priyanka Chopra Jonas",
-        "popularity": 5.7939,
+        "popularity": 5.458,
         "profile_path": "/stEZxIVAWFlrifbWkeULsD4LHnf.jpg",
         "cast_id": 8,
         "character": "Noel Bisset",
@@ -1166,7 +1166,7 @@
         "known_for_department": "Acting",
         "name": "派迪·康斯丁",
         "original_name": "Paddy Considine",
-        "popularity": 5.1621,
+        "popularity": 5.1301,
         "profile_path": "/96bZA8JRDjBgCE7ZHHgOMPmykc4.jpg",
         "cast_id": 9,
         "character": "Viktor Gradov",
@@ -1180,7 +1180,7 @@
         "known_for_department": "Acting",
         "name": "卡拉·古奇诺",
         "original_name": "Carla Gugino",
-        "popularity": 5.1929,
+        "popularity": 5.9005,
         "profile_path": "/156yJgmPBhEd8p4kDPL7INKHnPd.jpg",
         "cast_id": 11,
         "character": "VP Elizabeth Kirk",
@@ -1241,8 +1241,8 @@
         "height": 3000,
         "iso_639_1": "en",
         "file_path": "/lVgE5oLzf7ABmzyASEVcjYyHI41.jpg",
-        "vote_average": 8.362,
-        "vote_count": 6,
+        "vote_average": 8.596,
+        "vote_count": 7,
         "width": 2000
       },
       {
@@ -1257,6 +1257,15 @@
     ],
     "logos": [
       {
+        "aspect_ratio": 4.675,
+        "height": 391,
+        "iso_639_1": "zh",
+        "file_path": "/4f3aqJZ796aNOmxcdCJejMJS4Hl.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1828
+      },
+      {
         "aspect_ratio": 1.363,
         "height": 794,
         "iso_639_1": "zh",
@@ -1264,15 +1273,6 @@
         "vote_average": 0.0,
         "vote_count": 0,
         "width": 1082
-      },
-      {
-        "aspect_ratio": 1.364,
-        "height": 792,
-        "iso_639_1": "zh",
-        "file_path": "/aOajKFtjrfHvHmgHorVpE6uuAFQ.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1080
       },
       {
         "aspect_ratio": 2.89,
@@ -1295,6 +1295,248 @@
     ]
   },
   {
+    "id": 1234821,
+    "media_type": "movie",
+    "title": "侏罗纪世界：重生",
+    "original_title": "Jurassic World Rebirth",
+    "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
+    "poster_path": "/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+    "backdrop_path": "/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+    "vote_average": 6.455,
+    "vote_count": 448,
+    "popularity": 387.6663,
+    "release_date": "2025-07-01",
+    "genre_ids": [
+      878,
+      12,
+      28
+    ],
+    "adult": false,
+    "budget": 180000000,
+    "revenue": 334316890,
+    "runtime": 134,
+    "status": "Released",
+    "tagline": "",
+    "homepage": "",
+    "imdb_id": "tt31036941",
+    "original_language": "en",
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 33,
+        "logo_path": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 56,
+        "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+        "name": "Amblin Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "genres": [
+      {
+        "id": 878,
+        "name": "科幻"
+      },
+      {
+        "id": 12,
+        "name": "冒险"
+      },
+      {
+        "id": 28,
+        "name": "动作"
+      }
+    ],
+    "belongs_to_collection": {
+      "id": 328,
+      "name": "侏罗纪公园（系列）",
+      "poster_path": "/vtyUBPmI714WByxR9szzfgs0nXM.jpg",
+      "backdrop_path": "/njFixYzIxX8jsn6KMSEtAzi4avi.jpg"
+    },
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1245,
+        "known_for_department": "Acting",
+        "name": "斯嘉丽·约翰逊",
+        "original_name": "Scarlett Johansson",
+        "popularity": 22.565,
+        "profile_path": "/8m21eocprLYuW0ywveIgThk6VM.jpg",
+        "cast_id": 20,
+        "character": "Zora Bennett",
+        "credit_id": "663e4d9e1a3d02a140799904",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 80860,
+        "known_for_department": "Acting",
+        "name": "乔纳森·贝利",
+        "original_name": "Jonathan Bailey",
+        "popularity": 6.2904,
+        "profile_path": "/mZNzekZo8eaHMuXKgDTNLp0EvYM.jpg",
+        "cast_id": 21,
+        "character": "Dr. Henry Loomis",
+        "credit_id": "663e4dacf647fe7460f1e877",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 932967,
+        "known_for_department": "Acting",
+        "name": "马赫沙拉·阿里",
+        "original_name": "Mahershala Ali",
+        "popularity": 5.1149,
+        "profile_path": "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
+        "cast_id": 48,
+        "character": "Duncan Kincaid",
+        "credit_id": "6658c41a9ef4718ae693ecaa",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 36669,
+        "known_for_department": "Acting",
+        "name": "鲁珀特·弗兰德",
+        "original_name": "Rupert Friend",
+        "popularity": 3.9799,
+        "profile_path": "/a3HeMHmlXnoRlHLX9h31ZdZgCXM.jpg",
+        "cast_id": 45,
+        "character": "Martin Krebs",
+        "credit_id": "664e6f030bbde63500fd1bf3",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1168097,
+        "known_for_department": "Acting",
+        "name": "马奴·贾西亚·鲁尔福",
+        "original_name": "Manuel Garcia-Rulfo",
+        "popularity": 2.5262,
+        "profile_path": "/54Rk1hKfNdNKGHQMnONDGmNtUv3.jpg",
+        "cast_id": 19,
+        "character": "Reuben Delgado",
+        "credit_id": "663e46fe1a3d02a1407996f5",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/pGYZTuaG0fe51bWYz1uUqR9LYng.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/obSTfLMgQhLcjPhjO0vvOue7i45.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "zh",
+        "file_path": "/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+        "vote_average": 5.25,
+        "vote_count": 10,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.675,
+        "height": 2963,
+        "iso_639_1": "zh",
+        "file_path": "/hWXdgXm1hfnuSIOtWGinBe1GrdS.jpg",
+        "vote_average": 3.334,
+        "vote_count": 3,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/q0fGCmjLu42MPlSO9OYWpI5w86I.jpg",
+        "vote_average": 5.25,
+        "vote_count": 30,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/skSoZMossoIYvzOf2UnaWqLscJl.jpg",
+        "vote_average": 4.432,
+        "vote_count": 30,
+        "width": 2000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 1.331,
+        "height": 1360,
+        "iso_639_1": "zh",
+        "file_path": "/v3PTr3tBJsYii1DsYhqD5fFExrv.png",
+        "vote_average": 1.434,
+        "vote_count": 5,
+        "width": 1810
+      },
+      {
+        "aspect_ratio": 1.332,
+        "height": 901,
+        "iso_639_1": "zh",
+        "file_path": "/PRE7a7iLIeo9VoRi4P6K4gF4pv.png",
+        "vote_average": 2.542,
+        "vote_count": 4,
+        "width": 1200
+      },
+      {
+        "aspect_ratio": 4.757,
+        "height": 908,
+        "iso_639_1": "en",
+        "file_path": "/jhpe54wEojoLkTWqIE9G4xizxnA.png",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 4319
+      },
+      {
+        "aspect_ratio": 4.757,
+        "height": 908,
+        "iso_639_1": "en",
+        "file_path": "/tO2Y6RlJuXKtzVMsRRYCGUwgP39.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 4319
+      }
+    ]
+  },
+  {
     "id": 93405,
     "media_type": "tv",
     "title": "鱿鱼游戏",
@@ -1303,8 +1545,8 @@
     "poster_path": "/1qLhWdhkuchtoBLmLzvubxqgF8O.jpg",
     "backdrop_path": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
     "vote_average": 7.865,
-    "vote_count": 16256,
-    "popularity": 1055.9694,
+    "vote_count": 16273,
+    "popularity": 873.192,
     "release_date": "2021-09-17",
     "genre_ids": [
       10759,
@@ -1382,8 +1624,8 @@
       "id": 5884557,
       "name": "人性",
       "overview": "俊昊奋力冲向岛屿，最后一轮的紧张气氛达到顶峰。游戏还剩最后几分钟，最后几名玩家身陷绝境。",
-      "vote_average": 7.827,
-      "vote_count": 52,
+      "vote_average": 7.7,
+      "vote_count": 56,
       "air_date": "2025-06-27",
       "episode_number": 6,
       "episode_type": "finale",
@@ -1431,9 +1673,9 @@
         "id": 435948,
         "name": "第 3 季",
         "overview": "《鱿鱼游戏》第三季（最终季）围绕奇勋（李政宰饰）在游戏中失去挚友并被隐藏真实身份混入游戏的负责人（李炳宪饰）逼入绝境展开故事。奇勋坚持自己终结这场游戏的目标，但负责人继续他的下一步行动，而幸存的玩家们在每一轮做出的选择都将带来更严重的后果。全世界都在翘首以盼导演黄东赫编导的大结局，他誓要为这个史诗般的故事画上圆满的句号。在最残酷的现实中，我们能对人性抱有希望吗？全世界的粉丝们都在倒计时，等待最终答案的揭晓。",
-        "poster_path": "/pbXEfPMVUcbe3su7VbJDlbFDajo.jpg",
+        "poster_path": "/8EGp4Ky5MlkNem3QApAPNAUi9qz.jpg",
         "season_number": 3,
-        "vote_average": 8.0
+        "vote_average": 7.9
       }
     ],
     "type": "Scripted",
@@ -1445,7 +1687,7 @@
         "known_for_department": "Acting",
         "name": "李政宰",
         "original_name": "이정재",
-        "popularity": 6.4863,
+        "popularity": 5.9144,
         "profile_path": "/3h5Cfm0X8ohWn7psZkqdNWqXAHH.jpg",
         "character": "Seong Gi-hun / Player 456",
         "credit_id": "68622d402334bf8c607b4d6d",
@@ -1458,7 +1700,7 @@
         "known_for_department": "Acting",
         "name": "魏嘏隽",
         "original_name": "위하준",
-        "popularity": 4.5338,
+        "popularity": 4.7424,
         "profile_path": "/tEZuIaMESdBw4LfNq3vshGR4VlP.jpg",
         "character": "Detective Hwang Jun-ho",
         "credit_id": "6863f50a35693bf8974955ab",
@@ -1471,7 +1713,7 @@
         "known_for_department": "Acting",
         "name": "任时完",
         "original_name": "임시완",
-        "popularity": 7.0164,
+        "popularity": 7.1455,
         "profile_path": "/8XbMzvYE3KUNDW1jEHSCjM9t89n.jpg",
         "character": "Lee Myung-gi / Player 333",
         "credit_id": "68622d4ffffe3faae0a4d814",
@@ -1484,7 +1726,7 @@
         "known_for_department": "Acting",
         "name": "曺柔理",
         "original_name": "조유리",
-        "popularity": 7.4499,
+        "popularity": 7.883,
         "profile_path": "/k6DFid2FOzXHAX5gg0UMuHjk6Dq.jpg",
         "character": "Kim Jun-hee / Player 222",
         "credit_id": "68622da81afc4508e6a4da19",
@@ -1497,7 +1739,7 @@
         "known_for_department": "Acting",
         "name": "李炳宪",
         "original_name": "이병헌",
-        "popularity": 9.2185,
+        "popularity": 9.3002,
         "profile_path": "/pY4pwYO8qwtzvuzpzRczDACDiVA.jpg",
         "character": "Front Man / Hwang In-ho",
         "credit_id": "648e484726346200ae1bc82a",
@@ -1557,7 +1799,7 @@
         "height": 3000,
         "iso_639_1": "en",
         "file_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
-        "vote_average": 7.15,
+        "vote_average": 7.286,
         "vote_count": 20,
         "width": 2000
       },
@@ -1611,30 +1853,30 @@
     ]
   },
   {
-    "id": 1234821,
+    "id": 1011477,
     "media_type": "movie",
-    "title": "侏罗纪世界：重生",
-    "original_title": "Jurassic World Rebirth",
-    "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-    "poster_path": "/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-    "backdrop_path": "/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
-    "vote_average": 6.415,
-    "vote_count": 402,
-    "popularity": 405.6033,
-    "release_date": "2025-07-01",
+    "title": "功夫梦：融合之道",
+    "original_title": "Karate Kid: Legends",
+    "overview": "　　功夫少年李峰（王班 饰）初入纽约，因帮朋友解围反遭当地空手道冠军“美式霸凌”，便决心参加空手道大赛赢回尊重。昔日恩师韩师傅（成龙 饰）远渡重洋携空手道大师丹尼尔（拉尔夫·马基奥 饰）出手相助，将纽约化成训练场对李峰开启宗师特训。在师傅们的教导下，李峰能否将两个武术流派融会贯通，用胜利赢得尊重并开辟属于自己的武学之道？",
+    "poster_path": "/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
+    "backdrop_path": "/nKyBbFSooRPTJVqjrDteD1lF733.jpg",
+    "vote_average": 7.085,
+    "vote_count": 246,
+    "popularity": 532.1165,
+    "release_date": "2025-05-08",
     "genre_ids": [
-      878,
+      28,
       12,
-      28
+      18
     ],
     "adult": false,
-    "budget": 180000000,
-    "revenue": 322614695,
-    "runtime": 134,
+    "budget": 45000000,
+    "revenue": 103214099,
+    "runtime": 94,
     "status": "Released",
     "tagline": "",
     "homepage": "",
-    "imdb_id": "tt31036941",
+    "imdb_id": "tt1674782",
     "original_language": "en",
     "spoken_languages": [
       {
@@ -1645,15 +1887,21 @@
     ],
     "production_companies": [
       {
-        "id": 33,
-        "logo_path": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
-        "name": "Universal Pictures",
+        "id": 5,
+        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
         "origin_country": "US"
       },
       {
-        "id": 56,
-        "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
-        "name": "Amblin Entertainment",
+        "id": 5219,
+        "logo_path": null,
+        "name": "Sunswept Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 22213,
+        "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "name": "TSG Entertainment",
         "origin_country": "US"
       }
     ],
@@ -1665,93 +1913,93 @@
     ],
     "genres": [
       {
-        "id": 878,
-        "name": "科幻"
+        "id": 28,
+        "name": "动作"
       },
       {
         "id": 12,
         "name": "冒险"
       },
       {
-        "id": 28,
-        "name": "动作"
+        "id": 18,
+        "name": "剧情"
       }
     ],
     "belongs_to_collection": {
-      "id": 328,
-      "name": "侏罗纪公园（系列）",
-      "poster_path": "/vtyUBPmI714WByxR9szzfgs0nXM.jpg",
-      "backdrop_path": "/njFixYzIxX8jsn6KMSEtAzi4avi.jpg"
+      "id": 8580,
+      "name": "龙威小子（系列）",
+      "poster_path": "/7tuwH4tZZy4BHe7mivXmmSYg3kx.jpg",
+      "backdrop_path": "/vG9eCvIfSoucQZ9EFEOrSXhesws.jpg"
     },
     "cast": [
       {
         "adult": false,
-        "gender": 1,
-        "id": 1245,
+        "gender": 2,
+        "id": 18897,
         "known_for_department": "Acting",
-        "name": "斯嘉丽·约翰逊",
-        "original_name": "Scarlett Johansson",
-        "popularity": 23.529,
-        "profile_path": "/8m21eocprLYuW0ywveIgThk6VM.jpg",
-        "cast_id": 20,
-        "character": "Zora Bennett",
-        "credit_id": "663e4d9e1a3d02a140799904",
+        "name": "成龙",
+        "original_name": "成龍",
+        "popularity": 11.3647,
+        "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
+        "cast_id": 2,
+        "character": "Mr. Han",
+        "credit_id": "64d22a0c85090f00e7988224",
         "order": 0
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 80860,
+        "id": 3033265,
         "known_for_department": "Acting",
-        "name": "乔纳森·贝利",
-        "original_name": "Jonathan Bailey",
-        "popularity": 6.7692,
-        "profile_path": "/mZNzekZo8eaHMuXKgDTNLp0EvYM.jpg",
-        "cast_id": 21,
-        "character": "Dr. Henry Loomis",
-        "credit_id": "663e4dacf647fe7460f1e877",
+        "name": "王班",
+        "original_name": "Ben Wang",
+        "popularity": 2.0979,
+        "profile_path": "/5A6JgNR9nlFVjuzJ1oOXyj2hfJo.jpg",
+        "cast_id": 8,
+        "character": "Li Fong",
+        "credit_id": "65ca78ca4350110149e7a4ab",
         "order": 1
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 932967,
+        "id": 2877,
         "known_for_department": "Acting",
-        "name": "马赫沙拉·阿里",
-        "original_name": "Mahershala Ali",
-        "popularity": 5.5699,
-        "profile_path": "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
-        "cast_id": 48,
-        "character": "Duncan Kincaid",
-        "credit_id": "6658c41a9ef4718ae693ecaa",
+        "name": "拉尔夫·马奇奥",
+        "original_name": "Ralph Macchio",
+        "popularity": 2.7598,
+        "profile_path": "/8zw5vcKlg05Is12Fww4QxRjO1f3.jpg",
+        "cast_id": 3,
+        "character": "Daniel LaRusso",
+        "credit_id": "655ce7ebea84c710922b55e4",
         "order": 2
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 36669,
+        "id": 11866,
         "known_for_department": "Acting",
-        "name": "鲁珀特·弗兰德",
-        "original_name": "Rupert Friend",
-        "popularity": 4.6171,
-        "profile_path": "/a3HeMHmlXnoRlHLX9h31ZdZgCXM.jpg",
-        "cast_id": 45,
-        "character": "Martin Krebs",
-        "credit_id": "664e6f030bbde63500fd1bf3",
+        "name": "乔舒亚·杰克逊",
+        "original_name": "Joshua Jackson",
+        "popularity": 3.3482,
+        "profile_path": "/mH2a5YFd8J7upjjWwEzM75vitA2.jpg",
+        "cast_id": 9,
+        "character": "Victor Lipani",
+        "credit_id": "65e25f15dd25890163f1e598",
         "order": 3
       },
       {
         "adult": false,
-        "gender": 2,
-        "id": 1168097,
+        "gender": 1,
+        "id": 2030076,
         "known_for_department": "Acting",
-        "name": "马奴·贾西亚·鲁尔福",
-        "original_name": "Manuel Garcia-Rulfo",
-        "popularity": 2.2756,
-        "profile_path": "/54Rk1hKfNdNKGHQMnONDGmNtUv3.jpg",
-        "cast_id": 19,
-        "character": "Reuben Delgado",
-        "credit_id": "663e46fe1a3d02a1407996f5",
+        "name": "赛迪·斯坦利",
+        "original_name": "Sadie Stanley",
+        "popularity": 2.5093,
+        "profile_path": "/zfjr9nkUTWJ2EekyiWmYdxscrSJ.jpg",
+        "cast_id": 10,
+        "character": "Mia Lipani",
+        "credit_id": "65e8d201713ea6017c52ff49",
         "order": 4
       }
     ],
@@ -1760,7 +2008,7 @@
         "aspect_ratio": 1.778,
         "height": 2160,
         "iso_639_1": "en",
-        "file_path": "/pGYZTuaG0fe51bWYz1uUqR9LYng.jpg",
+        "file_path": "/bS9forQsFHi1jSkPiwZiCgPcjmk.jpg",
         "vote_average": 3.334,
         "vote_count": 1,
         "width": 3840
@@ -1769,28 +2017,28 @@
         "aspect_ratio": 1.778,
         "height": 2160,
         "iso_639_1": "en",
-        "file_path": "/obSTfLMgQhLcjPhjO0vvOue7i45.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
+        "file_path": "/tZL5DUSio2swBsQNXUvZVvPx7hK.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
         "width": 3840
       }
     ],
     "posters": [
       {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-        "vote_average": 5.25,
-        "vote_count": 10,
-        "width": 2000
-      },
-      {
         "aspect_ratio": 0.675,
         "height": 2963,
         "iso_639_1": "zh",
-        "file_path": "/hWXdgXm1hfnuSIOtWGinBe1GrdS.jpg",
-        "vote_average": 3.334,
+        "file_path": "/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
+        "vote_average": 2.278,
+        "vote_count": 3,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.701,
+        "height": 2855,
+        "iso_639_1": "zh",
+        "file_path": "/sadwGbzbZeU28Mlcw0N4fuNBz8h.jpg",
+        "vote_average": 1.222,
         "vote_count": 3,
         "width": 2000
       },
@@ -1798,57 +2046,57 @@
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/q0fGCmjLu42MPlSO9OYWpI5w86I.jpg",
-        "vote_average": 5.414,
-        "vote_count": 29,
+        "file_path": "/AEgggzRr1vZCLY86MAp93li43z.jpg",
+        "vote_average": 8.034,
+        "vote_count": 5,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/skSoZMossoIYvzOf2UnaWqLscJl.jpg",
-        "vote_average": 4.432,
-        "vote_count": 29,
+        "file_path": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+        "vote_average": 7.542,
+        "vote_count": 8,
         "width": 2000
       }
     ],
     "logos": [
       {
-        "aspect_ratio": 1.331,
-        "height": 1360,
+        "aspect_ratio": 2.0,
+        "height": 500,
         "iso_639_1": "zh",
-        "file_path": "/v3PTr3tBJsYii1DsYhqD5fFExrv.png",
-        "vote_average": 1.434,
-        "vote_count": 5,
-        "width": 1810
-      },
-      {
-        "aspect_ratio": 1.332,
-        "height": 901,
-        "iso_639_1": "zh",
-        "file_path": "/PRE7a7iLIeo9VoRi4P6K4gF4pv.png",
-        "vote_average": 2.542,
-        "vote_count": 4,
-        "width": 1200
-      },
-      {
-        "aspect_ratio": 4.757,
-        "height": 908,
-        "iso_639_1": "en",
-        "file_path": "/jhpe54wEojoLkTWqIE9G4xizxnA.png",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 4319
-      },
-      {
-        "aspect_ratio": 4.757,
-        "height": 908,
-        "iso_639_1": "en",
-        "file_path": "/tO2Y6RlJuXKtzVMsRRYCGUwgP39.png",
+        "file_path": "/qFezGEfGAP7UomLMZ3qAxLr4ZmY.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 4319
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 2.694,
+        "height": 291,
+        "iso_639_1": "zh",
+        "file_path": "/mUQ0sCo0KK59SgdPgGgiNK5qvYE.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 784
+      },
+      {
+        "aspect_ratio": 2.792,
+        "height": 1296,
+        "iso_639_1": "en",
+        "file_path": "/8bxFzKrclKJDJsNZ1hZxeVbZvg1.png",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 3618
+      },
+      {
+        "aspect_ratio": 2.785,
+        "height": 1296,
+        "iso_639_1": "en",
+        "file_path": "/vx9D7Onnt6tPs9PneVZqOHOJXBE.png",
+        "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 3610
       }
     ]
   },
@@ -1860,9 +2108,9 @@
     "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
     "poster_path": "/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
     "backdrop_path": "/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
-    "vote_average": 7.68,
-    "vote_count": 620,
-    "popularity": 189.088,
+    "vote_average": 7.663,
+    "vote_count": 635,
+    "popularity": 179.2995,
     "release_date": "2025-06-25",
     "genre_ids": [
       28,
@@ -1870,7 +2118,7 @@
     ],
     "adult": false,
     "budget": 200000000,
-    "revenue": 301213267,
+    "revenue": 305374952,
     "runtime": 156,
     "status": "Released",
     "tagline": "",
@@ -2093,7 +2341,7 @@
         "iso_639_1": "en",
         "file_path": "/3LDmYRcnmQjqog9IRCMkp4MbnDI.png",
         "vote_average": 3.334,
-        "vote_count": 0,
+        "vote_count": 2,
         "width": 7710
       },
       {
@@ -2101,62 +2349,67 @@
         "height": 3037,
         "iso_639_1": "en",
         "file_path": "/2DkBSNgrOpwhv0K4gwDERabZu0r.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
+        "vote_average": 0.166,
+        "vote_count": 1,
         "width": 7710
       }
     ]
   },
   {
-    "id": 1011477,
+    "id": 1233413,
     "media_type": "movie",
-    "title": "功夫梦：融合之道",
-    "original_title": "Karate Kid: Legends",
-    "overview": "　　功夫少年李峰（王班 饰）初入纽约，因帮朋友解围反遭当地空手道冠军“美式霸凌”，便决心参加空手道大赛赢回尊重。昔日恩师韩师傅（成龙 饰）远渡重洋携空手道大师丹尼尔（拉尔夫·马基奥 饰）出手相助，将纽约化成训练场对李峰开启宗师特训。在师傅们的教导下，李峰能否将两个武术流派融会贯通，用胜利赢得尊重并开辟属于自己的武学之道？",
-    "poster_path": "/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
-    "backdrop_path": "/nKyBbFSooRPTJVqjrDteD1lF733.jpg",
-    "vote_average": 6.9,
-    "vote_count": 200,
-    "popularity": 321.0101,
-    "release_date": "2025-05-08",
+    "title": "罪人",
+    "original_title": "Sinners",
+    "overview": "魅力冷峻且坚毅的双胞胎企业家斯莫克（迈克尔·B·乔丹 饰）和斯塔克（迈克尔·B·乔丹 饰），这对兄弟在历经第一次世界大战的战壕和芝加哥黑帮的洗礼后，于1932年带着大把现金、一卡车烈酒，怀揣着开一家自动点唱机酒吧的计划，在阔别七年后回到了他们位于密西西比三角洲的家乡克拉克斯代尔。他们穿着时髦的大城市服装，打扮得整洁利落，在这个极度贫穷、实行种族隔离的种植园小镇上显得格外扎眼。他们从汗流浃背的老好人霍格伍德（大卫·马尔多纳多 饰）手中买下了一座废弃的磨坊、里面的设备以及磨坊所在的土地，并警告霍格伍德和他三K党那帮狐朋狗友，除非他们想挨枪子，否则别踏进自己的地盘。",
+    "poster_path": "/9hRm4WVM3D5HzjMBTKSsPBOd50c.jpg",
+    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "vote_average": 7.554,
+    "vote_count": 1912,
+    "popularity": 132.8717,
+    "release_date": "2025-04-16",
     "genre_ids": [
+      27,
       28,
-      12,
-      18
+      53
     ],
     "adult": false,
-    "budget": 45000000,
-    "revenue": 103214099,
-    "runtime": 94,
+    "budget": 90000000,
+    "revenue": 364828885,
+    "runtime": 131,
     "status": "Released",
     "tagline": "",
     "homepage": "",
-    "imdb_id": "tt1674782",
+    "imdb_id": "tt31193180",
     "original_language": "en",
     "spoken_languages": [
       {
         "english_name": "English",
         "iso_639_1": "en",
         "name": "English"
+      },
+      {
+        "english_name": "Mandarin",
+        "iso_639_1": "zh",
+        "name": "普通话"
       }
     ],
     "production_companies": [
       {
-        "id": 5,
-        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-        "name": "Columbia Pictures",
+        "id": 174,
+        "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+        "name": "Warner Bros. Pictures",
         "origin_country": "US"
       },
       {
-        "id": 5219,
-        "logo_path": null,
-        "name": "Sunswept Entertainment",
+        "id": 148495,
+        "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
+        "name": "Proximity Media",
         "origin_country": "US"
       },
       {
-        "id": 22213,
-        "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
-        "name": "TSG Entertainment",
+        "id": 216687,
+        "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+        "name": "Domain Entertainment",
         "origin_country": "US"
       }
     ],
@@ -2168,93 +2421,93 @@
     ],
     "genres": [
       {
+        "id": 27,
+        "name": "恐怖"
+      },
+      {
         "id": 28,
         "name": "动作"
       },
       {
-        "id": 12,
-        "name": "冒险"
-      },
-      {
-        "id": 18,
-        "name": "剧情"
+        "id": 53,
+        "name": "惊悚"
       }
     ],
     "belongs_to_collection": {
-      "id": 8580,
-      "name": "龙威小子（系列）",
-      "poster_path": "/7tuwH4tZZy4BHe7mivXmmSYg3kx.jpg",
-      "backdrop_path": "/vG9eCvIfSoucQZ9EFEOrSXhesws.jpg"
+      "id": 1489663,
+      "name": "罪人（系列）",
+      "poster_path": "/48KYBYnHmt7ykX57zGuv6SXVZOO.jpg",
+      "backdrop_path": "/e0kl32U3pHA2cdR1VGRk5TUmrFr.jpg"
     },
     "cast": [
       {
         "adult": false,
         "gender": 2,
-        "id": 18897,
+        "id": 135651,
         "known_for_department": "Acting",
-        "name": "成龙",
-        "original_name": "成龍",
-        "popularity": 10.5828,
-        "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
-        "cast_id": 2,
-        "character": "Mr. Han",
-        "credit_id": "64d22a0c85090f00e7988224",
+        "name": "迈克尔·B·乔丹",
+        "original_name": "Michael B. Jordan",
+        "popularity": 5.6302,
+        "profile_path": "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
+        "cast_id": 3,
+        "character": "Smoke / Stack",
+        "credit_id": "65aa9ede68afd6013350dfab",
         "order": 0
       },
       {
         "adult": false,
-        "gender": 2,
-        "id": 3033265,
+        "gender": 1,
+        "id": 130640,
         "known_for_department": "Acting",
-        "name": "王班",
-        "original_name": "Ben Wang",
-        "popularity": 1.1352,
-        "profile_path": "/5A6JgNR9nlFVjuzJ1oOXyj2hfJo.jpg",
-        "cast_id": 8,
-        "character": "Li Fong",
-        "credit_id": "65ca78ca4350110149e7a4ab",
+        "name": "海莉·斯坦菲尔德",
+        "original_name": "Hailee Steinfeld",
+        "popularity": 6.2855,
+        "profile_path": "/tb7zwVSmI2CDLU1Tc39c4ECO3jm.jpg",
+        "cast_id": 15,
+        "character": "Mary",
+        "credit_id": "661594bd3d7454018509b4ea",
         "order": 1
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 2877,
+        "id": 4688032,
         "known_for_department": "Acting",
-        "name": "拉尔夫·马奇奥",
-        "original_name": "Ralph Macchio",
-        "popularity": 2.0726,
-        "profile_path": "/8zw5vcKlg05Is12Fww4QxRjO1f3.jpg",
-        "cast_id": 3,
-        "character": "Daniel LaRusso",
-        "credit_id": "655ce7ebea84c710922b55e4",
+        "name": "迈尔斯·卡顿",
+        "original_name": "Miles Caton",
+        "popularity": 0.694,
+        "profile_path": "/yff2DK1Sc2baRGHbSfcmwMwX8HW.jpg",
+        "cast_id": 20,
+        "character": "Sammie Moore",
+        "credit_id": "6632b141af4324012853c133",
         "order": 2
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 11866,
+        "id": 85065,
         "known_for_department": "Acting",
-        "name": "乔舒亚·杰克逊",
-        "original_name": "Joshua Jackson",
-        "popularity": 3.1992,
-        "profile_path": "/mH2a5YFd8J7upjjWwEzM75vitA2.jpg",
-        "cast_id": 9,
-        "character": "Victor Lipani",
-        "credit_id": "65e25f15dd25890163f1e598",
+        "name": "杰克·奥康奈尔",
+        "original_name": "Jack O'Connell",
+        "popularity": 5.4758,
+        "profile_path": "/tCzR4clrIkbkijuJBYsNoEuwRDa.jpg",
+        "cast_id": 10,
+        "character": "Remmick",
+        "credit_id": "660da16ea88587017ce899be",
         "order": 3
       },
       {
         "adult": false,
         "gender": 1,
-        "id": 2030076,
+        "id": 134774,
         "known_for_department": "Acting",
-        "name": "赛迪·斯坦利",
-        "original_name": "Sadie Stanley",
-        "popularity": 1.1607,
-        "profile_path": "/zfjr9nkUTWJ2EekyiWmYdxscrSJ.jpg",
-        "cast_id": 10,
-        "character": "Mia Lipani",
-        "credit_id": "65e8d201713ea6017c52ff49",
+        "name": "乌米·马萨库",
+        "original_name": "Wunmi Mosaku",
+        "popularity": 3.2816,
+        "profile_path": "/wy02B2JkNIgK1DCkie1A98jCY77.jpg",
+        "cast_id": 13,
+        "character": "Annie",
+        "credit_id": "6614583d9408ec01632ad54c",
         "order": 4
       }
     ],
@@ -2262,17 +2515,35 @@
       {
         "aspect_ratio": 1.778,
         "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/bS9forQsFHi1jSkPiwZiCgPcjmk.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
+        "iso_639_1": "zh",
+        "file_path": "/fevc9A7IaQPs8oUeHqgyhO5qiyD.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "zh",
+        "file_path": "/6i0eRYObsW3CT4sqdf9yE55f22j.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
         "width": 3840
       },
       {
         "aspect_ratio": 1.778,
         "height": 2160,
         "iso_639_1": "en",
-        "file_path": "/tZL5DUSio2swBsQNXUvZVvPx7hK.jpg",
+        "file_path": "/52uHGNA8f2ktgZi8zwbmVyOEdCh.jpg",
+        "vote_average": 3.334,
+        "vote_count": 4,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/n1ru2llkLn0WWUxExr9oHIyOPKb.jpg",
         "vote_average": 3.334,
         "vote_count": 1,
         "width": 3840
@@ -2280,78 +2551,78 @@
     ],
     "posters": [
       {
-        "aspect_ratio": 0.675,
-        "height": 2963,
+        "aspect_ratio": 0.667,
+        "height": 3000,
         "iso_639_1": "zh",
-        "file_path": "/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
-        "vote_average": 2.278,
-        "vote_count": 3,
+        "file_path": "/9hRm4WVM3D5HzjMBTKSsPBOd50c.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
         "width": 2000
       },
       {
-        "aspect_ratio": 0.701,
-        "height": 2855,
+        "aspect_ratio": 0.667,
+        "height": 3000,
         "iso_639_1": "zh",
-        "file_path": "/sadwGbzbZeU28Mlcw0N4fuNBz8h.jpg",
-        "vote_average": 1.222,
-        "vote_count": 3,
+        "file_path": "/I91EahT9ytqtl4KfA2QCzGlvSD.jpg",
+        "vote_average": 3.334,
+        "vote_count": 2,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/AEgggzRr1vZCLY86MAp93li43z.jpg",
-        "vote_average": 8.034,
-        "vote_count": 5,
+        "file_path": "/yqsCU5XOP2mkbFamzAqbqntmfav.jpg",
+        "vote_average": 6.416,
+        "vote_count": 53,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
-        "vote_average": 8.034,
-        "vote_count": 5,
+        "file_path": "/lOfjeJMKS7cOaaTn6q3J0y2ypiA.jpg",
+        "vote_average": 6.368,
+        "vote_count": 34,
         "width": 2000
       }
     ],
     "logos": [
       {
-        "aspect_ratio": 2.0,
-        "height": 500,
+        "aspect_ratio": 3.509,
+        "height": 1231,
         "iso_639_1": "zh",
-        "file_path": "/qFezGEfGAP7UomLMZ3qAxLr4ZmY.png",
+        "file_path": "/4rAglfJhUHWiqk0jKjh2mOjgNTC.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 1000
+        "width": 4319
       },
       {
-        "aspect_ratio": 2.694,
-        "height": 291,
+        "aspect_ratio": 1.654,
+        "height": 1681,
         "iso_639_1": "zh",
-        "file_path": "/mUQ0sCo0KK59SgdPgGgiNK5qvYE.png",
+        "file_path": "/zoulgLkFQszKDF3NQf9DcvNmtNE.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 784
+        "width": 2780
       },
       {
-        "aspect_ratio": 2.792,
-        "height": 1296,
+        "aspect_ratio": 5.451,
+        "height": 339,
         "iso_639_1": "en",
-        "file_path": "/8bxFzKrclKJDJsNZ1hZxeVbZvg1.png",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 3618
+        "file_path": "/mC3MvXKouqfWnZ3jOnJLXSCnBTC.png",
+        "vote_average": 0.958,
+        "vote_count": 4,
+        "width": 1848
       },
       {
-        "aspect_ratio": 2.785,
-        "height": 1296,
+        "aspect_ratio": 4.84,
+        "height": 338,
         "iso_639_1": "en",
-        "file_path": "/vx9D7Onnt6tPs9PneVZqOHOJXBE.png",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 3610
+        "file_path": "/8ibKGfEmsT3QSiz4mWews3Ql0uA.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1636
       }
     ]
   },
@@ -2363,9 +2634,9 @@
     "overview": "出生于灵媒师家族的女高中生·小桃（绫濑桃），与她同年级的超自然爱好者·厄卡伦（高仓健）。小桃在厄卡伦遭到班上同学欺凌时保护了他，两人以此为契机开始有了交流。“相信幽灵存在但否定外星人存在”的小桃，和“相信外星人存在但否定幽灵存在”的厄卡伦争论不休。为了让对方相信外星人和幽灵的存在，小桃去了被称为UFO圣地的废弃医院，厄卡伦去了闹鬼的隧道。在那里，他们遇到了无法理解的极其怪异的现象。在绝境中，小桃觉醒了体内潜藏的力量，厄卡伦获得了诅咒之力，二人开始挑战接连逼近的怪异！也开始了命运之恋！？超能力战斗&青春故事，开幕！",
     "poster_path": "/tvLkaxvMXM2I1NSoUE28EFaTUs5.jpg",
     "backdrop_path": "/uNTrRKIOyKYISthoeizghtXPEOK.jpg",
-    "vote_average": 8.6,
-    "vote_count": 541,
-    "popularity": 141.7868,
+    "vote_average": 8.627,
+    "vote_count": 545,
+    "popularity": 134.7799,
     "release_date": "2024-10-04",
     "genre_ids": [
       16,
@@ -2483,7 +2754,7 @@
       "episode_number": 14,
       "episode_type": "standard",
       "production_code": "",
-      "runtime": null,
+      "runtime": 24,
       "season_number": 1,
       "show_id": 240411,
       "still_path": "/7u6vC1qPzRaADxsmkp99l22Tht1.jpg"
@@ -2682,7 +2953,7 @@
         "known_for_department": "Acting",
         "name": "若山诗音",
         "original_name": "若山詩音",
-        "popularity": 1.9357,
+        "popularity": 1.8003,
         "profile_path": "/b697ggFreuliEfl4TjLgxhJCQXr.jpg",
         "character": "Momo Ayase (voice)",
         "credit_id": "657d6dd61da7a6076d2a42d6",
@@ -2695,7 +2966,7 @@
         "known_for_department": "Acting",
         "name": "花江夏树",
         "original_name": "花江夏樹",
-        "popularity": 2.7981,
+        "popularity": 2.7152,
         "profile_path": "/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
         "character": "Ken 'Okarun' Takakura (voice)",
         "credit_id": "657d6e195c5cc806b8960c33",
@@ -2708,7 +2979,7 @@
         "known_for_department": "Acting",
         "name": "田中真弓",
         "original_name": "田中真弓",
-        "popularity": 1.9365,
+        "popularity": 2.008,
         "profile_path": "/by4t1tYtEXsfbFj9TvOjozBmQla.jpg",
         "character": "Turbo Granny (voice)",
         "credit_id": "670ad44cb15d97b1a93c2c0a",
@@ -2721,7 +2992,7 @@
         "known_for_department": "Acting",
         "name": "水树奈奈",
         "original_name": "水樹奈々",
-        "popularity": 2.1959,
+        "popularity": 1.9876,
         "profile_path": "/rQBo7HyjTIqeB7hIofb7uJFhiVs.jpg",
         "character": "Seiko (voice)",
         "credit_id": "671a7b406d6b705dc8713514",
@@ -2835,547 +3106,6 @@
     ]
   },
   {
-    "id": 1151031,
-    "media_type": "movie",
-    "title": "复活她",
-    "original_title": "Bring Her Back",
-    "overview": "本片讲述了一对兄妹在他们新寄养母亲的偏远住所中，发现了一个令人毛骨悚然的邪恶仪式的故事。",
-    "poster_path": "/3XRp7u1GTrCWBnj2pGKRZz4NA5x.jpg",
-    "backdrop_path": "/5esDYWV0NoFwqPa1iC0g9akqZo9.jpg",
-    "vote_average": 7.299,
-    "vote_count": 199,
-    "popularity": 250.4393,
-    "release_date": "2025-05-28",
-    "genre_ids": [
-      27
-    ],
-    "adult": false,
-    "budget": 15000000,
-    "revenue": 22691436,
-    "runtime": 104,
-    "status": "Released",
-    "tagline": "家庭意味着牺牲",
-    "homepage": "",
-    "imdb_id": "tt32246771",
-    "original_language": "en",
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      },
-      {
-        "english_name": "Russian",
-        "iso_639_1": "ru",
-        "name": "Pусский"
-      }
-    ],
-    "production_companies": [
-      {
-        "id": 32301,
-        "logo_path": "/5VG9QRUCSDez359VNqcTmOLOH3C.png",
-        "name": "Causeway Films",
-        "origin_country": "AU"
-      },
-      {
-        "id": 234094,
-        "logo_path": null,
-        "name": "Blue Bear",
-        "origin_country": "AU"
-      },
-      {
-        "id": 150239,
-        "logo_path": "/i2Gi8eJ8NH1MwpV0OJydTL0Eaui.png",
-        "name": "Salmira Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 41077,
-        "logo_path": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
-        "name": "A24",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "AU",
-        "name": "Australia"
-      },
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "genres": [
-      {
-        "id": 27,
-        "name": "恐怖"
-      }
-    ],
-    "cast": [
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 39658,
-        "known_for_department": "Acting",
-        "name": "莎莉·霍金斯",
-        "original_name": "Sally Hawkins",
-        "popularity": 3.0024,
-        "profile_path": "/1dtDq82dM2YQ17lBL4ZKPJo5LKw.jpg",
-        "cast_id": 5,
-        "character": "Laura",
-        "credit_id": "6630cad7e1ad79012b08221f",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 4741323,
-        "known_for_department": "Acting",
-        "name": "Sora Wong",
-        "original_name": "Sora Wong",
-        "popularity": 1.2229,
-        "profile_path": "/lh2fvJyAn5pX9EQU1jMUMxUl5d1.jpg",
-        "cast_id": 13,
-        "character": "Piper",
-        "credit_id": "66561c2166ed043b24508130",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 1840063,
-        "known_for_department": "Acting",
-        "name": "比利·巴瑞特",
-        "original_name": "Billy Barratt",
-        "popularity": 2.5641,
-        "profile_path": "/h8XlTs26su2Rg3oLtShERYEnVc6.jpg",
-        "cast_id": 9,
-        "character": "Andy",
-        "credit_id": "66561b72513d8cb15f511a2a",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 4741316,
-        "known_for_department": "Acting",
-        "name": "Jonah Wren Phillips",
-        "original_name": "Jonah Wren Phillips",
-        "popularity": 2.4869,
-        "profile_path": "/zBy4aBLg10Qz8di9P12mBpnf97F.jpg",
-        "cast_id": 10,
-        "character": "Oliver",
-        "credit_id": "66561ba601fca217205080d5",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 3253214,
-        "known_for_department": "Acting",
-        "name": "Mischa Heywood",
-        "original_name": "Mischa Heywood",
-        "popularity": 0.2112,
-        "profile_path": "/j2UwxVdyhK7q58A3fdTFalQB7jf.jpg",
-        "cast_id": 18,
-        "character": "Cathy",
-        "credit_id": "66b0c4dcbaf4c94de83a2620",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 1152,
-        "iso_639_1": "en",
-        "file_path": "/1TwHbY68AzSOl5Hmz7OZKjRBciQ.jpg",
-        "vote_average": 3.334,
-        "vote_count": 3,
-        "width": 2048
-      },
-      {
-        "aspect_ratio": 1.777,
-        "height": 844,
-        "iso_639_1": "en",
-        "file_path": "/5p1EdXoIf9lvIrE7hBN86qM3i5G.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1500
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/3XRp7u1GTrCWBnj2pGKRZz4NA5x.jpg",
-        "vote_average": 3.334,
-        "vote_count": 4,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/xq0zKvF0bEkpXSj1GHgF2Rzlyme.jpg",
-        "vote_average": 1.75,
-        "vote_count": 3,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
-        "vote_average": 8.034,
-        "vote_count": 5,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/aF30dutyaRVp2m2bfTihLMTanza.jpg",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 2.128,
-        "height": 437,
-        "iso_639_1": "zh",
-        "file_path": "/keiCCaGPBhpIkoaKvHcCUb1R5Rw.png",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 930
-      },
-      {
-        "aspect_ratio": 2.607,
-        "height": 290,
-        "iso_639_1": "zh",
-        "file_path": "/6ZOPeqZYI3VrCNLGI8lgaHyuRkZ.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 756
-      },
-      {
-        "aspect_ratio": 14.341,
-        "height": 167,
-        "iso_639_1": "en",
-        "file_path": "/diB3lSzBFlwxa8Ai0qVi8Y4Ikcy.png",
-        "vote_average": 3.334,
-        "vote_count": 3,
-        "width": 2395
-      },
-      {
-        "aspect_ratio": 10.198,
-        "height": 187,
-        "iso_639_1": "en",
-        "file_path": "/hqymUGdSVTbnIkRlEEm6IctVRsC.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1907
-      }
-    ]
-  },
-  {
-    "id": 114471,
-    "media_type": "tv",
-    "title": "钢铁之心",
-    "original_title": "Ironheart",
-    "overview": "决心闯出一片天的年轻天才发明家莉莉·威廉姆斯，回到了家乡芝加哥。她打造的独特钢铁战甲令人赞叹，但在追逐自己的雄心壮志时，她卷入了与神秘而充满魅力的帕克·罗宾斯（即“红兜帽”）相关的事件中。",
-    "poster_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
-    "backdrop_path": "/vno2LrEQr3lTOk3U1G1ihZsy64b.jpg",
-    "vote_average": 5.655,
-    "vote_count": 219,
-    "popularity": 211.4563,
-    "release_date": "2025-06-24",
-    "genre_ids": [
-      10765,
-      80
-    ],
-    "adult": false,
-    "status": "Ended",
-    "tagline": "",
-    "homepage": "https://www.disneyplus.com/browse/entity-b2b50b9a-a055-4b31-a609-8ec46f3add98",
-    "original_language": "en",
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "production_companies": [
-      {
-        "id": 420,
-        "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
-        "name": "Marvel Studios",
-        "origin_country": "US"
-      },
-      {
-        "id": 148495,
-        "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
-        "name": "Proximity Media",
-        "origin_country": "US"
-      },
-      {
-        "id": 176762,
-        "logo_path": null,
-        "name": "Kevin Feige Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "genres": [
-      {
-        "id": 10765,
-        "name": "Sci-Fi & Fantasy"
-      },
-      {
-        "id": 80,
-        "name": "犯罪"
-      }
-    ],
-    "first_air_date": "2025-06-24",
-    "last_air_date": "2025-07-01",
-    "number_of_episodes": 6,
-    "number_of_seasons": 1,
-    "episode_run_time": [],
-    "in_production": false,
-    "languages": [
-      "en"
-    ],
-    "last_episode_to_air": {
-      "id": 3658802,
-      "name": "过去已过去",
-      "overview": "莉莉启用了有史以来她发明过最强的装甲，但仍然不肯定是否能战胜帕克和红兜帽。",
-      "vote_average": 5.136,
-      "vote_count": 22,
-      "air_date": "2025-07-01",
-      "episode_number": 6,
-      "episode_type": "finale",
-      "production_code": "",
-      "runtime": 42,
-      "season_number": 1,
-      "show_id": 114471,
-      "still_path": "/pZKGugiOziz9bxdAD1NrrGsjfzC.jpg"
-    },
-    "networks": [
-      {
-        "id": 2739,
-        "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
-        "name": "Disney+",
-        "origin_country": ""
-      }
-    ],
-    "origin_country": [
-      "US"
-    ],
-    "seasons": [
-      {
-        "air_date": "2025-06-24",
-        "episode_count": 6,
-        "id": 171710,
-        "name": "第 1 季",
-        "overview": "",
-        "poster_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
-        "season_number": 1,
-        "vote_average": 5.0
-      }
-    ],
-    "type": "Miniseries",
-    "cast": [
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 2133996,
-        "known_for_department": "Acting",
-        "name": "多米妮克·索恩",
-        "original_name": "Dominique Thorne",
-        "popularity": 3.2205,
-        "profile_path": "/tuLlp79SfYc4mLzzjdC2ekLI7qd.jpg",
-        "character": "Riri Williams",
-        "credit_id": "5fd2e5222d531a003f32c032",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1991183,
-        "known_for_department": "Acting",
-        "name": "Lyric Ross",
-        "original_name": "Lyric Ross",
-        "popularity": 1.9463,
-        "profile_path": "/sRh8aD95pBYpt2LDR1OWs2DwDbf.jpg",
-        "character": "N.A.T.A.L.I.E.",
-        "credit_id": "62194e5d8d2f8d0042a3d1a9",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 1182725,
-        "known_for_department": "Acting",
-        "name": "曼尼·蒙大拿",
-        "original_name": "Manny Montana",
-        "popularity": 2.0576,
-        "profile_path": "/EUoD5EalyUDHZtRZCnosRqhMi.jpg",
-        "character": "Cousin John",
-        "credit_id": "62aa26fc7e12f00e260d924f",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 2794859,
-        "known_for_department": "Acting",
-        "name": "Matthew Elam",
-        "original_name": "Matthew Elam",
-        "popularity": 1.3064,
-        "profile_path": "/vYV8zfLEFOiOXTXoHfF1oEmwbYG.jpg",
-        "character": "Xavier",
-        "credit_id": "67372038a102d269c03f1b7f",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 2090871,
-        "known_for_department": "Acting",
-        "name": "Anji White",
-        "original_name": "Anji White",
-        "popularity": 1.2806,
-        "profile_path": "/6JcZUdPQ3sz35g4N6JDarfRnPOo.jpg",
-        "character": "Ronnie Williams",
-        "credit_id": "6737203b021223a874c60be3",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "zh",
-        "file_path": "/8ahbD2PmCHEefhoAJUq1wpD4ZYn.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "zh",
-        "file_path": "/cdg8tzXz7OFfVrJKWOnDT60ePKa.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/4QkjchQpm70MZNEidSxBekEOqTY.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/hRr3CwxhiAqSqnYedMmwjLxFcgc.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/iaWJVbXzhSNMBkIReJQZhu0MzHc.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/AmzGVKlLvpraNAXxPYUROiN2Ulj.jpg",
-        "vote_average": 5.786,
-        "vote_count": 7,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/ncrG3hSYBME3ODvtMW1E67hwCOQ.jpg",
-        "vote_average": 2.278,
-        "vote_count": 3,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 2.685,
-        "height": 1295,
-        "iso_639_1": "zh",
-        "file_path": "/6qy41IpzgHd1OeaYQbNe4Vc07Ij.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3477
-      },
-      {
-        "aspect_ratio": 3.711,
-        "height": 937,
-        "iso_639_1": "zh",
-        "file_path": "/q5G3Fpa5JVmyPhxmIM8TAZGJIP7.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3477
-      },
-      {
-        "aspect_ratio": 4.107,
-        "height": 1051,
-        "iso_639_1": "en",
-        "file_path": "/9zMPHFzM11iNyWWTiof92WFu3Hm.png",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 4316
-      },
-      {
-        "aspect_ratio": 6.07,
-        "height": 711,
-        "iso_639_1": "en",
-        "file_path": "/aBWW1dt0KQXhM05orjPaUqQOoZ9.png",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 4316
-      }
-    ]
-  },
-  {
     "id": 90802,
     "media_type": "tv",
     "title": "睡魔",
@@ -3383,9 +3113,9 @@
     "overview": "《睡魔》充分融合了现代神话与黑暗幻想，将当代小说、历史剧情和传说完美地衔接在一起，讲述了那些受梦神莫菲斯影响的人和地点。在莫菲斯漫长的生命中，他努力弥补对宇宙和人类所犯下的错误。",
     "poster_path": "/9ajhC8Gua5BvwHL1xRIGTYekekz.jpg",
     "backdrop_path": "/6KyJeOW7vTW0czdR0S6wzXAcfmw.jpg",
-    "vote_average": 7.928,
-    "vote_count": 2217,
-    "popularity": 144.5626,
+    "vote_average": 7.929,
+    "vote_count": 2221,
+    "popularity": 137.8124,
     "release_date": "2022-08-05",
     "genre_ids": [
       10765,
@@ -3541,7 +3271,7 @@
         "overview": "",
         "poster_path": "/lZgwGQ3Op0rVDdhCSihYMA3KUho.jpg",
         "season_number": 2,
-        "vote_average": 5.1
+        "vote_average": 5.4
       }
     ],
     "type": "Scripted",
@@ -3553,7 +3283,7 @@
         "known_for_department": "Acting",
         "name": "汤姆·斯图里奇",
         "original_name": "Tom Sturridge",
-        "popularity": 3.6977,
+        "popularity": 3.9143,
         "profile_path": "/dm5GA0xwJwvPsAU6YBPCfyvvWSb.jpg",
         "character": "Morpheus / Dream",
         "credit_id": "6012e829ccde0400402a7a6e",
@@ -3566,7 +3296,7 @@
         "known_for_department": "Acting",
         "name": "Vivienne Acheampong",
         "original_name": "Vivienne Acheampong",
-        "popularity": 1.3059,
+        "popularity": 1.2148,
         "profile_path": "/1VqJnnimdMwuje0ttU2SsKSuy3S.jpg",
         "character": "Lucienne",
         "credit_id": "63040765e860170079b88b16",
@@ -3579,7 +3309,7 @@
         "known_for_department": "Acting",
         "name": "帕顿·奥斯瓦尔特",
         "original_name": "Patton Oswalt",
-        "popularity": 2.4087,
+        "popularity": 2.5721,
         "profile_path": "/skGzommLR2zE6uk1YQRFK71dOJ8.jpg",
         "character": "Matthew the Raven (voice)",
         "credit_id": "63040770ac8e6b007d264e3f",
@@ -3666,30 +3396,28 @@
     ]
   },
   {
-    "id": 1233413,
+    "id": 1151031,
     "media_type": "movie",
-    "title": "罪人",
-    "original_title": "Sinners",
-    "overview": "魅力冷峻且坚毅的双胞胎企业家斯莫克（迈克尔·B·乔丹 饰）和斯塔克（迈克尔·B·乔丹 饰），这对兄弟在历经第一次世界大战的战壕和芝加哥黑帮的洗礼后，于1932年带着大把现金、一卡车烈酒，怀揣着开一家自动点唱机酒吧的计划，在阔别七年后回到了他们位于密西西比三角洲的家乡克拉克斯代尔。他们穿着时髦的大城市服装，打扮得整洁利落，在这个极度贫穷、实行种族隔离的种植园小镇上显得格外扎眼。他们从汗流浃背的老好人霍格伍德（大卫·马尔多纳多 饰）手中买下了一座废弃的磨坊、里面的设备以及磨坊所在的土地，并警告霍格伍德和他三K党那帮狐朋狗友，除非他们想挨枪子，否则别踏进自己的地盘。",
-    "poster_path": "/9hRm4WVM3D5HzjMBTKSsPBOd50c.jpg",
-    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
-    "vote_average": 7.553,
-    "vote_count": 1896,
-    "popularity": 133.2854,
-    "release_date": "2025-04-16",
+    "title": "复活她",
+    "original_title": "Bring Her Back",
+    "overview": "本片讲述了一对兄妹在他们新寄养母亲的偏远住所中，发现了一个令人毛骨悚然的邪恶仪式的故事。",
+    "poster_path": "/3XRp7u1GTrCWBnj2pGKRZz4NA5x.jpg",
+    "backdrop_path": "/5esDYWV0NoFwqPa1iC0g9akqZo9.jpg",
+    "vote_average": 7.309,
+    "vote_count": 209,
+    "popularity": 223.8848,
+    "release_date": "2025-05-28",
     "genre_ids": [
-      27,
-      28,
-      53
+      27
     ],
     "adult": false,
-    "budget": 90000000,
-    "revenue": 364828885,
-    "runtime": 131,
+    "budget": 15000000,
+    "revenue": 22691436,
+    "runtime": 104,
     "status": "Released",
-    "tagline": "",
+    "tagline": "家庭意味着牺牲",
     "homepage": "",
-    "imdb_id": "tt31193180",
+    "imdb_id": "tt32246771",
     "original_language": "en",
     "spoken_languages": [
       {
@@ -3698,32 +3426,42 @@
         "name": "English"
       },
       {
-        "english_name": "Mandarin",
-        "iso_639_1": "zh",
-        "name": "普通话"
+        "english_name": "Russian",
+        "iso_639_1": "ru",
+        "name": "Pусский"
       }
     ],
     "production_companies": [
       {
-        "id": 174,
-        "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
-        "name": "Warner Bros. Pictures",
+        "id": 32301,
+        "logo_path": "/5VG9QRUCSDez359VNqcTmOLOH3C.png",
+        "name": "Causeway Films",
+        "origin_country": "AU"
+      },
+      {
+        "id": 234094,
+        "logo_path": null,
+        "name": "Blue Bear",
+        "origin_country": "AU"
+      },
+      {
+        "id": 150239,
+        "logo_path": "/i2Gi8eJ8NH1MwpV0OJydTL0Eaui.png",
+        "name": "Salmira Productions",
         "origin_country": "US"
       },
       {
-        "id": 148495,
-        "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
-        "name": "Proximity Media",
-        "origin_country": "US"
-      },
-      {
-        "id": 216687,
-        "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
-        "name": "Domain Entertainment",
+        "id": 41077,
+        "logo_path": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "name": "A24",
         "origin_country": "US"
       }
     ],
     "production_countries": [
+      {
+        "iso_3166_1": "AU",
+        "name": "Australia"
+      },
       {
         "iso_3166_1": "US",
         "name": "United States of America"
@@ -3733,130 +3471,98 @@
       {
         "id": 27,
         "name": "恐怖"
-      },
-      {
-        "id": 28,
-        "name": "动作"
-      },
-      {
-        "id": 53,
-        "name": "惊悚"
       }
     ],
-    "belongs_to_collection": {
-      "id": 1489663,
-      "name": "罪人（系列）",
-      "poster_path": "/48KYBYnHmt7ykX57zGuv6SXVZOO.jpg",
-      "backdrop_path": "/e0kl32U3pHA2cdR1VGRk5TUmrFr.jpg"
-    },
     "cast": [
       {
         "adult": false,
         "gender": 2,
-        "id": 135651,
+        "id": 1840063,
         "known_for_department": "Acting",
-        "name": "迈克尔·B·乔丹",
-        "original_name": "Michael B. Jordan",
-        "popularity": 5.7259,
-        "profile_path": "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
-        "cast_id": 3,
-        "character": "Smoke / Stack",
-        "credit_id": "65aa9ede68afd6013350dfab",
+        "name": "比利·巴瑞特",
+        "original_name": "Billy Barratt",
+        "popularity": 2.432,
+        "profile_path": "/h8XlTs26su2Rg3oLtShERYEnVc6.jpg",
+        "cast_id": 9,
+        "character": "Andy",
+        "credit_id": "66561b72513d8cb15f511a2a",
         "order": 0
       },
       {
         "adult": false,
         "gender": 1,
-        "id": 130640,
+        "id": 39658,
         "known_for_department": "Acting",
-        "name": "海莉·斯坦菲尔德",
-        "original_name": "Hailee Steinfeld",
-        "popularity": 6.6593,
-        "profile_path": "/tb7zwVSmI2CDLU1Tc39c4ECO3jm.jpg",
-        "cast_id": 15,
-        "character": "Mary",
-        "credit_id": "661594bd3d7454018509b4ea",
+        "name": "莎莉·霍金斯",
+        "original_name": "Sally Hawkins",
+        "popularity": 2.6856,
+        "profile_path": "/1dtDq82dM2YQ17lBL4ZKPJo5LKw.jpg",
+        "cast_id": 5,
+        "character": "Laura",
+        "credit_id": "6630cad7e1ad79012b08221f",
         "order": 1
       },
       {
         "adult": false,
-        "gender": 2,
-        "id": 4688032,
+        "gender": 1,
+        "id": 3253214,
         "known_for_department": "Acting",
-        "name": "迈尔斯·卡顿",
-        "original_name": "Miles Caton",
-        "popularity": 0.6535,
-        "profile_path": "/yff2DK1Sc2baRGHbSfcmwMwX8HW.jpg",
-        "cast_id": 20,
-        "character": "Sammie Moore",
-        "credit_id": "6632b141af4324012853c133",
+        "name": "Mischa Heywood",
+        "original_name": "Mischa Heywood",
+        "popularity": 0.3651,
+        "profile_path": "/j2UwxVdyhK7q58A3fdTFalQB7jf.jpg",
+        "cast_id": 18,
+        "character": "Cathy",
+        "credit_id": "66b0c4dcbaf4c94de83a2620",
         "order": 2
       },
       {
         "adult": false,
         "gender": 2,
-        "id": 85065,
+        "id": 4741316,
         "known_for_department": "Acting",
-        "name": "杰克·奥康奈尔",
-        "original_name": "Jack O'Connell",
-        "popularity": 5.4369,
-        "profile_path": "/tCzR4clrIkbkijuJBYsNoEuwRDa.jpg",
+        "name": "Jonah Wren Phillips",
+        "original_name": "Jonah Wren Phillips",
+        "popularity": 2.6304,
+        "profile_path": "/zBy4aBLg10Qz8di9P12mBpnf97F.jpg",
         "cast_id": 10,
-        "character": "Remmick",
-        "credit_id": "660da16ea88587017ce899be",
+        "character": "Oliver",
+        "credit_id": "66561ba601fca217205080d5",
         "order": 3
       },
       {
         "adult": false,
-        "gender": 1,
-        "id": 134774,
+        "gender": 2,
+        "id": 216979,
         "known_for_department": "Acting",
-        "name": "乌米·马萨库",
-        "original_name": "Wunmi Mosaku",
-        "popularity": 3.3234,
-        "profile_path": "/wy02B2JkNIgK1DCkie1A98jCY77.jpg",
-        "cast_id": 13,
-        "character": "Annie",
-        "credit_id": "6614583d9408ec01632ad54c",
+        "name": "Stephen Phillips",
+        "original_name": "Stephen Phillips",
+        "popularity": 0.421,
+        "profile_path": "/cHHJDSm18g18s5t44nKBmq6FQtF.jpg",
+        "cast_id": 12,
+        "character": "Phil",
+        "credit_id": "66561c0f01fca217205080d9",
         "order": 4
       }
     ],
     "backdrops": [
       {
         "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "zh",
-        "file_path": "/fevc9A7IaQPs8oUeHqgyhO5qiyD.jpg",
+        "height": 1152,
+        "iso_639_1": "en",
+        "file_path": "/1TwHbY68AzSOl5Hmz7OZKjRBciQ.jpg",
+        "vote_average": 3.334,
+        "vote_count": 3,
+        "width": 2048
+      },
+      {
+        "aspect_ratio": 1.777,
+        "height": 844,
+        "iso_639_1": "en",
+        "file_path": "/5p1EdXoIf9lvIrE7hBN86qM3i5G.jpg",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "zh",
-        "file_path": "/6i0eRYObsW3CT4sqdf9yE55f22j.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/52uHGNA8f2ktgZi8zwbmVyOEdCh.jpg",
-        "vote_average": 3.334,
-        "vote_count": 4,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/n1ru2llkLn0WWUxExr9oHIyOPKb.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 3840
+        "width": 1500
       }
     ],
     "posters": [
@@ -3864,817 +3570,17 @@
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "zh",
-        "file_path": "/9hRm4WVM3D5HzjMBTKSsPBOd50c.jpg",
+        "file_path": "/3XRp7u1GTrCWBnj2pGKRZz4NA5x.jpg",
         "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/I91EahT9ytqtl4KfA2QCzGlvSD.jpg",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/yqsCU5XOP2mkbFamzAqbqntmfav.jpg",
-        "vote_average": 6.416,
-        "vote_count": 53,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/lOfjeJMKS7cOaaTn6q3J0y2ypiA.jpg",
-        "vote_average": 6.368,
-        "vote_count": 34,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 3.509,
-        "height": 1231,
-        "iso_639_1": "zh",
-        "file_path": "/4rAglfJhUHWiqk0jKjh2mOjgNTC.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 4319
-      },
-      {
-        "aspect_ratio": 1.654,
-        "height": 1681,
-        "iso_639_1": "zh",
-        "file_path": "/zoulgLkFQszKDF3NQf9DcvNmtNE.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 2780
-      },
-      {
-        "aspect_ratio": 5.451,
-        "height": 339,
-        "iso_639_1": "en",
-        "file_path": "/mC3MvXKouqfWnZ3jOnJLXSCnBTC.png",
-        "vote_average": 0.958,
-        "vote_count": 4,
-        "width": 1848
-      },
-      {
-        "aspect_ratio": 4.84,
-        "height": 338,
-        "iso_639_1": "en",
-        "file_path": "/8ibKGfEmsT3QSiz4mWews3Ql0uA.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1636
-      }
-    ]
-  },
-  {
-    "id": 547016,
-    "media_type": "movie",
-    "title": "永生守卫",
-    "original_title": "The Old Guard",
-    "overview": "四名不死战士秘密地保护了人类几个世纪，就在他们发现一个新的不死人时，他们因自身的神秘力量而成为被攻击的对象。",
-    "poster_path": "/pISd6XOsf48TcZp3GQyDB0FieJy.jpg",
-    "backdrop_path": "/m0ObOaJBerZ3Unc74l471ar8Iiy.jpg",
-    "vote_average": 7.139,
-    "vote_count": 4407,
-    "popularity": 72.4223,
-    "release_date": "2020-07-09",
-    "genre_ids": [
-      28,
-      14
-    ],
-    "adult": false,
-    "budget": 70000000,
-    "revenue": 0,
-    "runtime": 125,
-    "status": "Released",
-    "tagline": "",
-    "homepage": "",
-    "imdb_id": "tt7556122",
-    "original_language": "en",
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      },
-      {
-        "english_name": "Italian",
-        "iso_639_1": "it",
-        "name": "Italiano"
-      },
-      {
-        "english_name": "Russian",
-        "iso_639_1": "ru",
-        "name": "Pусский"
-      },
-      {
-        "english_name": "Arabic",
-        "iso_639_1": "ar",
-        "name": "العربية"
-      },
-      {
-        "english_name": "French",
-        "iso_639_1": "fr",
-        "name": "Français"
-      }
-    ],
-    "production_companies": [
-      {
-        "id": 82819,
-        "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
-        "name": "Skydance Media",
-        "origin_country": "US"
-      },
-      {
-        "id": 3574,
-        "logo_path": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
-        "name": "Denver & Delilah Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 159794,
-        "logo_path": null,
-        "name": "Marc Evans Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "genres": [
-      {
-        "id": 28,
-        "name": "动作"
-      },
-      {
-        "id": 14,
-        "name": "奇幻"
-      }
-    ],
-    "belongs_to_collection": {
-      "id": 847029,
-      "name": "永生守卫（系列）",
-      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
-      "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
-    },
-    "cast": [
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 6885,
-        "known_for_department": "Acting",
-        "name": "查理兹·塞隆",
-        "original_name": "Charlize Theron",
-        "popularity": 18.3513,
-        "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
-        "cast_id": 25,
-        "character": "Andromache of Scythia / Andy",
-        "credit_id": "5eb42cb2cc277c002066b3b0",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1884703,
-        "known_for_department": "Acting",
-        "name": "琪琪·莱恩",
-        "original_name": "KiKi Layne",
-        "popularity": 3.8056,
-        "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
-        "cast_id": 33,
-        "character": "Nile Freeman",
-        "credit_id": "5eb42d46c3514c002055e543",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 91378,
-        "known_for_department": "Acting",
-        "name": "吴青芸",
-        "original_name": "Veronica Ngo",
-        "popularity": 4.42,
-        "profile_path": "/uvmZVmCbo7d9Zpc9cNEYvqhFKpU.jpg",
-        "cast_id": 32,
-        "character": "Quynh",
-        "credit_id": "5eb42d26ccb15f0022850cfb",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 73381,
-        "known_for_department": "Acting",
-        "name": "马提亚斯·修奈尔",
-        "original_name": "Matthias Schoenaerts",
-        "popularity": 3.1163,
-        "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
-        "cast_id": 28,
-        "character": "Sebastien Le Livre / Booker",
-        "credit_id": "5eb42ce2f3e0df001e2b6bb8",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 935235,
-        "known_for_department": "Acting",
-        "name": "马尔万·肯扎里",
-        "original_name": "Marwan Kenzari",
-        "popularity": 2.0897,
-        "profile_path": "/nvt7uXbqWEc9qkTp38ARBzSiQgQ.jpg",
-        "cast_id": 29,
-        "character": "Yusuf Al-Kaysani / Joe",
-        "credit_id": "5eb42cf00cb3350020c8f947",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 2160,
-        "iso_639_1": "en",
-        "file_path": "/hDmeYCZL8BdSjIMWf3PzSbqIq6m.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 3840
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 720,
-        "iso_639_1": "en",
-        "file_path": "/hz9MhSaZTv6AjCVY4Ear5ZPXeoh.jpg",
-        "vote_average": 3.334,
-        "vote_count": 2,
-        "width": 1280
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.675,
-        "height": 2962,
-        "iso_639_1": "zh",
-        "file_path": "/pISd6XOsf48TcZp3GQyDB0FieJy.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 1800,
-        "iso_639_1": "zh",
-        "file_path": "/c4P8pgC8xdSt7eyJFZO642tyBEp.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1200
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/6aUiWKlFmH5emk40O14oLKF090R.jpg",
-        "vote_average": 6.042,
-        "vote_count": 12,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/sbLNgvCA4Sl3Umk3AY2Y4j2ZBmf.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 3.494,
-        "height": 87,
-        "iso_639_1": "zh",
-        "file_path": "/6zjZbzTbYWjeAOGMIfSbP8eC8QM.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 304
-      },
-      {
-        "aspect_ratio": 3.483,
-        "height": 87,
-        "iso_639_1": "zh",
-        "file_path": "/2oZhLmX1v6RZV1IsVSBuPDEKRSu.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 303
-      },
-      {
-        "aspect_ratio": 5.354,
-        "height": 212,
-        "iso_639_1": "en",
-        "file_path": "/bvxzhwGqNQSMwsPvZjht2sjByGR.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1135
-      },
-      {
-        "aspect_ratio": 5.347,
-        "height": 147,
-        "iso_639_1": "en",
-        "file_path": "/eciUTIjCQR8JK9czyKoNssyfIqr.png",
-        "vote_average": 0.0,
-        "vote_count": 1,
-        "width": 786
-      }
-    ]
-  },
-  {
-    "id": 292035,
-    "media_type": "tv",
-    "title": "逆爱",
-    "original_title": "逆爱",
-    "overview": "原本只是为了报复前女友，没想到撩着撩着，自己先沦陷。落魄直男吴所畏为了出气，决定把她的现任男友池骋给「撩」过来。结果这位跩跩的公子哥不但上钩，还让吴所畏自己也弯得彻底！两人从互看不顺眼，到一路暧昧，误会、偶遇、床边纠缠通通来，从情敌变情人，甜到发烫。就在感情越陷越深的时候，前任回国、秘密曝光、身份翻转——这段恋情，还有没有未来？",
-    "poster_path": "/qXB8wIuRQ4boWSZSoLFAu5g6K9l.jpg",
-    "backdrop_path": "/vBUnzYFcRuex2WnlfWs8hda9klR.jpg",
-    "vote_average": 7.2,
-    "vote_count": 23,
-    "popularity": 63.2658,
-    "release_date": "2025-06-16",
-    "genre_ids": [
-      18,
-      10759
-    ],
-    "adult": false,
-    "status": "Returning Series",
-    "tagline": "攻防之下，全是欲望；情敌过招，爱是命门。",
-    "homepage": "https://www.viki.com/tv/41152c-revenged-love",
-    "original_language": "zh",
-    "spoken_languages": [
-      {
-        "english_name": "Mandarin",
-        "iso_639_1": "zh",
-        "name": "普通话"
-      }
-    ],
-    "production_companies": [],
-    "production_countries": [
-      {
-        "iso_3166_1": "CN",
-        "name": "China"
-      }
-    ],
-    "genres": [
-      {
-        "id": 18,
-        "name": "剧情"
-      },
-      {
-        "id": 10759,
-        "name": "动作冒险"
-      }
-    ],
-    "first_air_date": "2025-06-16",
-    "last_air_date": "2025-07-07",
-    "number_of_episodes": 24,
-    "number_of_seasons": 1,
-    "episode_run_time": [
-      45
-    ],
-    "in_production": true,
-    "languages": [
-      "zh"
-    ],
-    "last_episode_to_air": {
-      "id": 6255457,
-      "name": "弯了还能掰直吗",
-      "overview": "",
-      "vote_average": 0.0,
-      "vote_count": 0,
-      "air_date": "2025-07-08",
-      "episode_number": 10,
-      "episode_type": "standard",
-      "production_code": "",
-      "runtime": 40,
-      "season_number": 1,
-      "show_id": 292035,
-      "still_path": "/twZun3CS6VdfQfneeg6ojDJab2.jpg"
-    },
-    "next_episode_to_air": {
-      "id": 6255458,
-      "name": "第 11 集",
-      "overview": "",
-      "vote_average": 0.0,
-      "vote_count": 0,
-      "air_date": "2025-07-14",
-      "episode_number": 11,
-      "episode_type": "standard",
-      "production_code": "",
-      "runtime": null,
-      "season_number": 1,
-      "show_id": 292035,
-      "still_path": null
-    },
-    "networks": [
-      {
-        "id": 1390,
-        "logo_path": "/elFTTrZr1Q2jnI1j0mHh0h7B9B1.png",
-        "name": "Viki",
-        "origin_country": ""
-      }
-    ],
-    "origin_country": [
-      "CN"
-    ],
-    "seasons": [
-      {
-        "air_date": "2025-06-16",
-        "episode_count": 24,
-        "id": 457476,
-        "name": "第 1 季",
-        "overview": "吴所畏被女友抛弃后，决定通过勾引她的新男友池骋来报复！这原本只是场游戏，但坠入爱河却从来不在计划之中。",
-        "poster_path": "/qlDaLfnULQN7kpwEkySW5z9TlN0.jpg",
-        "season_number": 1,
-        "vote_average": 9.1
-      }
-    ],
-    "type": "Scripted",
-    "cast": [
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 4770618,
-        "known_for_department": "Acting",
-        "name": "梓渝",
-        "original_name": "梓渝",
-        "popularity": 3.63,
-        "profile_path": "/rh3HC3dQn2EJ3H0uz4iwX3VNRPv.jpg",
-        "character": "Wu Suowei",
-        "credit_id": "682d8931e19cab56120be0a1",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 3176248,
-        "known_for_department": "Acting",
-        "name": "田栩宁",
-        "original_name": "田栩宁",
-        "popularity": 6.2997,
-        "profile_path": "/cja4cqfeaTtUvCxmDC4joZqFUDm.jpg",
-        "character": "Chi Cheng",
-        "credit_id": "682d894189abd112419e4122",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 5270820,
-        "known_for_department": "Acting",
-        "name": "刘轩丞",
-        "original_name": "刘轩丞",
-        "popularity": 1.298,
-        "profile_path": "/7d9hNNw1qs1wCWQ8Eow5jw3W7NA.jpg",
-        "character": "Jiang Xiaoshuai",
-        "credit_id": "6830842aa639fcf1732b64dc",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 4149728,
-        "known_for_department": "Acting",
-        "name": "展轩",
-        "original_name": "展轩",
-        "popularity": 1.6724,
-        "profile_path": "/nXU4TAGSk6wNBfqXA1eHmF0Fr19.jpg",
-        "character": "Guo Chengyu",
-        "credit_id": "68308437707f755c7941344e",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 5507659,
-        "known_for_department": "Acting",
-        "name": "刘骏",
-        "original_name": "刘骏",
-        "popularity": 0.4004,
-        "profile_path": "/vFqk8f9FFUhefEe1X0YsXWKwVdO.jpg",
-        "character": "Wang Shuo",
-        "credit_id": "684fa00fec73293cd7bb5521",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 1948,
-        "iso_639_1": "zh",
-        "file_path": "/q15fP4H7zpRiETXGZkuopfW6k5W.jpg",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 3463
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 1080,
-        "iso_639_1": "zh",
-        "file_path": "/o8csml84fvOR2dwBVpdFyhshui2.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1920
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 1080,
-        "iso_639_1": "en",
-        "file_path": "/6AWSpukdOYUCpwsaWAQkWioh70H.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 1920
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 1080,
-        "iso_639_1": "en",
-        "file_path": "/7ZFyoeaXQU8oNALfL9K7pdiaOoy.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1920
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.667,
-        "height": 2999,
-        "iso_639_1": "zh",
-        "file_path": "/rXrvy5jC6MhRBZHwHhzxkRVwmGs.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/jj4JzLmsucNPcnQbpZmMJqzmwCl.jpg",
-        "vote_average": 2.542,
         "vote_count": 4,
         "width": 2000
       },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/j5KWzpPAi4JC42GGrVWDFL6G2gY.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/7X0m38WTUr8UPREkWIQlTTJB8h6.jpg",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 2000
-      }
-    ],
-    "logos": [
-      {
-        "aspect_ratio": 1.535,
-        "height": 862,
         "iso_639_1": "zh",
-        "file_path": "/iu3e7B6N2RNIGeO3mM3aNLfZtOz.png",
-        "vote_average": 3.334,
-        "vote_count": 1,
-        "width": 1323
-      },
-      {
-        "aspect_ratio": 1.335,
-        "height": 666,
-        "iso_639_1": "zh",
-        "file_path": "/14JTYrf4sPYMw8dal1g40gRMKyf.png",
+        "file_path": "/xq0zKvF0bEkpXSj1GHgF2Rzlyme.jpg",
         "vote_average": 1.75,
-        "vote_count": 2,
-        "width": 889
-      },
-      {
-        "aspect_ratio": 1.534,
-        "height": 1083,
-        "iso_639_1": "en",
-        "file_path": "/kr61xpJBDtI5no4VsSu3OKsQvFy.png",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1661
-      }
-    ]
-  },
-  {
-    "id": 1119878,
-    "media_type": "movie",
-    "title": "冰路营救：复仇",
-    "original_title": "Ice Road: Vengeance",
-    "overview": "前作主角迈克前往尼泊尔，将弟弟的骨灰洒在珠穆朗玛峰上。当迈克和他的登山向导在乘坐旅游巴士旅行时遇到一群雇佣兵时，他们被迫战斗以营救自己、乘客和国家。",
-    "poster_path": "/r3irdRpuYocscbRH2ORt34LUPR1.jpg",
-    "backdrop_path": "/962KXsr09uK8wrmUg9TjzmE7c4e.jpg",
-    "vote_average": 7.027,
-    "vote_count": 75,
-    "popularity": 551.6983,
-    "release_date": "2025-06-27",
-    "genre_ids": [
-      28,
-      53,
-      18
-    ],
-    "adult": false,
-    "budget": 0,
-    "revenue": 0,
-    "runtime": 113,
-    "status": "Released",
-    "tagline": "",
-    "homepage": "",
-    "imdb_id": "tt27621210",
-    "original_language": "en",
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "production_companies": [
-      {
-        "id": 14589,
-        "logo_path": "/5WrEKsyGdTfT3T075EukSoIuxSU.png",
-        "name": "Code Entertainment",
-        "origin_country": "US"
-      },
-      {
-        "id": 33603,
-        "logo_path": "/K1SdQd49Kx3QRx0djfHbzeotCz.png",
-        "name": "Shivhans Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 19456,
-        "logo_path": "/d6rHHbJPFkDlULQsvxYgRh9McvN.png",
-        "name": "Envision Media Arts",
-        "origin_country": "US"
-      },
-      {
-        "id": 33768,
-        "logo_path": "/f8TDXTNoj4G4eRCKlUpG3KYQj9I.png",
-        "name": "The Solution",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "genres": [
-      {
-        "id": 28,
-        "name": "动作"
-      },
-      {
-        "id": 53,
-        "name": "惊悚"
-      },
-      {
-        "id": 18,
-        "name": "剧情"
-      }
-    ],
-    "belongs_to_collection": {
-      "id": 1119879,
-      "name": "冰路营救（系列）",
-      "poster_path": "/jhP97IsbqmT3yoBqZoHbVLoafBI.jpg",
-      "backdrop_path": "/gtIvGzCinBaojazTQKSnzwwDTTY.jpg"
-    },
-    "cast": [
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 3896,
-        "known_for_department": "Acting",
-        "name": "连姆·尼森",
-        "original_name": "Liam Neeson",
-        "popularity": 8.001,
-        "profile_path": "/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg",
-        "cast_id": 1,
-        "character": "Mike McCann",
-        "credit_id": "644e12e96beaea14a72b544d",
-        "order": 0
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 64439,
-        "known_for_department": "Acting",
-        "name": "范冰冰",
-        "original_name": "范冰冰",
-        "popularity": 5.272,
-        "profile_path": "/pV2wYJiiPd6cgHK580PKD0GM4Dc.jpg",
-        "cast_id": 4,
-        "character": "Dhani Yangchen",
-        "credit_id": "65c4e1499451e70184bd6eac",
-        "order": 1
-      },
-      {
-        "adult": false,
-        "gender": 2,
-        "id": 55174,
-        "known_for_department": "Acting",
-        "name": "马库斯·托马斯",
-        "original_name": "Marcus Thomas",
-        "popularity": 0.6662,
-        "profile_path": "/gMRYZQZ1TZxgjb8yWpkVTs0BIdm.jpg",
-        "cast_id": 41,
-        "character": "Gurty",
-        "credit_id": "68646d8329304a93781f82a8",
-        "order": 2
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 2459258,
-        "known_for_department": "Acting",
-        "name": "Grace O'Sullivan",
-        "original_name": "Grace O'Sullivan",
-        "popularity": 1.1446,
-        "profile_path": "/ifgurjdagUpyw9Dyh4yYtN0p3R7.jpg",
-        "cast_id": 13,
-        "character": "Starr Myers",
-        "credit_id": "6673da88a7e066bddb25cb0e",
-        "order": 3
-      },
-      {
-        "adult": false,
-        "gender": 0,
-        "id": 5538791,
-        "known_for_department": "Acting",
-        "name": "Saksham Sharma",
-        "original_name": "Saksham Sharma",
-        "popularity": 0.2777,
-        "profile_path": null,
-        "cast_id": 31,
-        "character": "Vijay Rai",
-        "credit_id": "686468d0e23b86f33b4d0e52",
-        "order": 4
-      }
-    ],
-    "backdrops": [
-      {
-        "aspect_ratio": 1.778,
-        "height": 1080,
-        "iso_639_1": "en",
-        "file_path": "/ulA0rwyPCIOPDv4YqQLcZcYvUIm.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1920
-      },
-      {
-        "aspect_ratio": 1.778,
-        "height": 720,
-        "iso_639_1": "en",
-        "file_path": "/gGMebIGe1RoMya293M53bh1NIix.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 1280
-      }
-    ],
-    "posters": [
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "zh",
-        "file_path": "/r3irdRpuYocscbRH2ORt34LUPR1.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0,
-        "width": 2000
-      },
-      {
-        "aspect_ratio": 0.667,
-        "height": 3000,
-        "iso_639_1": "en",
-        "file_path": "/2vHQBX5L4yoExTa55KmGIg2Q5s3.jpg",
-        "vote_average": 3.334,
         "vote_count": 3,
         "width": 2000
       },
@@ -4682,39 +3588,620 @@
         "aspect_ratio": 0.667,
         "height": 3000,
         "iso_639_1": "en",
-        "file_path": "/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
+        "file_path": "/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
+        "vote_average": 8.034,
+        "vote_count": 5,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/aF30dutyaRVp2m2bfTihLMTanza.jpg",
         "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 2000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 2.128,
+        "height": 437,
+        "iso_639_1": "zh",
+        "file_path": "/keiCCaGPBhpIkoaKvHcCUb1R5Rw.png",
+        "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 930
+      },
+      {
+        "aspect_ratio": 2.607,
+        "height": 290,
+        "iso_639_1": "zh",
+        "file_path": "/6ZOPeqZYI3VrCNLGI8lgaHyuRkZ.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 756
+      },
+      {
+        "aspect_ratio": 14.341,
+        "height": 167,
+        "iso_639_1": "en",
+        "file_path": "/diB3lSzBFlwxa8Ai0qVi8Y4Ikcy.png",
+        "vote_average": 3.334,
+        "vote_count": 3,
+        "width": 2395
+      },
+      {
+        "aspect_ratio": 10.198,
+        "height": 187,
+        "iso_639_1": "en",
+        "file_path": "/hqymUGdSVTbnIkRlEEm6IctVRsC.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1907
+      }
+    ]
+  },
+  {
+    "id": 114471,
+    "media_type": "tv",
+    "title": "钢铁之心",
+    "original_title": "Ironheart",
+    "overview": "决心闯出一片天的年轻天才发明家莉莉·威廉姆斯，回到了家乡芝加哥。她打造的独特钢铁战甲令人赞叹，但在追逐自己的雄心壮志时，她卷入了与神秘而充满魅力的帕克·罗宾斯（即“红兜帽”）相关的事件中。",
+    "poster_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
+    "backdrop_path": "/vno2LrEQr3lTOk3U1G1ihZsy64b.jpg",
+    "vote_average": 5.6,
+    "vote_count": 224,
+    "popularity": 188.9305,
+    "release_date": "2025-06-24",
+    "genre_ids": [
+      10765,
+      80
+    ],
+    "adult": false,
+    "status": "Ended",
+    "tagline": "",
+    "homepage": "https://www.disneyplus.com/browse/entity-b2b50b9a-a055-4b31-a609-8ec46f3add98",
+    "original_language": "en",
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 420,
+        "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "name": "Marvel Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 148495,
+        "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
+        "name": "Proximity Media",
+        "origin_country": "US"
+      },
+      {
+        "id": 176762,
+        "logo_path": null,
+        "name": "Kevin Feige Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 80,
+        "name": "犯罪"
+      }
+    ],
+    "first_air_date": "2025-06-24",
+    "last_air_date": "2025-07-01",
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "episode_run_time": [],
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_episode_to_air": {
+      "id": 3658802,
+      "name": "过去已过去",
+      "overview": "莉莉启用了有史以来她发明过最强的装甲，但仍然不肯定是否能战胜帕克和红兜帽。",
+      "vote_average": 5.136,
+      "vote_count": 22,
+      "air_date": "2025-07-01",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 42,
+      "season_number": 1,
+      "show_id": 114471,
+      "still_path": "/pZKGugiOziz9bxdAD1NrrGsjfzC.jpg"
+    },
+    "networks": [
+      {
+        "id": 2739,
+        "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+        "name": "Disney+",
+        "origin_country": ""
+      }
+    ],
+    "origin_country": [
+      "US"
+    ],
+    "seasons": [
+      {
+        "air_date": "2025-06-24",
+        "episode_count": 6,
+        "id": 171710,
+        "name": "第 1 季",
+        "overview": "",
+        "poster_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
+        "season_number": 1,
+        "vote_average": 5.0
+      }
+    ],
+    "type": "Miniseries",
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2133996,
+        "known_for_department": "Acting",
+        "name": "多米妮克·索恩",
+        "original_name": "Dominique Thorne",
+        "popularity": 3.384,
+        "profile_path": "/tuLlp79SfYc4mLzzjdC2ekLI7qd.jpg",
+        "character": "Riri Williams",
+        "credit_id": "5fd2e5222d531a003f32c032",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1991183,
+        "known_for_department": "Acting",
+        "name": "Lyric Ross",
+        "original_name": "Lyric Ross",
+        "popularity": 1.7385,
+        "profile_path": "/sRh8aD95pBYpt2LDR1OWs2DwDbf.jpg",
+        "character": "N.A.T.A.L.I.E.",
+        "credit_id": "62194e5d8d2f8d0042a3d1a9",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1182725,
+        "known_for_department": "Acting",
+        "name": "曼尼·蒙大拿",
+        "original_name": "Manny Montana",
+        "popularity": 2.1126,
+        "profile_path": "/EUoD5EalyUDHZtRZCnosRqhMi.jpg",
+        "character": "Cousin John",
+        "credit_id": "62aa26fc7e12f00e260d924f",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2794859,
+        "known_for_department": "Acting",
+        "name": "Matthew Elam",
+        "original_name": "Matthew Elam",
+        "popularity": 1.4424,
+        "profile_path": "/vYV8zfLEFOiOXTXoHfF1oEmwbYG.jpg",
+        "character": "Xavier",
+        "credit_id": "67372038a102d269c03f1b7f",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2090871,
+        "known_for_department": "Acting",
+        "name": "Anji White",
+        "original_name": "Anji White",
+        "popularity": 1.2428,
+        "profile_path": "/6JcZUdPQ3sz35g4N6JDarfRnPOo.jpg",
+        "character": "Ronnie Williams",
+        "credit_id": "6737203b021223a874c60be3",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "zh",
+        "file_path": "/8ahbD2PmCHEefhoAJUq1wpD4ZYn.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "zh",
+        "file_path": "/cdg8tzXz7OFfVrJKWOnDT60ePKa.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/4QkjchQpm70MZNEidSxBekEOqTY.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/hRr3CwxhiAqSqnYedMmwjLxFcgc.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "zh",
+        "file_path": "/cdqVKwUv0QNCqN5Kf6NRtbmpO7s.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "zh",
+        "file_path": "/iaWJVbXzhSNMBkIReJQZhu0MzHc.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/AmzGVKlLvpraNAXxPYUROiN2Ulj.jpg",
+        "vote_average": 5.786,
+        "vote_count": 7,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/ncrG3hSYBME3ODvtMW1E67hwCOQ.jpg",
+        "vote_average": 2.278,
+        "vote_count": 3,
+        "width": 2000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 2.685,
+        "height": 1295,
+        "iso_639_1": "zh",
+        "file_path": "/6qy41IpzgHd1OeaYQbNe4Vc07Ij.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3477
+      },
+      {
+        "aspect_ratio": 3.711,
+        "height": 937,
+        "iso_639_1": "zh",
+        "file_path": "/q5G3Fpa5JVmyPhxmIM8TAZGJIP7.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3477
+      },
+      {
+        "aspect_ratio": 4.107,
+        "height": 1051,
+        "iso_639_1": "en",
+        "file_path": "/9zMPHFzM11iNyWWTiof92WFu3Hm.png",
+        "vote_average": 0.166,
+        "vote_count": 1,
+        "width": 4316
+      },
+      {
+        "aspect_ratio": 6.07,
+        "height": 711,
+        "iso_639_1": "en",
+        "file_path": "/aBWW1dt0KQXhM05orjPaUqQOoZ9.png",
+        "vote_average": 0.166,
+        "vote_count": 1,
+        "width": 4316
+      }
+    ]
+  },
+  {
+    "id": 239826,
+    "media_type": "tv",
+    "title": "巴拉德",
+    "original_title": "Ballard",
+    "overview": "警探雷妮巴拉德在追捕一名冷酷无情的连环杀手时，陷入了一张由谋杀与腐败编织而成的阴谋网，意外揭开了一场威胁到她信念根基的警署黑幕。在内心的阴影步步紧逼之下，巴拉德不仅要智斗罪犯，还要应对来自同僚的阻力，只为将迟到的正义带给那些受害者及其家属。",
+    "poster_path": "/fjPHBvLimAdjNmtYfYjeIen2jyP.jpg",
+    "backdrop_path": "/fQ3LSr8KpLBz4xegkGdLd07AlI6.jpg",
+    "vote_average": 6.538,
+    "vote_count": 13,
+    "popularity": 63.9996,
+    "release_date": "2025-07-09",
+    "genre_ids": [
+      80,
+      18
+    ],
+    "adult": false,
+    "status": "Returning Series",
+    "tagline": "",
+    "homepage": "https://www.amazon.com/dp/B0F58T7KW7",
+    "original_language": "en",
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 188734,
+        "logo_path": "/slz9Q8iaa7S2YnSsHdsVdqH16HE.png",
+        "name": "Fabel Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 103593,
+        "logo_path": null,
+        "name": "Hieronymus Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "genres": [
+      {
+        "id": 80,
+        "name": "犯罪"
+      },
+      {
+        "id": 18,
+        "name": "剧情"
+      }
+    ],
+    "first_air_date": "2025-07-09",
+    "number_of_episodes": 10,
+    "number_of_seasons": 1,
+    "episode_run_time": [],
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "next_episode_to_air": {
+      "id": 4932443,
+      "name": "失落灵魂图书馆",
+      "overview": "巴拉德在帮一位市议员追查其妹妹被谋杀的案子同时，重新开启了一起神秘的无名氏遇害案。尽管要面对不愿配合的证人与警署内部政治，自己的内心亦深受困扰，巴拉德及其团队依然挖掘出深埋的秘密，说明警察系统内部存在腐败。",
+      "vote_average": 0.0,
+      "vote_count": 1,
+      "air_date": "2025-07-09",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 45,
+      "season_number": 1,
+      "show_id": 239826,
+      "still_path": "/eENU5dHx2UAj9yv9hCYR94tPGLm.jpg"
+    },
+    "networks": [
+      {
+        "id": 1024,
+        "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+        "name": "Prime Video",
+        "origin_country": ""
+      }
+    ],
+    "origin_country": [
+      "US"
+    ],
+    "seasons": [
+      {
+        "air_date": "2025-07-08",
+        "episode_count": 10,
+        "id": 366330,
+        "name": "第 1 季",
+        "overview": "",
+        "poster_path": "/fjPHBvLimAdjNmtYfYjeIen2jyP.jpg",
+        "season_number": 1,
+        "vote_average": 1.0
+      }
+    ],
+    "type": "Scripted",
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 21045,
+        "known_for_department": "Acting",
+        "name": "李美琪",
+        "original_name": "Maggie Q",
+        "popularity": 3.3981,
+        "profile_path": "/1Z0A8axunWqZrskGkfANv6W5qCl.jpg",
+        "character": "Detective Renée Ballard",
+        "credit_id": "6600942f226c56017d71bf10",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 3361914,
+        "known_for_department": "Acting",
+        "name": "Courtney Taylor",
+        "original_name": "Courtney Taylor",
+        "popularity": 0.1984,
+        "profile_path": "/pGYlyS9SR29xa3oC1Xk3GvKrdFC.jpg",
+        "character": "Samira Parker",
+        "credit_id": "6691c60c1ed921d635e2552f",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3911,
+        "known_for_department": "Acting",
+        "name": "约翰·卡罗尔·林奇",
+        "original_name": "John Carroll Lynch",
+        "popularity": 1.8694,
+        "profile_path": "/i6xsWIgo3kW5Dc4A6VhQ17G9nuy.jpg",
+        "character": "Thomas Laffont",
+        "credit_id": "66a96e1bc7301f8a47755637",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 72994,
+        "known_for_department": "Acting",
+        "name": "迈克尔·莫斯利",
+        "original_name": "Michael Mosley",
+        "popularity": 1.2862,
+        "profile_path": "/puRHN4OMPBXKiJdW0yyMIN9ju4r.jpg",
+        "character": "Ted Rawls",
+        "credit_id": "66c1e4023a649ef19b1a8a58",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1214576,
+        "known_for_department": "Acting",
+        "name": "蕾貝卡·費爾德",
+        "original_name": "Rebecca Field",
+        "popularity": 0.9441,
+        "profile_path": "/2XjAVQEv3TMKENF2MS4Wb8talu5.jpg",
+        "character": "Colleen Hatteras",
+        "credit_id": "66c1e412a195242cd19234a0",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "zh",
+        "file_path": "/2moqxKL9kePruE4K2EVFOJYuCPu.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/7i58FyEvv0cIVHwpeXUras44Qk5.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/3cOR8GHqZRt1lYIPKkaGbrQI5et.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "zh",
+        "file_path": "/fjPHBvLimAdjNmtYfYjeIen2jyP.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/fBeJj9uSmGfuAxUohQnkVO3XqLd.jpg",
+        "vote_average": 0.166,
         "vote_count": 1,
         "width": 2000
       }
     ],
     "logos": [
       {
-        "aspect_ratio": 4.801,
-        "height": 357,
+        "aspect_ratio": 2.688,
+        "height": 744,
         "iso_639_1": "zh",
-        "file_path": "/dDUlDhgT0frsGz6pbFSQPG4QVPK.png",
+        "file_path": "/6Hg5KmrpS1KAi45om6EabU8VsUF.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 1714
+        "width": 2000
       },
       {
-        "aspect_ratio": 1.761,
-        "height": 603,
+        "aspect_ratio": 2.688,
+        "height": 744,
         "iso_639_1": "zh",
-        "file_path": "/9gIovZyH7CmKYyPqSCJsFUfvrm9.png",
+        "file_path": "/x6MNL6Sn2lVODWMDgphf4EtPg3z.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 1062
+        "width": 2000
       },
       {
-        "aspect_ratio": 2.115,
-        "height": 563,
+        "aspect_ratio": 3.501,
+        "height": 545,
         "iso_639_1": "en",
-        "file_path": "/oKoLjuUAh0iqetGnIPYtuCIsjr8.png",
+        "file_path": "/tAc4UVVW2IMhREsQFa5lK5WDfk9.png",
         "vote_average": 0.0,
         "vote_count": 0,
-        "width": 1191
+        "width": 1908
+      },
+      {
+        "aspect_ratio": 3.512,
+        "height": 283,
+        "iso_639_1": "en",
+        "file_path": "/oaba3XTQhic4AdCq29QqSNgQSXb.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 994
       }
     ]
   },
@@ -4728,7 +4215,7 @@
     "backdrop_path": "/gWPK2RIVJ6i3myf7Xdw8DqlznT8.jpg",
     "vote_average": 8.5,
     "vote_count": 760,
-    "popularity": 76.4047,
+    "popularity": 73.3788,
     "release_date": "2022-01-09",
     "genre_ids": [
       16,
@@ -4850,7 +4337,7 @@
       "runtime": 24,
       "season_number": 1,
       "show_id": 123249,
-      "still_path": null
+      "still_path": "/fCDUWhSAVELzLZB2WofcCCosiRI.jpg"
     },
     "networks": [
       {
@@ -4902,7 +4389,7 @@
         "known_for_department": "Acting",
         "name": "直田姬奈",
         "original_name": "直田姫奈",
-        "popularity": 0.7635,
+        "popularity": 0.6732,
         "profile_path": "/yZPGi67sEBDjrYXiZdLwp8KCwwg.jpg",
         "character": "Marin Kitagawa (voice)",
         "credit_id": "61760330924ce5008e812f04",
@@ -4915,7 +4402,7 @@
         "known_for_department": "Acting",
         "name": "石毛翔弥",
         "original_name": "石毛翔弥",
-        "popularity": 1.0669,
+        "popularity": 0.9873,
         "profile_path": "/ohW9TNSoiL9n5SgLBbAj85wJXAA.jpg",
         "character": "Wakana Gojo (voice)",
         "credit_id": "617603510d5d8500437b61c9",
@@ -4928,7 +4415,7 @@
         "known_for_department": "Acting",
         "name": "种崎敦美",
         "original_name": "種﨑敦美",
-        "popularity": 2.5022,
+        "popularity": 2.5809,
         "profile_path": "/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
         "character": "Sajuna Inui (voice)",
         "credit_id": "61910100b6cff10091817aaa",
@@ -4941,7 +4428,7 @@
         "known_for_department": "Acting",
         "name": "羊宫妃那",
         "original_name": "羊宮妃那",
-        "popularity": 3.0123,
+        "popularity": 2.9197,
         "profile_path": "/mVi7zP1xGum2t3TbauxftTAjKuf.jpg",
         "character": "Shinju Inui (voice)",
         "credit_id": "61910120c4ad59002bc1dc29",
@@ -4954,7 +4441,7 @@
         "known_for_department": "Acting",
         "name": "斧笃",
         "original_name": "斧アツシ",
-        "popularity": 0.7928,
+        "popularity": 0.6566,
         "profile_path": "/z7aVt5gmkiQ8wV6GcOUU7dFpms4.jpg",
         "character": "Kaoru Gojo (voice)",
         "credit_id": "61aba541f28838001e22b772",
@@ -5031,12 +4518,12 @@
       },
       {
         "aspect_ratio": 1.598,
-        "height": 622,
+        "height": 1004,
         "iso_639_1": "en",
-        "file_path": "/qrqTzbxdeozvmNkAS2B29E5TjJd.png",
-        "vote_average": 3.334,
-        "vote_count": 3,
-        "width": 994
+        "file_path": "/wglAdNfhSQUrirbhBXHt8cpsvOY.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1604
       }
     ]
   },
@@ -5048,9 +4535,9 @@
     "overview": "思春期症候群，这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周围的人眼里看不出来。咲太决定解开这一谜题。在于麻衣一起度过的时间里，咲太知道了她秘密的想法。女主人公们一个接一个地出现于咲太的周围，她们都有着“青春期症候群”。在天空和大海都很闪耀的小镇上，开始了令人激动的故事。",
     "poster_path": "/2tKH9xWLh7LfKOBGMrMx8SFEs6H.jpg",
     "backdrop_path": "/8RPS3tBXaVbungeYAysamXIibLR.jpg",
-    "vote_average": 8.6,
-    "vote_count": 1246,
-    "popularity": 91.7125,
+    "vote_average": 8.556,
+    "vote_count": 1247,
+    "popularity": 80.978,
     "release_date": "2018-10-04",
     "genre_ids": [
       16,
@@ -5243,7 +4730,7 @@
       },
       {
         "air_date": "2025-07-05",
-        "episode_count": 3,
+        "episode_count": 13,
         "id": 405026,
         "name": "青春猪头少年不会梦到圣诞服女郎",
         "overview": "青春期症候群——传说是由不安定的精神状态引起的不可思议现象。在高中时代遇到患有各种青春期症候群的少女们的“梓川咲太”也成了大学生。与国民人气女演员、恋人“樱岛麻衣”一起升入金泽八景的大学的他，在校内发现了不合季节的迷你裙圣诞老人。吓了一跳。你看见我了。好像在哪里听到的台词。穿着迷你裙的圣诞老人告诉咲太，她把青春期综合症作为礼物送给了咲太。……我呢，雾岛透子这个在SNS上流行的预知梦，正体不明的网络歌手，波尔塔盖斯特，与神秘的现象一起，与内心动摇的少女们的不可思议的故事再次开始。青春期不会结束——",
@@ -5261,7 +4748,7 @@
         "known_for_department": "Acting",
         "name": "石川界人",
         "original_name": "石川界人",
-        "popularity": 2.056,
+        "popularity": 2.1953,
         "profile_path": "/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
         "character": "Sakuta Azusagawa (voice)",
         "credit_id": "5bd4244f0e0a2622c30122fb",
@@ -5274,7 +4761,7 @@
         "known_for_department": "Acting",
         "name": "濑户麻沙美",
         "original_name": "瀬戸麻沙美",
-        "popularity": 2.2197,
+        "popularity": 1.9546,
         "profile_path": "/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg",
         "character": "Mai Sakurajima (voice)",
         "credit_id": "5bd4250a9251410396011865",
@@ -5287,7 +4774,7 @@
         "known_for_department": "Acting",
         "name": "雨宫天",
         "original_name": "雨宮天",
-        "popularity": 2.389,
+        "popularity": 2.0804,
         "profile_path": "/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg",
         "character": "Uzuki Hirokawa (voice)",
         "credit_id": "613c02cefe5c91002c47de7b",
@@ -5300,7 +4787,7 @@
         "known_for_department": "Acting",
         "name": "东山奈央",
         "original_name": "東山奈央",
-        "popularity": 2.6089,
+        "popularity": 2.4667,
         "profile_path": "/6WJDd1z946yFfZBgpC7dWi0FyQw.jpg",
         "character": "Tomoe Koga (voice)",
         "credit_id": "5bd425c40e0a2622c3012443",
@@ -5313,7 +4800,7 @@
         "known_for_department": "Acting",
         "name": "种崎敦美",
         "original_name": "種﨑敦美",
-        "popularity": 2.5022,
+        "popularity": 2.5809,
         "profile_path": "/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
         "character": "Rio Futaba (voice)",
         "credit_id": "5bf9900b92514104d2015e1f",
@@ -5405,11 +4892,11 @@
     "title": "爱冒险的朵拉2",
     "original_title": "Dora and the Search for Sol Dorado",
     "overview": "朵拉和她的朋友们出发寻找索尔多拉多的宝藏，但邪恶的势力也想染指这诱人的力量。",
-    "poster_path": "/ws9TtoV2kPoP9KghTW41LoQrRPZ.jpg",
+    "poster_path": "/r3d6u2n7iPoWNsSWwlJJWrDblOH.jpg",
     "backdrop_path": "/9A0wQG38VdEu3DYh8HzXKXKhA6g.jpg",
-    "vote_average": 6.9,
-    "vote_count": 26,
-    "popularity": 226.1584,
+    "vote_average": 7.0,
+    "vote_count": 31,
+    "popularity": 239.0733,
     "release_date": "2025-07-02",
     "genre_ids": [
       12,
@@ -5479,7 +4966,7 @@
         "known_for_department": "Acting",
         "name": "丹妮艾拉·皮内达",
         "original_name": "Daniella Pineda",
-        "popularity": 3.303,
+        "popularity": 2.8366,
         "profile_path": "/o8h5qbyy8A0zKTRN57YOlQOafyQ.jpg",
         "cast_id": 13,
         "character": "Camila",
@@ -5493,7 +4980,7 @@
         "known_for_department": "Acting",
         "name": "Samantha Lorraine",
         "original_name": "Samantha Lorraine",
-        "popularity": 4.2991,
+        "popularity": 4.7434,
         "profile_path": "/kdWYPNAUxcmAnxcCLBvRqfyDCKg.jpg",
         "cast_id": 1,
         "character": "Dora",
@@ -5507,7 +4994,7 @@
         "known_for_department": "Acting",
         "name": "杰奎琳·奥拉德丝",
         "original_name": "Jacqueline Obradors",
-        "popularity": 1.2907,
+        "popularity": 1.4717,
         "profile_path": "/bBIqqNjgGmMAGp0Xn931EmO9Ij4.jpg",
         "cast_id": 20,
         "character": "Mango (voice)",
@@ -5521,7 +5008,7 @@
         "known_for_department": "Acting",
         "name": "Gabriel Iglesias",
         "original_name": "Gabriel Iglesias",
-        "popularity": 1.5105,
+        "popularity": 1.3763,
         "profile_path": "/8Bjy3RZ5TfNs3oUOUpxTv84G01f.jpg",
         "cast_id": 14,
         "character": "Boots (voice)",
@@ -5535,7 +5022,7 @@
         "known_for_department": "Acting",
         "name": "Jacob Rodriguez",
         "original_name": "Jacob Rodriguez",
-        "popularity": 0.5356,
+        "popularity": 0.4427,
         "profile_path": "/7EOUEOauSfUu3vKvwC37b9uTlft.jpg",
         "cast_id": 3,
         "character": "Diego",
@@ -5564,15 +5051,6 @@
       }
     ],
     "posters": [
-      {
-        "aspect_ratio": 0.709,
-        "height": 750,
-        "iso_639_1": "zh",
-        "file_path": "/ws9TtoV2kPoP9KghTW41LoQrRPZ.jpg",
-        "vote_average": 0.166,
-        "vote_count": 1,
-        "width": 532
-      },
       {
         "aspect_ratio": 0.667,
         "height": 3000,
@@ -5610,6 +5088,517 @@
         "vote_average": 0.166,
         "vote_count": 1,
         "width": 2674
+      }
+    ]
+  },
+  {
+    "id": 547016,
+    "media_type": "movie",
+    "title": "永生守卫",
+    "original_title": "The Old Guard",
+    "overview": "四名不死战士秘密地保护了人类几个世纪，就在他们发现一个新的不死人时，他们因自身的神秘力量而成为被攻击的对象。",
+    "poster_path": "/pISd6XOsf48TcZp3GQyDB0FieJy.jpg",
+    "backdrop_path": "/m0ObOaJBerZ3Unc74l471ar8Iiy.jpg",
+    "vote_average": 7.141,
+    "vote_count": 4415,
+    "popularity": 65.9649,
+    "release_date": "2020-07-09",
+    "genre_ids": [
+      28,
+      14
+    ],
+    "adult": false,
+    "budget": 70000000,
+    "revenue": 0,
+    "runtime": 125,
+    "status": "Released",
+    "tagline": "",
+    "homepage": "",
+    "imdb_id": "tt7556122",
+    "original_language": "en",
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      },
+      {
+        "english_name": "Russian",
+        "iso_639_1": "ru",
+        "name": "Pусский"
+      },
+      {
+        "english_name": "Arabic",
+        "iso_639_1": "ar",
+        "name": "العربية"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 82819,
+        "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+        "name": "Skydance Media",
+        "origin_country": "US"
+      },
+      {
+        "id": 3574,
+        "logo_path": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
+        "name": "Denver & Delilah Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 159794,
+        "logo_path": null,
+        "name": "Marc Evans Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "genres": [
+      {
+        "id": 28,
+        "name": "动作"
+      },
+      {
+        "id": 14,
+        "name": "奇幻"
+      }
+    ],
+    "belongs_to_collection": {
+      "id": 847029,
+      "name": "永生守卫（系列）",
+      "poster_path": "/sRkqba6hbyfvBylYPBtUrJ3PXUl.jpg",
+      "backdrop_path": "/A7fKA5gQEUh2Rf9s4zaYyIpCU6o.jpg"
+    },
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 6885,
+        "known_for_department": "Acting",
+        "name": "查理兹·塞隆",
+        "original_name": "Charlize Theron",
+        "popularity": 17.8854,
+        "profile_path": "/ie1KbeYFG5E0GVr1QP7tDNuXvga.jpg",
+        "cast_id": 25,
+        "character": "Andromache of Scythia / Andy",
+        "credit_id": "5eb42cb2cc277c002066b3b0",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1884703,
+        "known_for_department": "Acting",
+        "name": "琪琪·莱恩",
+        "original_name": "KiKi Layne",
+        "popularity": 3.6687,
+        "profile_path": "/rJtg17ShRamdfLDDdUZgxtPkyJw.jpg",
+        "cast_id": 33,
+        "character": "Nile Freeman",
+        "credit_id": "5eb42d46c3514c002055e543",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 91378,
+        "known_for_department": "Acting",
+        "name": "吴青芸",
+        "original_name": "Veronica Ngo",
+        "popularity": 3.9406,
+        "profile_path": "/uvmZVmCbo7d9Zpc9cNEYvqhFKpU.jpg",
+        "cast_id": 32,
+        "character": "Quynh",
+        "credit_id": "5eb42d26ccb15f0022850cfb",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 73381,
+        "known_for_department": "Acting",
+        "name": "马提亚斯·修奈尔",
+        "original_name": "Matthias Schoenaerts",
+        "popularity": 3.0192,
+        "profile_path": "/9mRssCj4si6f6IF3nJ2RB5w0J7g.jpg",
+        "cast_id": 28,
+        "character": "Sebastien Le Livre / Booker",
+        "credit_id": "5eb42ce2f3e0df001e2b6bb8",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 935235,
+        "known_for_department": "Acting",
+        "name": "马尔万·肯扎里",
+        "original_name": "Marwan Kenzari",
+        "popularity": 2.1809,
+        "profile_path": "/66903sgNtyzHN0Mi3D88UYgbH86.jpg",
+        "cast_id": 29,
+        "character": "Yusuf Al-Kaysani / Joe",
+        "credit_id": "5eb42cf00cb3350020c8f947",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 2160,
+        "iso_639_1": "en",
+        "file_path": "/hDmeYCZL8BdSjIMWf3PzSbqIq6m.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 3840
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 720,
+        "iso_639_1": "en",
+        "file_path": "/hz9MhSaZTv6AjCVY4Ear5ZPXeoh.jpg",
+        "vote_average": 3.334,
+        "vote_count": 2,
+        "width": 1280
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.675,
+        "height": 2962,
+        "iso_639_1": "zh",
+        "file_path": "/pISd6XOsf48TcZp3GQyDB0FieJy.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1800,
+        "iso_639_1": "zh",
+        "file_path": "/c4P8pgC8xdSt7eyJFZO642tyBEp.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1200
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/6aUiWKlFmH5emk40O14oLKF090R.jpg",
+        "vote_average": 6.042,
+        "vote_count": 12,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_639_1": "en",
+        "file_path": "/sbLNgvCA4Sl3Umk3AY2Y4j2ZBmf.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 2000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 3.494,
+        "height": 87,
+        "iso_639_1": "zh",
+        "file_path": "/6zjZbzTbYWjeAOGMIfSbP8eC8QM.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 304
+      },
+      {
+        "aspect_ratio": 3.483,
+        "height": 87,
+        "iso_639_1": "zh",
+        "file_path": "/2oZhLmX1v6RZV1IsVSBuPDEKRSu.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 303
+      },
+      {
+        "aspect_ratio": 5.354,
+        "height": 212,
+        "iso_639_1": "en",
+        "file_path": "/bvxzhwGqNQSMwsPvZjht2sjByGR.png",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1135
+      },
+      {
+        "aspect_ratio": 5.347,
+        "height": 147,
+        "iso_639_1": "en",
+        "file_path": "/eciUTIjCQR8JK9czyKoNssyfIqr.png",
+        "vote_average": 0.0,
+        "vote_count": 1,
+        "width": 786
+      }
+    ]
+  },
+  {
+    "id": 246862,
+    "media_type": "tv",
+    "title": "新·吊带袜天使",
+    "original_title": "New PANTY & STOCKING with GARTERBELT",
+    "overview": "　　堕天城：位于天堂和地狱之间的断层线上。可怕的鬼魂再次悄无声息地腐蚀着这座城镇。在这样的时代，有些人用人类无法理解的光驱逐了从人类欲望和怨恨中诞生的鬼魂。她们的名字是天使——Panty与Stocking！！堕落天使姐妹的使命是净化地球上无处不在的黑暗。他们真的是真主的使者吗…还是魔鬼的仆人？",
+    "poster_path": "/hCOYjAsPuZeJUH9iMSor7RhJBd6.jpg",
+    "backdrop_path": "/eXxgT33OitzfmYol1kbTy7TKNOR.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "popularity": 16.6257,
+    "release_date": "2025-07-10",
+    "genre_ids": [
+      16,
+      35,
+      10759,
+      10765
+    ],
+    "adult": false,
+    "status": "Returning Series",
+    "tagline": "",
+    "homepage": "https://newpsg.com",
+    "original_language": "ja",
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      }
+    ],
+    "production_companies": [
+      {
+        "id": 50908,
+        "logo_path": "/g96SufLc3lXtaU73tAvEbTbXymY.png",
+        "name": "TRIGGER",
+        "origin_country": "JP"
+      },
+      {
+        "id": 2073,
+        "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+        "name": "KADOKAWA",
+        "origin_country": "JP"
+      },
+      {
+        "id": 182571,
+        "logo_path": "/jhSApjK8kM6pkKH2EfOVTsAADhW.png",
+        "name": "NetEase Games",
+        "origin_country": "JP"
+      },
+      {
+        "id": 60197,
+        "logo_path": "/D5B8l99tlFJGoMpYJk1kqxYdey.png",
+        "name": "Good Smile Company",
+        "origin_country": "JP"
+      },
+      {
+        "id": 50906,
+        "logo_path": "/b334NexgTgoJiKPaDxxoWPq0kd3.png",
+        "name": "Ultra Super Pictures",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "动画"
+      },
+      {
+        "id": 35,
+        "name": "喜剧"
+      },
+      {
+        "id": 10759,
+        "name": "动作冒险"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "first_air_date": "2025-07-10",
+    "number_of_episodes": 2,
+    "number_of_seasons": 1,
+    "episode_run_time": [
+      24
+    ],
+    "in_production": true,
+    "languages": [
+      "ja"
+    ],
+    "next_episode_to_air": {
+      "id": 5158279,
+      "name": "第 1 集",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2025-07-10",
+      "episode_number": 1,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 24,
+      "season_number": 1,
+      "show_id": 246862,
+      "still_path": "/n5hj998kwpBA7ozHTjeeBLHL99P.jpg"
+    },
+    "networks": [
+      {
+        "id": 614,
+        "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+        "name": "Tokyo MX",
+        "origin_country": "JP"
+      },
+      {
+        "id": 817,
+        "logo_path": "/wkyNhgg9DDtQMFBGXpAaHilE99N.png",
+        "name": "Sun TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3220,
+        "logo_path": "/naTpOY8AjRtgBw0JXafrhAD8ZBT.png",
+        "name": "BS Nippon TV",
+        "origin_country": "JP"
+      }
+    ],
+    "origin_country": [
+      "JP"
+    ],
+    "seasons": [
+      {
+        "air_date": "2025-07-10",
+        "episode_count": 2,
+        "id": 380026,
+        "name": "第 1 季",
+        "overview": "",
+        "poster_path": "/hCOYjAsPuZeJUH9iMSor7RhJBd6.jpg",
+        "season_number": 1,
+        "vote_average": 0.0
+      }
+    ],
+    "type": "Scripted",
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1246266,
+        "known_for_department": "Acting",
+        "name": "小笠原亚里沙",
+        "original_name": "小笠原亜里沙",
+        "popularity": 0.5404,
+        "profile_path": "/iZtQW0a8Dc8B1mGh2jd8BmKMGwz.jpg",
+        "character": "Panty Anarchy (voice)",
+        "credit_id": "676a62a49348daa54ba9ef65",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1250465,
+        "known_for_department": "Acting",
+        "name": "伊濑茉莉也",
+        "original_name": "伊瀬茉莉也",
+        "popularity": 1.8913,
+        "profile_path": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg",
+        "character": "Stocking Anarchy (voice)",
+        "credit_id": "676a62b08c9f82c5607eb5a6",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 550663,
+        "known_for_department": "Acting",
+        "name": "石井康嗣",
+        "original_name": "石井康嗣",
+        "popularity": 0.9872,
+        "profile_path": "/ao882dlS1ERrar6iq0qedBVBAhH.jpg",
+        "character": "Garterbelt (voice)",
+        "credit_id": "676a62c5fcce39d9ee64a92a",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 225996,
+        "known_for_department": "Acting",
+        "name": "吉野裕行",
+        "original_name": "吉野裕行",
+        "popularity": 1.6408,
+        "profile_path": "/nZQbjjvAjPpjGYenY7kLDtW9e7N.jpg",
+        "character": "Brief (voice)",
+        "credit_id": "676a62d3b0c376d421a9ed29",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 5138693,
+        "known_for_department": "Acting",
+        "name": "中村贵志",
+        "original_name": "中村たかし",
+        "popularity": 0.1903,
+        "profile_path": "/9XydkUnRIA8ze8js49RFDrAXetf.jpg",
+        "character": "Chuck (voice)",
+        "credit_id": "676a643afdaa7c2549a9e055",
+        "order": 4
+      }
+    ],
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 1080,
+        "iso_639_1": "zh",
+        "file_path": "/hw4VZ5NJzBbfbXU6lHqiOxv2Gap.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1920
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.707,
+        "height": 1414,
+        "iso_639_1": "en",
+        "file_path": "/4BreeBRj2yJpqwlMtIlFhd8NI50.jpg",
+        "vote_average": 1.222,
+        "vote_count": 3,
+        "width": 1000
+      }
+    ],
+    "logos": [
+      {
+        "aspect_ratio": 1.819,
+        "height": 1073,
+        "iso_639_1": "zh",
+        "file_path": "/amtvUi3ikAMpmSyplgtjewCszpT.png",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 1952
       }
     ]
   }

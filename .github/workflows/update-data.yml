@@ -28,6 +28,7 @@ jobs:
     - name: Run movie data fetcher
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
       run: |
         python fetch_movie_data.py
         

@@ -1,12 +1,14 @@
 import requests
 import json
 import os
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 class MovieDataFetcher:
-  def __init__(self, api_key: str):
+  def __init__(self, api_key: str, mdblist_api_key: str):
       self.api_key = api_key
+      self.mdblist_api_key = mdblist_api_key
       self.base_url = "https://api.themoviedb.org/3"
+      self.mdblist_base_url = "https://api.mdblist.com/tmdb"
       self.session = requests.Session()
   
   def get_trending_data(self) -> Dict[str, Any]:
@@ -62,6 +64,51 @@ class MovieDataFetcher:
           print(f"获取电视剧 {tv_id} 详细信息失败: {e}")
           return {}
   
+  def get_mdblist_data(self, media_type: str, tmdb_id: int) -> Optional[Dict[str, Any]]:
+      """
+      从 mdblist API 获取额外数据
+      media_type: 'movie' 或 'tv'
+      tmdb_id: TMDB ID
+      """
+      # 转换媒体类型：tv -> show
+      mdb_media_type = 'show' if media_type == 'tv' else 'movie'
+      
+      url = f"{self.mdblist_base_url}/{mdb_media_type}/{tmdb_id}"
+      params = {
+          'append_to_response': 'keyword',
+          'apikey': self.mdblist_api_key
+      }
+      
+      try:
+          response = self.session.get(url, params=params)
+          response.raise_for_status()
+          return response.json()
+      except requests.RequestException as e:
+          print(f"  获取 mdblist 数据失败 ({media_type} {tmdb_id}): {e}")
+          return None
+  
+  def extract_mdblist_data(self, mdb_data: Dict[str, Any]) -> Dict[str, Any]:
+      """从 mdblist 数据中提取需要的字段"""
+      extracted = {}
+      
+      # 提取评分数据
+      if 'ratings' in mdb_data and mdb_data['ratings']:
+          extracted['ratings'] = mdb_data['ratings']
+      
+      # 提取认证信息
+      if 'certification' in mdb_data and mdb_data['certification']:
+          extracted['certification'] = mdb_data['certification']
+      
+      # 提取年龄评级
+      if 'age_rating' in mdb_data and mdb_data['age_rating'] is not None:
+          extracted['age_rating'] = mdb_data['age_rating']
+      
+      # 提取预告片链接
+      if 'trailer' in mdb_data and mdb_data['trailer']:
+          extracted['trailer'] = mdb_data['trailer']
+      
+      return extracted
+  
   def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
       """
       过滤和排序图片
@@ -72,7 +119,7 @@ class MovieDataFetcher:
       if not images:
           return []
       
-      # 过滤图片：只保留中文或无语言标识的图片
+      # 过滤图片：只保留中文或英文的图片
       filtered_images = []
       for img in images:
           iso_639_1 = img.get('iso_639_1')
@@ -98,7 +145,7 @@ class MovieDataFetcher:
           result_images.extend(sorted_zh)
           print(f"  找到 {len(zh_images)} 张中文{image_type}图片，选择了前 {len(sorted_zh)} 张")
       
-      # 处理无语言标识图片
+      # 处理英文图片
       if en_images:
           sorted_en = sort_by_width_desc(en_images)
           result_images.extend(sorted_en)
@@ -178,6 +225,33 @@ class MovieDataFetcher:
           if 'videos' in details and details['videos'].get('results'):
               merged_item['videos'] = details['videos']['results'][:5]  # 只保留前5个视频
           
+          # 获取 mdblist 额外数据
+          media_type = basic_item.get('media_type')
+          media_id = basic_item.get('id')
+          
+          print(f"  获取 mdblist 评分数据...")
+          mdb_data = self.get_mdblist_data(media_type, media_id)
+          if mdb_data:
+              mdb_extracted = self.extract_mdblist_data(mdb_data)
+              merged_item.update(mdb_extracted)
+              
+              # 统计获取到的数据
+              data_types = []
+              if 'ratings' in mdb_extracted:
+                  ratings_count = len([r for r in mdb_extracted['ratings'] if r.get('value') is not None])
+                  data_types.append(f"{ratings_count}个评分")
+              if 'certification' in mdb_extracted:
+                  data_types.append("认证信息")
+              if 'age_rating' in mdb_extracted:
+                  data_types.append("年龄评级")
+              if 'trailer' in mdb_extracted:
+                  data_types.append("预告片")
+              
+              if data_types:
+                  print(f"  ✅ 获取到: {', '.join(data_types)}")
+              else:
+                  print(f"  ⚠️  未获取到有效的额外数据")
+          
           # 图片信息 - 使用新的过滤和排序逻辑
           if 'images' in details:
               images = details['images']
@@ -197,9 +271,9 @@ class MovieDataFetcher:
                   if filtered_posters:
                       merged_item['posters'] = filtered_posters
 
-              # 处理海报图片
+              # 处理logo图片
               if 'logos' in images:
-                  filtered_logos = self.filter_and_sort_images(images['logos'], 'logos')
+                  filtered_logos = self.filter_and_sort_images(images['logos'], 'logo')
                   if filtered_logos:
                       merged_item['logos'] = filtered_logos
       
@@ -266,25 +340,37 @@ class MovieDataFetcher:
           # 统计图片信息
           total_backdrops = sum(len(item.get('backdrops', [])) for item in data)
           total_posters = sum(len(item.get('posters', [])) for item in data)
-          print(f"🖼️  共包含 {total_backdrops} 张背景图片，{total_posters} 张海报图片")
+          total_logos = sum(len(item.get('logos', [])) for item in data)
+          print(f"🖼️  共包含 {total_backdrops} 张背景图片，{total_posters} 张海报图片，{total_logos} 张logo图片")
           
-          # 统计相似内容信息
-          total_similar = sum(len(item.get('similar', [])) for item in data)
-          total_recommendations = sum(len(item.get('recommendations', [])) for item in data)
-          print(f"🔗 共包含 {total_similar} 个相似内容，{total_recommendations} 个推荐内容")
+          # 统计评分信息
+          items_with_ratings = sum(1 for item in data if 'ratings' in item)
+          items_with_certification = sum(1 for item in data if 'certification' in item)
+          items_with_age_rating = sum(1 for item in data if 'age_rating' in item)
+          items_with_trailer = sum(1 for item in data if 'trailer' in item)
+          
+          print(f"⭐ 评分数据: {items_with_ratings} 个项目")
+          print(f"🔒 认证信息: {items_with_certification} 个项目")
+          print(f"🎯 年龄评级: {items_with_age_rating} 个项目")
+          print(f"🎬 预告片链接: {items_with_trailer} 个项目")
           
       except Exception as e:
           print(f"❌ 保存文件失败: {e}")
 
 def main():
   # 从环境变量获取 API 密钥
-  api_key = os.getenv('TMDB_API_KEY', '9f10dfe93f1fd3b793eaa10c732a07e9')
+  tmdb_api_key = os.getenv('TMDB_API_KEY', '')
+  mdblist_api_key = os.getenv('MDBLIST_API_KEY', '')
   
-  if not api_key:
+  if not tmdb_api_key:
       print("❌ 错误: 未找到 TMDB API 密钥")
       return
   
-  fetcher = MovieDataFetcher(api_key)
+  if not mdblist_api_key:
+      print("❌ 错误: 未找到 MDBLIST API 密钥")
+      return
+  
+  fetcher = MovieDataFetcher(tmdb_api_key, mdblist_api_key)
   
   print("🎬 开始生成主页数据...")
   homepage_data = fetcher.generate_homepage_data()

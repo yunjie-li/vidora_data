@@ -87,13 +87,52 @@ class MovieDataFetcher:
           print(f"  获取 mdblist 数据失败 ({media_type} {tmdb_id}): {e}")
           return None
   
+  def filter_valid_ratings(self, ratings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+      """
+      过滤评分数据，移除 value 为 null 的评分
+      """
+      if not ratings:
+          return []
+      
+      valid_ratings = []
+      filtered_count = 0
+      
+      for rating in ratings:
+          value = rating.get('value')
+          # 过滤掉 value 为 None、null、空字符串或0的评分
+          if value is not None and value != '' and value != 0:
+              valid_ratings.append(rating)
+          else:
+              filtered_count += 1
+              source = rating.get('source', 'unknown')
+              print(f"    ⚠️  过滤掉无效评分: {source} (value: {value})")
+      
+      if filtered_count > 0:
+          print(f"    📊 过滤掉 {filtered_count} 个无效评分，保留 {len(valid_ratings)} 个有效评分")
+      
+      return valid_ratings
+  
   def extract_mdblist_data(self, mdb_data: Dict[str, Any]) -> Dict[str, Any]:
       """从 mdblist 数据中提取需要的字段"""
       extracted = {}
       
-      # 提取评分数据
+      # 提取评分数据并过滤无效评分
       if 'ratings' in mdb_data and mdb_data['ratings']:
-          extracted['ratings'] = mdb_data['ratings']
+          print(f"    🔍 原始评分数据: {len(mdb_data['ratings'])} 个")
+          valid_ratings = self.filter_valid_ratings(mdb_data['ratings'])
+          if valid_ratings:
+              extracted['ratings'] = valid_ratings
+              
+              # 统计各评分源
+              sources = [rating.get('source', 'unknown') for rating in valid_ratings]
+              sources_summary = {}
+              for source in sources:
+                  sources_summary[source] = sources_summary.get(source, 0) + 1
+              
+              sources_list = [f"{source}({count})" for source, count in sources_summary.items()]
+              print(f"    ✅ 有效评分源: {', '.join(sources_list)}")
+          else:
+              print(f"    ❌ 没有找到有效的评分数据")
       
       # 提取认证信息
       if 'certification' in mdb_data and mdb_data['certification']:
@@ -218,7 +257,7 @@ class MovieDataFetcher:
           if 'credits' in details:
               credits = details['credits']
               merged_item.update({
-                  'cast': credits.get('cast', [])[:5]
+                  'cast': credits.get('cast', [])[:10]
               })
           
           # 视频信息
@@ -238,8 +277,8 @@ class MovieDataFetcher:
               # 统计获取到的数据
               data_types = []
               if 'ratings' in mdb_extracted:
-                  ratings_count = len([r for r in mdb_extracted['ratings'] if r.get('value') is not None])
-                  data_types.append(f"{ratings_count}个评分")
+                  ratings_count = len(mdb_extracted['ratings'])
+                  data_types.append(f"{ratings_count}个有效评分")
               if 'certification' in mdb_extracted:
                   data_types.append("认证信息")
               if 'age_rating' in mdb_extracted:
@@ -349,10 +388,30 @@ class MovieDataFetcher:
           items_with_age_rating = sum(1 for item in data if 'age_rating' in item)
           items_with_trailer = sum(1 for item in data if 'trailer' in item)
           
-          print(f"⭐ 评分数据: {items_with_ratings} 个项目")
+          # 统计总的有效评分数量
+          total_ratings = sum(len(item.get('ratings', [])) for item in data)
+          
+          print(f"⭐ 评分数据: {items_with_ratings} 个项目，共 {total_ratings} 个有效评分")
           print(f"🔒 认证信息: {items_with_certification} 个项目")
           print(f"🎯 年龄评级: {items_with_age_rating} 个项目")
           print(f"🎬 预告片链接: {items_with_trailer} 个项目")
+          
+          # 统计评分来源分布
+          if total_ratings > 0:
+              all_sources = []
+              for item in data:
+                  if 'ratings' in item:
+                      for rating in item['ratings']:
+                          source = rating.get('source', 'unknown')
+                          all_sources.append(source)
+              
+              source_counts = {}
+              for source in all_sources:
+                  source_counts[source] = source_counts.get(source, 0) + 1
+              
+              print("📈 评分来源统计:")
+              for source, count in sorted(source_counts.items(), key=lambda x: x[1], reverse=True):
+                  print(f"   {source}: {count} 个")
           
       except Exception as e:
           print(f"❌ 保存文件失败: {e}")

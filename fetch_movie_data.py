@@ -387,6 +387,8 @@ class MovieDataFetcher:
               compressed['certification'] = mdb_data['certification']
           if mdb_data.get('age_rating'):
               compressed['age_rating'] = mdb_data['age_rating']
+          if mdb_data.get('trailer'):
+              compressed['trailer'] = mdb_data['trailer']
       
       # 移除空值
       return {k: v for k, v in compressed.items() if v is not None and v != '' and v != []}

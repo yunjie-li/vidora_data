@@ -355,6 +355,31 @@ class MovieDataFetcher:
                     'belongs_to_collection': details.get('belongs_to_collection')
                 }
                 detail_fields.update(movie_fields)
+
+            # 图片信息 - 使用新的过滤和排序逻辑
+            if 'images' in details:
+                images = details['images']
+                item_title = merged_item.get('title', 'Unknown')
+                
+                print(f"处理 {item_title} 的图片:")
+                
+                # 处理背景图片
+                if 'backdrops' in images:
+                    filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
+                    if filtered_backdrops:
+                        detail_fields['backdrops'] = filtered_backdrops
+                
+                # 处理海报图片
+                if 'posters' in images:
+                    filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
+                    if filtered_posters:
+                        detail_fields['posters'] = filtered_posters
+    
+                # 处理logo图片
+                if 'logos' in images:
+                    filtered_logos = self.filter_and_sort_images(images['logos'], 'logo')
+                    if filtered_logos:
+                        detail_fields['logos'] = filtered_logos
             
             # 演职员信息（重要！）
             if 'credits' in details:
@@ -407,31 +432,6 @@ class MovieDataFetcher:
                 compressed['age_rating'] = mdb_data['age_rating']
             if mdb_data.get('trailer'):
                 compressed['trailer'] = mdb_data['trailer']
-        
-        # 图片信息 - 使用新的过滤和排序逻辑
-        if 'images' in details:
-            images = details['images']
-            item_title = merged_item.get('title', 'Unknown')
-            
-            print(f"处理 {item_title} 的图片:")
-            
-            # 处理背景图片
-            if 'backdrops' in images:
-                filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
-                if filtered_backdrops:
-                    merged_item['backdrops'] = filtered_backdrops
-            
-            # 处理海报图片
-            if 'posters' in images:
-                filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
-                if filtered_posters:
-                    merged_item['posters'] = filtered_posters
-
-            # 处理logo图片
-            if 'logos' in images:
-                filtered_logos = self.filter_and_sort_images(images['logos'], 'logo')
-                if filtered_logos:
-                    merged_item['logos'] = filtered_logos
         
         # 移除空值
         return {k: v for k, v in compressed.items() if v is not None and v != '' and v != []}

@@ -359,9 +359,6 @@ class MovieDataFetcher:
             # 图片信息 - 使用新的过滤和排序逻辑
             if 'images' in details:
                 images = details['images']
-                item_title = merged_item.get('title', 'Unknown')
-                
-                print(f"处理 {item_title} 的图片:")
                 
                 # 处理背景图片
                 if 'backdrops' in images:

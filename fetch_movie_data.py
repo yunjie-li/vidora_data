@@ -289,7 +289,7 @@ class MovieDataFetcher:
           'original_title': item.get('original_title') or item.get('original_name'),
           'poster_path': item.get('poster_path'),
           'backdrop_path': item.get('backdrop_path'),
-          'overview': item.get('overview', '')[:300] if item.get('overview') else '',  # 适当限制简介长度
+          'overview': item.get('overview', '')[:2000] if item.get('overview') else '',  # 适当限制简介长度
           'vote_average': round(item.get('vote_average', 0), 1),
           'vote_count': item.get('vote_count', 0),
           'popularity': round(item.get('popularity', 0), 1),
@@ -311,7 +311,7 @@ class MovieDataFetcher:
               'homepage': details.get('homepage'),
               'imdb_id': details.get('imdb_id'),
               'spoken_languages': details.get('spoken_languages', []),
-              'production_companies': details.get('production_companies', [])[:3],  # 限制制作公司数量
+              'production_companies': details.get('production_companies', [])[:5],
               'production_countries': details.get('production_countries', []),
               'genres': details.get('genres', [])
           }
@@ -325,7 +325,7 @@ class MovieDataFetcher:
                   'number_of_seasons': details.get('number_of_seasons'),
                   'episode_run_time': details.get('episode_run_time', []),
                   'in_production': details.get('in_production'),
-                  'networks': details.get('networks', [])[:2],  # 限制网络数量
+                  'networks': details.get('networks', [])[:5],
                   'origin_country': details.get('origin_country', []),
                   'type': details.get('type')
               }
@@ -370,7 +370,7 @@ class MovieDataFetcher:
               valid_ratings = self.filter_valid_ratings(mdb_data['ratings'])
               if valid_ratings:
                   # 只保留主要评分源
-                  main_sources = ['imdb', 'metacritic', 'rotten_tomatoes', 'letterboxd']
+                  main_sources = ['imdb', 'metacritic', "tomatoes", 'popcorn', "tmdb", 'letterboxd']
                   main_ratings = {}
                   
                   for rating in valid_ratings:

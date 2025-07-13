@@ -412,7 +412,7 @@ class MovieDataFetcher:
                 valid_ratings = self.filter_valid_ratings(mdb_data['ratings'])
                 if valid_ratings:
                     # 只保留主要评分源
-                    main_sources = ['imdb', 'metacritic', "tomatoes", 'popcorn', "tmdb", 'letterboxd']
+                    main_sources = ['imdb', "trakt", 'metacritic', "tomatoes", 'popcorn', "tmdb", 'letterboxd']
                     main_ratings = {}
                     
                     for rating in valid_ratings:

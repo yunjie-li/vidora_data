@@ -101,7 +101,7 @@ class MovieDataFetcher:
         params = {
             'api_key': self.api_key,
             'language': 'zh',
-            'append_to_response': 'credits,videos,images'
+            'append_to_response': 'credits,videos,images',
             'include_image_language': 'zh,en'
         }
         

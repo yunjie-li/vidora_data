@@ -95,40 +95,6 @@ class MovieDataFetcher:
             print(f"获取高评分电视剧失败: {e}")
             return {}
     
-    def get_now_playing_movies(self, page: int = 1) -> Dict[str, Any]:
-        """获取正在上映的电影"""
-        url = f"{self.base_url}/movie/now_playing"
-        params = {
-            'api_key': self.api_key,
-            'language': 'zh',
-            'page': page
-        }
-        
-        try:
-            response = self.session.get(url, params=params)
-            response.raise_for_status()
-            return response.json()
-        except requests.RequestException as e:
-            print(f"获取正在上映电影失败: {e}")
-            return {}
-    
-    def get_upcoming_movies(self, page: int = 1) -> Dict[str, Any]:
-        """获取即将上映的电影"""
-        url = f"{self.base_url}/movie/upcoming"
-        params = {
-            'api_key': self.api_key,
-            'language': 'zh',
-            'page': page
-        }
-        
-        try:
-            response = self.session.get(url, params=params)
-            response.raise_for_status()
-            return response.json()
-        except requests.RequestException as e:
-            print(f"获取即将上映电影失败: {e}")
-            return {}
-    
     def get_movie_details(self, movie_id: int) -> Dict[str, Any]:
         """获取电影详细信息"""
         url = f"{self.base_url}/movie/{movie_id}"
@@ -526,8 +492,6 @@ class MovieDataFetcher:
             ('popularTv', '热门电视剧', lambda: self.get_popular_tv(), 'tv', 20, True),
             ('topRatedMovie', '高评分电影', lambda: self.get_top_rated_movies(), 'movie', 15, True),
             ('topRatedTv', '高评分电视剧', lambda: self.get_top_rated_tv(), 'tv', 15, True),
-            ('nowPlaying', '正在上映', lambda: self.get_now_playing_movies(), 'movie', 15, False),  # 正在上映不需要详细信息
-            ('upcoming', '即将上映', lambda: self.get_upcoming_movies(), 'movie', 15, False)  # 即将上映不需要详细信息
         ]
         
         for key, name, fetch_func, media_type, limit, fetch_details in data_sources:

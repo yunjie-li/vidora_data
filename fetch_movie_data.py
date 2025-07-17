@@ -214,12 +214,13 @@ class MovieDataFetcher:
         """压缩演员数据，只保留核心信息"""
         if not cast:
             return []
-            
-        if not actor.get('profile_path'):
-            continue  # 跳过没有头像的演员
         
         compressed_cast = []
         for actor in cast[:limit]:  # 限制演员数量
+
+            if not actor.get('profile_path'):
+                continue  # 跳过没有头像的演员
+                
             compressed_actor = {
                 'id': actor.get('id'),
                 'name': actor.get('name'),

@@ -210,10 +210,13 @@ class MovieDataFetcher:
         
         return result_images
     
-    def compress_cast_data(self, cast: List[Dict[str, Any]], limit: int = 8) -> List[Dict[str, Any]]:
+    def compress_cast_data(self, cast: List[Dict[str, Any]], limit: int = 10) -> List[Dict[str, Any]]:
         """压缩演员数据，只保留核心信息"""
         if not cast:
             return []
+            
+        if not actor.get('profile_path'):
+            continue  # 跳过没有头像的演员
         
         compressed_cast = []
         for actor in cast[:limit]:  # 限制演员数量
@@ -229,30 +232,6 @@ class MovieDataFetcher:
                 compressed_cast.append(compressed_actor)
         
         return compressed_cast
-    
-    def compress_crew_data(self, crew: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """压缩制作人员数据，只保留导演和重要职位"""
-        if not crew:
-            return []
-        
-        important_jobs = ['Director', 'Producer', 'Executive Producer', 'Screenplay', 'Writer']
-        compressed_crew = []
-        
-        for person in crew:
-            job = person.get('job', '')
-            if job in important_jobs:
-                compressed_person = {
-                    'id': person.get('id'),
-                    'name': person.get('name'),
-                    'job': job,
-                    'profile_path': person.get('profile_path')
-                }
-                # 移除空值
-                compressed_person = {k: v for k, v in compressed_person.items() if v is not None and v != ''}
-                if compressed_person:
-                    compressed_crew.append(compressed_person)
-        
-        return compressed_crew
     
     def compress_videos_data(self, videos: List[Dict[str, Any]], limit: int = 3) -> List[Dict[str, Any]]:
         """压缩视频数据"""
@@ -386,12 +365,7 @@ class MovieDataFetcher:
                 if 'cast' in credits:
                     compressed_cast = self.compress_cast_data(credits['cast'])
                     if compressed_cast:
-                        detail_fields['cast'] = compressed_cast
-                
-                if 'crew' in credits:
-                    compressed_crew = self.compress_crew_data(credits['crew'])
-                    if compressed_crew:
-                        detail_fields['crew'] = compressed_crew
+                        detail_fields['casts'] = compressed_cast
             
             # 视频信息
             if 'videos' in details and details['videos'].get('results'):

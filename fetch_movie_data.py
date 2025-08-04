@@ -181,6 +181,7 @@ class MovieDataFetcher:
         # 按 iso_639_1 分组
         zh_images = [img for img in filtered_images if img.get('iso_639_1') == 'zh']
         en_images = [img for img in filtered_images if img.get('iso_639_1') == 'en']
+        null_images = [img for img in filtered_images if img.get('iso_639_1') == 'null']
         
         def sort_images(img_list, limit=3):
             if not img_list:
@@ -207,6 +208,11 @@ class MovieDataFetcher:
             sorted_en = sort_images(en_images)
             result_images.extend(sorted_en)
             print(f"  找到 {len(en_images)} 张英文{image_type}图片，选择了前 {len(sorted_en)} 张")
+
+        if null_images:
+            sorted_null = sort_images(null_images)
+            result_images.extend(sorted_null)
+            print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_en)} 张")
         
         return result_images
     

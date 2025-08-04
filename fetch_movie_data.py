@@ -102,7 +102,7 @@ class MovieDataFetcher:
             'api_key': self.api_key,
             'language': 'zh',
             'append_to_response': 'credits,videos,images',
-            'include_image_language': 'zh,en'
+            'include_image_language': 'zh,en,null'
         }
         
         try:
@@ -120,7 +120,7 @@ class MovieDataFetcher:
             'api_key': self.api_key,
             'language': 'zh',
             'append_to_response': 'credits,videos,images',
-            'include_image_language': 'zh,en'
+            'include_image_language': 'zh,en,null'
         }
         
         try:

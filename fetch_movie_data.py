@@ -212,7 +212,7 @@ class MovieDataFetcher:
         if null_images:
             sorted_null = sort_images(null_images)
             result_images.extend(sorted_null)
-            print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_en)} 张")
+            print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_null)} 张")
         
         return result_images
     

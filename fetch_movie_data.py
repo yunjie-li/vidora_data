@@ -172,7 +172,7 @@ class MovieDataFetcher:
         filtered_images = []
         for img in images:
             iso_639_1 = img.get('iso_639_1')
-            if iso_639_1 == 'zh' or iso_639_1 == 'en':
+            if iso_639_1 == 'zh' or iso_639_1 == 'en' or iso_639_1 == 'null':
                 filtered_images.append(img)
         
         if not filtered_images:

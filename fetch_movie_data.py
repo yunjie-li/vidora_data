@@ -172,7 +172,7 @@ class MovieDataFetcher:
         filtered_images = []
         for img in images:
             iso_639_1 = img.get('iso_639_1')
-            if iso_639_1 == 'zh' or iso_639_1 == 'en' or iso_639_1 == null:
+            if iso_639_1 == 'zh' or iso_639_1 == 'en' or img.get('iso_639_1') is None:
                 filtered_images.append(img)
         
         if not filtered_images:
@@ -181,7 +181,7 @@ class MovieDataFetcher:
         # 按 iso_639_1 分组
         zh_images = [img for img in filtered_images if img.get('iso_639_1') == 'zh']
         en_images = [img for img in filtered_images if img.get('iso_639_1') == 'en']
-        null_images = [img for img in filtered_images if img.get('iso_639_1') == null]
+        null_images = [img for img in filtered_images if img.get('iso_639_1') is None]
         
         def sort_images(img_list, limit=3):
             if not img_list:

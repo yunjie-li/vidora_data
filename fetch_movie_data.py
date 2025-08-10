@@ -162,17 +162,12 @@ class MovieDataFetcher:
         if not images:
             return images
     
+        limits = limits or {"backdrops": 3, "posters": 3, "logos": 3}
         per_language_limit = 2  # 每种语言最多返回 2 条
     
         for key in ("backdrops", "posters", "logos"):
             raw = images.get(key, [])
-    
-            # 先按 vote_average 和 width 排序
-            sorted_images = sorted(
-                raw,
-                key=lambda img: (img.get("width", 0), img.get("vote_average", 0)),
-                reverse=True
-            )
+            limit = limits.get(key, 2)
     
             # 按语言分组
             grouped_by_lang = {
@@ -181,18 +176,27 @@ class MovieDataFetcher:
                 None: []
             }
     
-            for img in sorted_images:
+            for img in raw:
                 lang = img.get("iso_639_1")
                 if lang in grouped_by_lang:
                     grouped_by_lang[lang].append(img)
     
-            # 每种语言取前 per_language_limit 条
+            # 每种语言按宽度和投票平均值排序，取前 per_language_limit 条
             filtered = []
             for lang in grouped_by_lang.values():
-                filtered.extend(lang[:per_language_limit])
+                sorted_lang = sorted(
+                    lang,
+                    key=lambda img: (-img.get("width", 0), -img.get("vote_average", 0)),
+                    reverse=True
+                )
+                filtered.extend(sorted_lang[:per_language_limit])
     
-            # 最终结果
-            images[key] = filtered[:limit]
+            # 合并后的结果按投票平均值排序，取前 limit 条
+            images[key] = sorted(
+                filtered,
+                key=lambda img: -img.get("vote_average", 0),
+                reverse=True
+            )[:limit]
     
         return images
 

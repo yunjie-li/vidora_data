@@ -161,21 +161,39 @@ class MovieDataFetcher:
     def filter_images(self, images: Dict[str, List[Dict[str, Any]]], limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
         if not images:
             return images
-
-        limits = limits or {"backdrops": 2, "posters": 2, "logos": 2}
-        order = {"zh": 0, "en": 1, None: 2}
-
-        def score(img):
-            return (order.get(img.get("iso_639_1"), 3),
-                    -img.get("vote_average", 0),
-                    -img.get("width", 0))
-
+    
+        per_language_limit = 2  # 每种语言最多返回 2 条
+    
         for key in ("backdrops", "posters", "logos"):
             raw = images.get(key, [])
-            limit = limits.get(key, 2)
-            filtered = [img for img in raw
-                        if img.get("iso_639_1") in {"zh", "en", None}]
-            images[key] = sorted(filtered, key=score)[:limit]
+    
+            # 先按 vote_average 和 width 排序
+            sorted_images = sorted(
+                raw,
+                key=lambda img: (img.get("width", 0), img.get("vote_average", 0)),
+                reverse=True
+            )
+    
+            # 按语言分组
+            grouped_by_lang = {
+                "zh": [],
+                "en": [],
+                None: []
+            }
+    
+            for img in sorted_images:
+                lang = img.get("iso_639_1")
+                if lang in grouped_by_lang:
+                    grouped_by_lang[lang].append(img)
+    
+            # 每种语言取前 per_language_limit 条
+            filtered = []
+            for lang in grouped_by_lang.values():
+                filtered.extend(lang[:per_language_limit])
+    
+            # 最终结果
+            images[key] = filtered[:limit]
+    
         return images
 
     # def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:

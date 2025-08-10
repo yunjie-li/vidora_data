@@ -344,38 +344,43 @@ class MovieDataFetcher:
             # 图片信息 - 使用新的过滤和排序逻辑
             if 'images' in details:
                 images = details['images']
-                
+                detail_fields['images'] = images
                 # 处理背景图片
-                if 'backdrops' in images:
-                    filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
-                    if filtered_backdrops:
-                        detail_fields['backdrops'] = filtered_backdrops
+                # if 'backdrops' in images:
+                #     filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
+                #     if filtered_backdrops:
+                #         detail_fields['backdrops'] = filtered_backdrops
                 
                 # 处理海报图片
-                if 'posters' in images:
-                    filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
-                    if filtered_posters:
-                        detail_fields['posters'] = filtered_posters
+                # if 'posters' in images:
+                #     filtered_posters = self.filter_and_sort_images(images['posters'], '海报')
+                #     if filtered_posters:
+                #         detail_fields['posters'] = filtered_posters
     
                 # 处理logo图片
-                if 'logos' in images:
-                    filtered_logos = self.filter_and_sort_images(images['logos'], 'logo')
-                    if filtered_logos:
-                        detail_fields['logos'] = filtered_logos
+                # if 'logos' in images:
+                #     filtered_logos = self.filter_and_sort_images(images['logos'], 'logo')
+                #     if filtered_logos:
+                #         detail_fields['logos'] = filtered_logos
             
             # 演职员信息（重要！）
             if 'credits' in details:
                 credits = details['credits']
-                if 'cast' in credits:
-                    compressed_cast = self.compress_cast_data(credits['cast'])
-                    if compressed_cast:
-                        detail_fields['casts'] = compressed_cast
+                detail_fields['credits'] = credits
+                # if 'cast' in credits:
+                #     compressed_cast = self.compress_cast_data(credits['cast'])
+                #     if compressed_cast:
+                #         detail_fields['casts'] = compressed_cast
             
             # 视频信息
-            if 'videos' in details and details['videos'].get('results'):
-                compressed_videos = self.compress_videos_data(details['videos']['results'])
-                if compressed_videos:
-                    detail_fields['videos'] = compressed_videos
+            if 'videos' in details:
+                videos = details['videos']
+                detail_fields['videos'] = videos
+                
+            # if 'videos' in details and details['videos'].get('results'):
+                # compressed_videos = self.compress_videos_data(details['videos']['results'])
+                # if compressed_videos:
+                #     detail_fields['videos'] = compressed_videos
             
             # 只添加有值的详细字段
             for key, value in detail_fields.items():
@@ -400,7 +405,7 @@ class MovieDataFetcher:
                             main_ratings[source] = round(float(value), 1)
                     
                     if main_ratings:
-                        compressed['external_ratings'] = main_ratings
+                        compressed['rating'] = main_ratings
             
             # 其他重要的 mdblist 数据
             if mdb_data.get('certification'):

@@ -158,6 +158,26 @@ class MovieDataFetcher:
         
         return valid_ratings
 
+    def filter_images(self, images: Dict[str, List[Dict[str, Any]]], limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
+        if not images:
+            return images
+
+        limits = limits or {"backdrops": 2, "posters": 2, "logos": 2}
+        order = {"zh": 0, "en": 1, None: 2}
+
+        def score(img):
+            return (order.get(img.get("iso_639_1"), 3),
+                    -img.get("vote_average", 0),
+                    -img.get("width", 0))
+
+        for key in ("backdrops", "posters", "logos"):
+            raw = images.get(key, [])
+            limit = limits.get(key, 2)
+            filtered = [img for img in raw
+                        if img.get("iso_639_1") in {"zh", "en", None}]
+            images[key] = sorted(filtered, key=score)[:limit]
+        return images
+
     # def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
     #     """
     #     过滤和排序图片
@@ -418,27 +438,6 @@ class MovieDataFetcher:
         # 移除空值
         return {k: v for k, v in compressed.items() if v is not None and v != '' and v != []}
 
-    def filter_images(images: Dict[str, List[Dict[str, Any]]],
-                  limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
-        if not images:
-            return images
-    
-        limits = limits or {"backdrops": 2, "posters": 2, "logos": 2}
-        order = {"zh": 0, "en": 1, None: 2}
-    
-        def score(img):
-            return (order.get(img.get("iso_639_1"), 3),
-                    -img.get("vote_average", 0),
-                    -img.get("width", 0))
-    
-        for key in ("backdrops", "posters", "logos"):
-            raw = images.get(key, [])
-            limit = limits.get(key, 2)
-            filtered = [img for img in raw
-                        if img.get("iso_639_1") in {"zh", "en", None}]
-            images[key] = sorted(filtered, key=score)[:limit]
-        return images
-    
     def process_data_list(self, data: Dict[str, Any], media_type: str = None, limit: int = 20, fetch_details: bool = True) -> List[Dict[str, Any]]:
         """处理数据列表，返回压缩后的数据，过滤掉没有overview的项目"""
         if 'results' not in data:

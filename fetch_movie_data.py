@@ -167,7 +167,7 @@ class MovieDataFetcher:
     
         for key in ("backdrops", "posters", "logos"):
             raw = images.get(key, [])
-            limit = limits.get(key, 2)
+            limit = limits.get(key, 2)  # 确保 limit 在每次循环中都被定义
     
             # 按语言分组
             grouped_by_lang = {

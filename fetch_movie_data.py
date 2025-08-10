@@ -119,7 +119,7 @@ class MovieDataFetcher:
         params = {
             'api_key': self.api_key,
             'language': 'zh',
-            'append_to_response': 'credits,videos,images',
+            'append_to_response': 'images',
             'include_image_language': 'zh,en,null'
         }
         
@@ -158,123 +158,152 @@ class MovieDataFetcher:
         
         return valid_ratings
 
-    def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
+    # def filter_and_sort_images(self, images: List[Dict[str, Any]], image_type: str = "") -> List[Dict[str, Any]]:
+    #     """
+    #     过滤和排序图片
+    #     - 只保留 iso_639_1='zh' 或 iso_639_1='en' 的图片
+    #     - 按 width 倒序排序
+    #     - 每个 iso_639_1 类型取前2张
+    #     """
+    #     if not images:
+    #         return []
+        
+    #     # 过滤图片：只保留中文或英文的图片
+    #     filtered_images = []
+    #     for img in images:
+    #         iso_639_1 = img.get('iso_639_1')
+    #         if iso_639_1 == 'zh' or iso_639_1 == 'en' or img.get('iso_639_1') is None:
+    #             filtered_images.append(img)
+        
+    #     if not filtered_images:
+    #         return []
+        
+    #     # 按 iso_639_1 分组
+    #     zh_images = [img for img in filtered_images if img.get('iso_639_1') == 'zh']
+    #     en_images = [img for img in filtered_images if img.get('iso_639_1') == 'en']
+    #     null_images = [img for img in filtered_images if img.get('iso_639_1') is None]
+        
+    #     def sort_images(img_list, limit=3):
+    #         if not img_list:
+    #             return []
+            
+    #         # 按 vote_average 降序，然后按 width 降序
+    #         sorted_imgs = sorted(img_list, key=lambda x: (
+    #             x.get('vote_average', 0),  # 优先评分
+    #             x.get('width', 0)          # 再按尺寸
+    #         ), reverse=True)
+            
+    #         return sorted_imgs[:limit]
+        
+    #     result_images = []
+        
+    #     # 处理中文图片
+    #     if zh_images:
+    #         sorted_zh = sort_images(zh_images)
+    #         result_images.extend(sorted_zh)
+    #         print(f"  找到 {len(zh_images)} 张中文{image_type}图片，选择了前 {len(sorted_zh)} 张")
+        
+    #     # 处理英文图片
+    #     if en_images:
+    #         sorted_en = sort_images(en_images)
+    #         result_images.extend(sorted_en)
+    #         print(f"  找到 {len(en_images)} 张英文{image_type}图片，选择了前 {len(sorted_en)} 张")
+
+    #     if null_images:
+    #         sorted_null = sort_images(null_images)
+    #         result_images.extend(sorted_null)
+    #         print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_null)} 张")
+        
+    #     return result_images
+
+    def filter_images(images: Dict[str, List[Dict[str, Any]]],
+                  limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
         """
-        过滤和排序图片
-        - 只保留 iso_639_1='zh' 或 iso_639_1='en' 的图片
-        - 按 width 倒序排序
-        - 每个 iso_639_1 类型取前2张
+        只过滤 backdrops / posters / logos 三张图子列表
+        规则：中文 > 英文 > 无语言；先 vote_average 倒序再 width 倒序
+        limits 可选，例如 {"backdrops": 2, "posters": 3, "logos": 1}
         """
         if not images:
-            return []
-        
-        # 过滤图片：只保留中文或英文的图片
-        filtered_images = []
-        for img in images:
-            iso_639_1 = img.get('iso_639_1')
-            if iso_639_1 == 'zh' or iso_639_1 == 'en' or img.get('iso_639_1') is None:
-                filtered_images.append(img)
-        
-        if not filtered_images:
-            return []
-        
-        # 按 iso_639_1 分组
-        zh_images = [img for img in filtered_images if img.get('iso_639_1') == 'zh']
-        en_images = [img for img in filtered_images if img.get('iso_639_1') == 'en']
-        null_images = [img for img in filtered_images if img.get('iso_639_1') is None]
-        
-        def sort_images(img_list, limit=3):
-            if not img_list:
-                return []
-            
-            # 按 vote_average 降序，然后按 width 降序
-            sorted_imgs = sorted(img_list, key=lambda x: (
-                x.get('vote_average', 0),  # 优先评分
-                x.get('width', 0)          # 再按尺寸
-            ), reverse=True)
-            
-            return sorted_imgs[:limit]
-        
-        result_images = []
-        
-        # 处理中文图片
-        if zh_images:
-            sorted_zh = sort_images(zh_images)
-            result_images.extend(sorted_zh)
-            print(f"  找到 {len(zh_images)} 张中文{image_type}图片，选择了前 {len(sorted_zh)} 张")
-        
-        # 处理英文图片
-        if en_images:
-            sorted_en = sort_images(en_images)
-            result_images.extend(sorted_en)
-            print(f"  找到 {len(en_images)} 张英文{image_type}图片，选择了前 {len(sorted_en)} 张")
-
-        if null_images:
-            sorted_null = sort_images(null_images)
-            result_images.extend(sorted_null)
-            print(f"  找到 {len(null_images)} 张无语言{image_type}图片，选择了前 {len(sorted_null)} 张")
-        
-        return result_images
+            return images
     
-    def compress_cast_data(self, cast: List[Dict[str, Any]], limit: int = 10) -> List[Dict[str, Any]]:
-        """压缩演员数据，只保留核心信息"""
-        if not cast:
-            return []
-
-        cast_with_profile = [actor for actor in cast if actor.get('profile_path')]
-        compressed_cast = []
-        for actor in cast_with_profile[:limit]:  # 从有头像的演员中取前N个
-            compressed_actor = {
-                'id': actor.get('id'),
-                'name': actor.get('name'),
-                'character': actor.get('character'),
-                'profile_path': actor.get('profile_path')
-            }
-            # 移除空值
-            compressed_actor = {k: v for k, v in compressed_actor.items() if v is not None and v != ''}
-            if compressed_actor:
-                compressed_cast.append(compressed_actor)
-        
-        return compressed_cast
+        limits = limits or {"backdrops": 3, "posters": 3, "logos": 3}
+        langs_order = {"zh": 0, "en": 1, None: 2}
     
-    def compress_videos_data(self, videos: List[Dict[str, Any]], limit: int = 3) -> List[Dict[str, Any]]:
-        """压缩视频数据"""
-        if not videos:
-            return []
+        def _score(img: Dict[str, Any]) -> tuple:
+            lang = img.get("iso_639_1")
+            # 先语言优先级，再投票，再分辨率
+            return (langs_order.get(lang, 3),
+                    -img.get("vote_average", 0),
+                    -img.get("width", 0))
+    
+        # 原地替换三张图
+        for key in ("backdrops", "posters", "logos"):
+            raw = images.get(key, [])
+            cnt = limits.get(key, 2)
+            filtered = [img for img in raw if img.get("iso_639_1") in {"zh", "en", None}]
+            images[key] = sorted(filtered, key=_score)[:cnt]
+        return images
+
+    
+    # def compress_cast_data(self, cast: List[Dict[str, Any]], limit: int = 10) -> List[Dict[str, Any]]:
+    #     """压缩演员数据，只保留核心信息"""
+    #     if not cast:
+    #         return []
+
+    #     cast_with_profile = [actor for actor in cast if actor.get('profile_path')]
+    #     compressed_cast = []
+    #     for actor in cast_with_profile[:limit]:  # 从有头像的演员中取前N个
+    #         compressed_actor = {
+    #             'id': actor.get('id'),
+    #             'name': actor.get('name'),
+    #             'character': actor.get('character'),
+    #             'profile_path': actor.get('profile_path')
+    #         }
+    #         # 移除空值
+    #         compressed_actor = {k: v for k, v in compressed_actor.items() if v is not None and v != ''}
+    #         if compressed_actor:
+    #             compressed_cast.append(compressed_actor)
         
-        # 优先选择预告片和花絮
-        priority_types = ['Trailer', 'Teaser', 'Clip']
-        compressed_videos = []
+    #     return compressed_cast
+    
+    # def compress_videos_data(self, videos: List[Dict[str, Any]], limit: int = 3) -> List[Dict[str, Any]]:
+    #     """压缩视频数据"""
+    #     if not videos:
+    #         return []
         
-        # 先添加优先类型的视频
-        for video_type in priority_types:
-            for video in videos:
-                if video.get('type') == video_type and len(compressed_videos) < limit:
-                    compressed_video = {
-                        'id': video.get('id'),
-                        'key': video.get('key'),
-                        'name': video.get('name'),
-                        'type': video.get('type'),
-                        'site': video.get('site')
-                    }
-                    compressed_videos.append(compressed_video)
+    #     # 优先选择预告片和花絮
+    #     priority_types = ['Trailer', 'Teaser', 'Clip']
+    #     compressed_videos = []
         
-        # 如果还没达到限制，添加其他视频
-        if len(compressed_videos) < limit:
-            for video in videos:
-                if len(compressed_videos) >= limit:
-                    break
-                if video.get('type') not in priority_types:
-                    compressed_video = {
-                        'id': video.get('id'),
-                        'key': video.get('key'),
-                        'name': video.get('name'),
-                        'type': video.get('type'),
-                        'site': video.get('site')
-                    }
-                    compressed_videos.append(compressed_video)
+    #     # 先添加优先类型的视频
+    #     for video_type in priority_types:
+    #         for video in videos:
+    #             if video.get('type') == video_type and len(compressed_videos) < limit:
+    #                 compressed_video = {
+    #                     'id': video.get('id'),
+    #                     'key': video.get('key'),
+    #                     'name': video.get('name'),
+    #                     'type': video.get('type'),
+    #                     'site': video.get('site')
+    #                 }
+    #                 compressed_videos.append(compressed_video)
         
-        return compressed_videos
+    #     # 如果还没达到限制，添加其他视频
+    #     if len(compressed_videos) < limit:
+    #         for video in videos:
+    #             if len(compressed_videos) >= limit:
+    #                 break
+    #             if video.get('type') not in priority_types:
+    #                 compressed_video = {
+    #                     'id': video.get('id'),
+    #                     'key': video.get('key'),
+    #                     'name': video.get('name'),
+    #                     'type': video.get('type'),
+    #                     'site': video.get('site')
+    #                 }
+    #                 compressed_videos.append(compressed_video)
+        
+    #     return compressed_videos
     
     def compress_item_data(self, item: Dict[str, Any], details: Dict[str, Any] = None, media_type: str = None) -> Dict[str, Any]:
         """
@@ -343,8 +372,8 @@ class MovieDataFetcher:
 
             # 图片信息 - 使用新的过滤和排序逻辑
             if 'images' in details:
-                images = details['images']
-                detail_fields['images'] = images
+                detail_fields['images'] = filter_images(details["images"])
+                
                 # 处理背景图片
                 # if 'backdrops' in images:
                 #     filtered_backdrops = self.filter_and_sort_images(images['backdrops'], '背景')
@@ -363,19 +392,19 @@ class MovieDataFetcher:
                 #     if filtered_logos:
                 #         detail_fields['logos'] = filtered_logos
             
-            # 演职员信息（重要！）
-            if 'credits' in details:
-                credits = details['credits']
-                detail_fields['credits'] = credits
+            # # 演职员信息（重要！）
+            # if 'credits' in details:
+            #     credits = details['credits']
+            #     detail_fields['credits'] = credits
                 # if 'cast' in credits:
                 #     compressed_cast = self.compress_cast_data(credits['cast'])
                 #     if compressed_cast:
                 #         detail_fields['casts'] = compressed_cast
             
-            # 视频信息
-            if 'videos' in details:
-                videos = details['videos']
-                detail_fields['videos'] = videos
+            # # 视频信息
+            # if 'videos' in details:
+            #     videos = details['videos']
+            #     detail_fields['videos'] = videos
                 
             # if 'videos' in details and details['videos'].get('results'):
                 # compressed_videos = self.compress_videos_data(details['videos']['results'])

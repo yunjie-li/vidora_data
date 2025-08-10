@@ -181,21 +181,19 @@ class MovieDataFetcher:
                 if lang in grouped_by_lang:
                     grouped_by_lang[lang].append(img)
     
-            # 每种语言按宽度和投票平均值排序，取前 per_language_limit 条
+            # 每种语言按 width 倒序排序，然后按 vote_average 倒序排序，取前 per_language_limit 条
             filtered = []
-            for lang in grouped_by_lang.values():
+            for lang, lang_images in grouped_by_lang.items():
                 sorted_lang = sorted(
-                    lang,
-                    key=lambda img: (-img.get("width", 0), -img.get("vote_average", 0)),
-                    reverse=True
+                    lang_images,
+                    key=lambda img: (-img.get("width", 0), -img.get("vote_average", 0))
                 )
                 filtered.extend(sorted_lang[:per_language_limit])
     
-            # 合并后的结果按投票平均值排序，取前 limit 条
+            # 合并后的结果按 vote_average 倒序排序，取前 limit 条
             images[key] = sorted(
                 filtered,
-                key=lambda img: -img.get("vote_average", 0),
-                reverse=True
+                key=lambda img: -img.get("vote_average", 0)
             )[:limit]
     
         return images

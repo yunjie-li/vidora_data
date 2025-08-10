@@ -216,35 +216,6 @@ class MovieDataFetcher:
         
     #     return result_images
 
-    def filter_images(images: Dict[str, List[Dict[str, Any]]],
-                  limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
-        """
-        只过滤 backdrops / posters / logos 三张图子列表
-        规则：中文 > 英文 > 无语言；先 vote_average 倒序再 width 倒序
-        limits 可选，例如 {"backdrops": 2, "posters": 3, "logos": 1}
-        """
-        if not images:
-            return images
-    
-        limits = limits or {"backdrops": 3, "posters": 3, "logos": 3}
-        langs_order = {"zh": 0, "en": 1, None: 2}
-    
-        def _score(img: Dict[str, Any]) -> tuple:
-            lang = img.get("iso_639_1")
-            # 先语言优先级，再投票，再分辨率
-            return (langs_order.get(lang, 3),
-                    -img.get("vote_average", 0),
-                    -img.get("width", 0))
-    
-        # 原地替换三张图
-        for key in ("backdrops", "posters", "logos"):
-            raw = images.get(key, [])
-            cnt = limits.get(key, 2)
-            filtered = [img for img in raw if img.get("iso_639_1") in {"zh", "en", None}]
-            images[key] = sorted(filtered, key=_score)[:cnt]
-        return images
-
-    
     # def compress_cast_data(self, cast: List[Dict[str, Any]], limit: int = 10) -> List[Dict[str, Any]]:
     #     """压缩演员数据，只保留核心信息"""
     #     if not cast:
@@ -446,6 +417,27 @@ class MovieDataFetcher:
         
         # 移除空值
         return {k: v for k, v in compressed.items() if v is not None and v != '' and v != []}
+
+    def filter_images(images: Dict[str, List[Dict[str, Any]]],
+                  limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
+        if not images:
+            return images
+    
+        limits = limits or {"backdrops": 2, "posters": 2, "logos": 2}
+        order = {"zh": 0, "en": 1, None: 2}
+    
+        def score(img):
+            return (order.get(img.get("iso_639_1"), 3),
+                    -img.get("vote_average", 0),
+                    -img.get("width", 0))
+    
+        for key in ("backdrops", "posters", "logos"):
+            raw = images.get(key, [])
+            limit = limits.get(key, 2)
+            filtered = [img for img in raw
+                        if img.get("iso_639_1") in {"zh", "en", None}]
+            images[key] = sorted(filtered, key=score)[:limit]
+        return images
     
     def process_data_list(self, data: Dict[str, Any], media_type: str = None, limit: int = 20, fetch_details: bool = True) -> List[Dict[str, Any]]:
         """处理数据列表，返回压缩后的数据，过滤掉没有overview的项目"""

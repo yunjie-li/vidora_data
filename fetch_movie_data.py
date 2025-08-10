@@ -343,7 +343,7 @@ class MovieDataFetcher:
 
             # 图片信息 - 使用新的过滤和排序逻辑
             if 'images' in details:
-                detail_fields['images'] = filter_images(details["images"])
+                detail_fields['images'] = self.filter_images(details["images"])
                 
                 # 处理背景图片
                 # if 'backdrops' in images:

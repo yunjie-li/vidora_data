@@ -194,7 +194,7 @@ class MovieDataFetcher:
             images[key] = sorted(
                 filtered,
                 key=lambda img: -img.get("vote_average", 0)
-            )[:limit]
+            )[:limit * 2]  # 这里乘以 2 是因为每种语言最多返回 2 张图片，最多应该有 6 张
     
         return images
 

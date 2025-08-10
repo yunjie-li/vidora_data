@@ -158,16 +158,14 @@ class MovieDataFetcher:
         
         return valid_ratings
 
-    def filter_images(self, images: Dict[str, List[Dict[str, Any]]], limits: Dict[str, int] = None) -> Dict[str, List[Dict[str, Any]]]:
+    def filter_images(self, images: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
         if not images:
             return images
     
-        limits = limits or {"backdrops": 3, "posters": 3, "logos": 3}
         per_language_limit = 2  # 每种语言最多返回 2 条
     
         for key in ("backdrops", "posters", "logos"):
             raw = images.get(key, [])
-            limit = limits.get(key, 2)  # 确保 limit 在每次循环中都被定义
     
             # 按语言分组
             grouped_by_lang = {
@@ -181,20 +179,21 @@ class MovieDataFetcher:
                 if lang in grouped_by_lang:
                     grouped_by_lang[lang].append(img)
     
-            # 每种语言按 width 倒序排序，然后按 vote_average 倒序排序，取前 per_language_limit 条
+            # 每种语言按 width 和 vote_average 排序，取前 per_language_limit 条
             filtered = []
             for lang, lang_images in grouped_by_lang.items():
+                # 按 width 倒序排序，再按 vote_average 倒序排序
                 sorted_lang = sorted(
                     lang_images,
                     key=lambda img: (-img.get("width", 0), -img.get("vote_average", 0))
                 )
-                filtered.extend(sorted_lang[:per_language_limit])
+                filtered.extend(sorted_lang[:per_language_limit])  # 每种语言最多返回 per_language_limit 张图片
     
-            # 合并后的结果按 vote_average 倒序排序，取前 limit 条
+            # 合并后的结果按 vote_average 倒序排序，取前 6 条图片
             images[key] = sorted(
                 filtered,
                 key=lambda img: -img.get("vote_average", 0)
-            )[:limit * 2]  # 这里乘以 2 是因为每种语言最多返回 2 张图片，最多应该有 6 张
+            )[:6]  # 每个分类最多返回 6 张图片
     
         return images
 
